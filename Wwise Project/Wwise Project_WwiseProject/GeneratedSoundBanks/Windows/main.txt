@@ -1,0 +1,40 @@
+Event	ID	Name			Wwise Object Path	Notes
+	365610735	Set_Switch_Dead2			\Default Work Unit\Set_Switch_Dead2	
+	781908707	PlayIntro			\Default Work Unit\PlayIntro	
+	831395321	Play_1_52__Trainers__Eyes_Meet__Clerk___			\Default Work Unit\Play_1_52__Trainers__Eyes_Meet__Clerk___	
+	1323350628	Set_Switch_Alive			\Default Work Unit\Set_Switch_Alive	
+	1814951015	Set_State_Alive			\Default Work Unit\Set_State_Alive	
+	1899080551	Play_SatanLaugh1			\Default Work Unit\Play_SatanLaugh1	
+	2904546416	Stop_Event			\Default Work Unit\Stop_Event	
+	2991142287	Play_2_23__Opelucid_City_Gym__Pok_mon_Black_			\Default Work Unit\Play_2_23__Opelucid_City_Gym__Pok_mon_Black_	
+	3796261246	Set_State_Dead			\Default Work Unit\Set_State_Dead	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	2250165792	New_Switch_Group			\Default Work Unit\New_Switch_Group	
+
+Switch	ID	Name	Switch Group			Notes
+	1047719995	Dead2	New_Switch_Group			
+	3689657362	Alive2	New_Switch_Group			
+
+State Group	ID	Name			Wwise Object Path	Notes
+	655265632	Alive			\Default Work Unit\Alive	
+
+State	ID	Name	State Group			Notes
+	655265632	Alive	Alive			
+	748895195	None	Alive			
+	2044049779	Dead	Alive			
+
+Trigger	ID	Name			Wwise Object Path	Notes
+	4163741908	New_Trigger			\Default Work Unit\New_Trigger	
+
+Effect plug-ins	ID	Name	Type				Notes
+	830352891	Big_Garage1 (Custom)	Wwise Matrix Reverb			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	88619858	SatanLaugh1	D:\Dev\WwiseProject\Wwise Project\Wwise Project_WwiseProject\.cache\Windows\SFX\SatanLaugh1_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\SatanLaugh1		282766
+	89281873	1-52_-Trainers_-Eyes-Meet-_Clerk-♂_	D:\Dev\WwiseProject\Wwise Project\Wwise Project_WwiseProject\.cache\Windows\SFX\1-52.-Trainers_-Eyes-Meet-_Clerk-♂__FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\New Switch Container\1-52_-Trainers_-Eyes-Meet-_Clerk-♂_		5119772
+	114825398	ES_Far_From_Home_Piano_03_Ver_03_132_BPM	D:\Dev\WwiseProject\Wwise Project\Wwise Project_WwiseProject\.cache\Windows\SFX\ES_Far_From_Home_Piano_03_Ver_03_132_BPM_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\New Music Playlist Container\Intro\ES_Far_From_Home_Piano_03_Ver_03_132_BPM		1283008
+	185975328	2-23_-Opelucid-City-Gym-_Pokémon-Black_	D:\Dev\WwiseProject\Wwise Project\Wwise Project_WwiseProject\.cache\Windows\SFX\2-23.-Opelucid-City-Gym-_Pokémon-Black__FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\New Switch Container\2-23_-Opelucid-City-Gym-_Pokémon-Black_		43398428
+	804304384	ES_Far_From_Home_Violin_132_BPM	D:\Dev\WwiseProject\Wwise Project\Wwise Project_WwiseProject\.cache\Windows\SFX\ES_Far_From_Home_Violin_132_BPM_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\New Music Playlist Container\Build\ES_Far_From_Home_Violin_132_BPM		1283008
+	893952430	ES_Far_From_Home_Piano_03_Ver_02_132_BPM	D:\Dev\WwiseProject\Wwise Project\Wwise Project_WwiseProject\.cache\Windows\SFX\ES_Far_From_Home_Piano_03_Ver_02_132_BPM_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\New Music Playlist Container\Build\ES_Far_From_Home_Piano_03_Ver_02_132_BPM		1283008
+

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{621CE997-E2D3-42BA-91CC-4EF5E7C27E01}" SchemaVersion="119">
+	<Presets>
+		<WorkUnit Name="Default Work Unit" ID="{621CE997-E2D3-42BA-91CC-4EF5E7C27E01}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="SatanLaugh1" ID="{0A91456A-FD89-48FC-BFBA-297E0CE49C76}">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2CB5A79F-1F38-419D-A2E6-030C9A5A94AD}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{978F782A-9C17-4A77-A0F5-307E9C6660FE}"/>
+						</Reference>
+					</ReferenceList>
+					<ObjectLists>
+						<ObjectList Name="Effects">
+							<Reference>
+								<Local>
+									<EffectSlot Name="" ID="{E16AB6B9-1C6A-43C3-89A1-C44773EB00C8}" ShortID="157667331">
+										<ReferenceList>
+											<Reference Name="Effect">
+												<Custom CreatedFrom="{172402A8-22F4-40FC-BE1D-5269594CB633}">
+													<Effect Name="Big_Garage1 (Custom)" ID="{5E5D9712-4B8D-44F5-BF3E-750ECFFDD04F}" ShortID="737820739" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+														<PropertyList>
+															<Property Name="HFRatio" Type="Real32" Value="3"/>
+															<Property Name="NumberOfDelays" Type="int32" Value="12"/>
+															<Property Name="ReverbTime" Type="Real32" Value="2"/>
+															<Property Name="WetLevel" Type="Real32" Value="-30"/>
+														</PropertyList>
+													</Effect>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</EffectSlot>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</Presets>
+</WwiseDocument>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<RootPaths>
+		<ProjectRoot>../..</ProjectRoot>
+		<SourceFilesRoot>../../.cache/Windows</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{D0143B0D-1CC9-28EB-867D-EACC82615C10}">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="3803692087" Name="Master Audio Bus"/>
+			</Busses>
+			<GameParameters>
+				<GameParameter Id="640949982" Name="Speed"/>
+			</GameParameters>
+			<StateGroups>
+				<StateGroup Id="655265632" Name="Alive">
+					<States>
+						<State Id="655265632" Name="Alive"/>
+						<State Id="748895195" Name="None"/>
+						<State Id="2044049779" Name="Dead"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+			<SwitchGroups>
+				<SwitchGroup Id="2250165792" Name="New_Switch_Group">
+					<Switches>
+						<Switch Id="1047719995" Name="Dead2"/>
+						<Switch Id="3689657362" Name="Alive2"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{B2281F48-CAB0-DA56-81F9-7141033E1AE6}">
+			<ShortName>main</ShortName>
+			<Path>main.bnk</Path>
+			<Media>
+				<File Id="88619858" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SatanLaugh1.wav</ShortName>
+					<CachePath>SFX/SatanLaugh1_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="89281873" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>1-52.-Trainers_-Eyes-Meet-_Clerk-♂_.wav</ShortName>
+					<CachePath>SFX/1-52.-Trainers_-Eyes-Meet-_Clerk-♂__FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="114825398" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ES_Far_From_Home_Piano_03_Ver_03_132_BPM.wav</ShortName>
+					<CachePath>SFX/ES_Far_From_Home_Piano_03_Ver_03_132_BPM_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="185975328" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>2-23.-Opelucid-City-Gym-_Pokémon-Black_.wav</ShortName>
+					<CachePath>SFX/2-23.-Opelucid-City-Gym-_Pokémon-Black__FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="804304384" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ES_Far_From_Home_Violin_132_BPM.wav</ShortName>
+					<CachePath>SFX/ES_Far_From_Home_Violin_132_BPM_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="893952430" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ES_Far_From_Home_Piano_03_Ver_02_132_BPM.wav</ShortName>
+					<CachePath>SFX/ES_Far_From_Home_Piano_03_Ver_02_132_BPM_FBC78EF0.wem</CachePath>
+				</File>
+			</Media>
+			<Plugins>
+				<Custom>
+					<Plugin Id="830352891" Name="Big_Garage1 (Custom)" LibName="Wwise Matrix Reverb" LibId="7536643"/>
+				</Custom>
+			</Plugins>
+			<Events>
+				<Event Id="831395321" Name="Play_1_52__Trainers__Eyes_Meet__Clerk___" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="89281873"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2991142287" Name="Play_2_23__Opelucid_City_Gym__Pok_mon_Black_" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="185975328"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1899080551" Name="Play_SatanLaugh1" MaxAttenuation="50" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="88619858"/>
+					</MediaRefs>
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="830352891"/>
+						</Custom>
+					</PluginRefs>
+				</Event>
+				<Event Id="781908707" Name="PlayIntro" DurationType="OneShot" DurationMin="72.72744" DurationMax="72.72744">
+					<MediaRefs>
+						<MediaRef Id="114825398"/>
+						<MediaRef Id="804304384"/>
+						<MediaRef Id="893952430"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1814951015" Name="Set_State_Alive" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0">
+					<ActionSetState>
+						<ActionSetStateEntry GroupId="655265632" Id="655265632" Name="Alive"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="3796261246" Name="Set_State_Dead" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0">
+					<ActionSetState>
+						<ActionSetStateEntry GroupId="655265632" Id="2044049779" Name="Dead"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="1323350628" Name="Set_Switch_Alive" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0">
+					<ActionSetSwitch>
+						<ActionSetSwitchEntry GroupId="2250165792" Id="3689657362" Name="Alive2"/>
+					</ActionSetSwitch>
+				</Event>
+				<Event Id="365610735" Name="Set_Switch_Dead2" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0">
+					<ActionSetSwitch>
+						<ActionSetSwitchEntry GroupId="2250165792" Id="1047719995" Name="Dead2"/>
+					</ActionSetSwitch>
+				</Event>
+				<Event Id="2904546416" Name="Stop_Event" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+			</Events>
+			<StateGroups>
+				<StateGroup Id="655265632" Name="Alive">
+					<States>
+						<State Id="655265632" Name="Alive"/>
+						<State Id="748895195" Name="None"/>
+						<State Id="2044049779" Name="Dead"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+			<SwitchGroups>
+				<SwitchGroup Id="2250165792" Name="New_Switch_Group">
+					<Switches>
+						<Switch Id="1047719995" Name="Dead2"/>
+						<Switch Id="3689657362" Name="Alive2"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+			<Triggers>
+				<Trigger Id="4163741908" Name="New_Trigger"/>
+			</Triggers>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{7F1AE01A-41FC-6E9B-72F1-A948627B0E5A}</FileHash>
+</SoundBanksInfo>
