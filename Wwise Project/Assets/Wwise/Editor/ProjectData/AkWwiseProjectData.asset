@@ -24,7 +24,7 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics\Default Work Unit
     guid: 21c1d6fcebb964448f43b6c97cd16a38
     GuidInternal: 
-    m_lastTime: -8584871195661383691
+    m_lastTime: -8584834220056862660
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 2a788f97179c774aa0f5307e9c6660fe
     GuidInternal: 
-    m_lastTime: -8584871195662363675
+    m_lastTime: -8584834220061034625
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: bae820f74a0c644399d695337cea4a0e
     GuidInternal: 
-    m_lastTime: -8584846995302436761
+    m_lastTime: -8584834220056877538
     List:
     - name: main
       guid: c4ac3f0f10e00a45a02322646430fd0a
@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 87e72076b999144b91c50a7a3a7dde55
     GuidInternal: 
-    m_lastTime: -8584846957545144873
+    m_lastTime: -8584834220067538437
     List:
     - name: Play_1_52__Trainers__Eyes_Meet__Clerk___
       guid: e9f228cd31057143958815a8035ca662
@@ -144,7 +144,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 9f7b945decf75743a298a74cc4baf4e3
       Path: Events\Default Work Unit\Play_SatanLaugh1
-      maxAttenuation: 50
+      maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
     - name: PlayIntro
@@ -162,8 +162,8 @@ MonoBehaviour:
         guid: d74279e222aca4459618cad8c610e131
       Path: Events\Default Work Unit\PlayIntro
       maxAttenuation: 0
-      maxDuration: 72.72744
-      minDuration: 72.72744
+      maxDuration: -1
+      minDuration: -1
     - name: Set_State_Alive
       guid: 9c685b0a92eef644b9f8bc2d49c5faf9
       id: 1814951015
@@ -179,8 +179,8 @@ MonoBehaviour:
         guid: 9c685b0a92eef644b9f8bc2d49c5faf9
       Path: Events\Default Work Unit\Set_State_Alive
       maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Set_State_Dead
       guid: f01a9353b158264591d6abac7ef5f5f3
       id: 3796261246
@@ -196,8 +196,8 @@ MonoBehaviour:
         guid: f01a9353b158264591d6abac7ef5f5f3
       Path: Events\Default Work Unit\Set_State_Dead
       maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Set_Switch_Alive
       guid: a0643ad7437be647838a5e4713db5137
       id: 1323350628
@@ -213,8 +213,8 @@ MonoBehaviour:
         guid: a0643ad7437be647838a5e4713db5137
       Path: Events\Default Work Unit\Set_Switch_Alive
       maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Set_Switch_Dead2
       guid: 10e593337e1c2a48b4352fcb2dd17e63
       id: 365610735
@@ -230,8 +230,8 @@ MonoBehaviour:
         guid: 10e593337e1c2a48b4352fcb2dd17e63
       Path: Events\Default Work Unit\Set_Switch_Dead2
       maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Stop_Event
       guid: bfa0e7a371338e4b8e23eae868911fea
       id: 2904546416
@@ -247,8 +247,8 @@ MonoBehaviour:
         guid: bfa0e7a371338e4b8e23eae868911fea
       Path: Events\Default Work Unit\Stop_Event
       maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Trigger_New_Trigger
       guid: bfe79d6a7711ea4facd036dc2ae125d2
       id: 689600765
@@ -278,7 +278,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: d2a9279346a5164587fe6d9c3ecfef70
     GuidInternal: 
-    m_lastTime: -8584846965959628433
+    m_lastTime: -8584834220067538437
     List:
     - name: Speed
       guid: c5c1495c60af04489adcf42218dcbf86
@@ -306,7 +306,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: 3d4b334ca793454cae916c610f9c0a7d
     GuidInternal: 
-    m_lastTime: -8584847054212384989
+    m_lastTime: -8584834220056872581
     List:
     - name: Alive
       guid: 93773d1f3953a44fa5f7e64610e295c2
@@ -386,7 +386,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: 5bbdfff7b60a394185e9510c8c8e4f80
     GuidInternal: 
-    m_lastTime: -8584847003341366765
+    m_lastTime: -8584834220056867621
     List:
     - name: New_Switch_Group
       guid: f0e0f3560843144cae5d9ea70f99287e
@@ -450,7 +450,7 @@ MonoBehaviour:
     ParentPath: Triggers\Default Work Unit
     guid: c65208d77652c349863ac04a0f73ea14
     GuidInternal: 
-    m_lastTime: -8584846995302314636
+    m_lastTime: -8584834220056867621
     List:
     - name: New_Trigger
       guid: 061f5100066ab341a20dc6911bf32eb7
