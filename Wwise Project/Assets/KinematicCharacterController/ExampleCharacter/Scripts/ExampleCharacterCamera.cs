@@ -65,8 +65,8 @@ namespace KinematicCharacterController.Examples
         {
             Transform = this.transform;
 
-            _currentDistance = DefaultDistance;
-            TargetDistance = _currentDistance;
+            _currentDistance = 0;
+            TargetDistance = 0;
 
             _targetVerticalAngle = 0f;
 
@@ -111,7 +111,7 @@ namespace KinematicCharacterController.Examples
                 // Process distance input
                 if (_distanceIsObstructed && Mathf.Abs(zoomInput) > 0f)
                 {
-                    TargetDistance = _currentDistance;
+                    TargetDistance = 0;
                 }
                 TargetDistance += zoomInput * DistanceMovementSpeed;
                 TargetDistance = Mathf.Clamp(TargetDistance, MinDistance, MaxDistance);
