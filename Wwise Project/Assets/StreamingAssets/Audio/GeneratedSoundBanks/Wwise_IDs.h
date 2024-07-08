@@ -13,15 +13,7 @@ namespace AK
 {
     namespace EVENTS
     {
-        static const AkUniqueID PLAY_1_52__TRAINERS__EYES_MEET__CLERK___ = 831395321U;
-        static const AkUniqueID PLAY_2_23__OPELUCID_CITY_GYM__POK_MON_BLACK_ = 2991142287U;
-        static const AkUniqueID PLAY_SATANLAUGH1 = 1899080551U;
-        static const AkUniqueID PLAYINTRO = 781908707U;
-        static const AkUniqueID SET_STATE_ALIVE = 1814951015U;
-        static const AkUniqueID SET_STATE_DEAD = 3796261246U;
-        static const AkUniqueID SET_SWITCH_ALIVE = 1323350628U;
-        static const AkUniqueID SET_SWITCH_DEAD2 = 365610735U;
-        static const AkUniqueID STOP_EVENT = 2904546416U;
+        static const AkUniqueID FOOTSTEPS = 2385628198U;
     } // namespace EVENTS
 
     namespace STATES
@@ -42,6 +34,17 @@ namespace AK
 
     namespace SWITCHES
     {
+        namespace FOOTSTEPS
+        {
+            static const AkUniqueID GROUP = 2385628198U;
+
+            namespace SWITCH
+            {
+                static const AkUniqueID ROCK = 2144363834U;
+                static const AkUniqueID WOOD = 2058049674U;
+            } // namespace SWITCH
+        } // namespace FOOTSTEPS
+
         namespace NEW_SWITCH_GROUP
         {
             static const AkUniqueID GROUP = 2250165792U;

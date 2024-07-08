@@ -9,6 +9,12 @@
 						<Switch Name="Dead2" ID="{B86487BC-FB36-48BA-A3B9-3C94294BC5A6}"/>
 					</ChildrenList>
 				</SwitchGroup>
+				<SwitchGroup Name="Footsteps" ID="{0EAC1FBB-6CFE-4AE8-B0EF-EE10435ED085}">
+					<ChildrenList>
+						<Switch Name="Wood" ID="{811CF2C0-74D2-4418-A7C6-89B46D00061C}"/>
+						<Switch Name="Rock" ID="{8B6C2279-C94C-4DEF-A792-97E7A547FC94}"/>
+					</ChildrenList>
+				</SwitchGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</Switches>

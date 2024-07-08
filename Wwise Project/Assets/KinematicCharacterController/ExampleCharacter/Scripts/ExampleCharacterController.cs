@@ -40,6 +40,8 @@ namespace KinematicCharacterController.Examples
         TowardsGroundSlopeAndGravity,
     }
 
+    public enum CURRENT_TERRAIN { Rock, Wood, OldWood };
+
     public class ExampleCharacterController : MonoBehaviour, ICharacterController
     {
         public KinematicCharacterMotor Motor;
@@ -89,6 +91,19 @@ namespace KinematicCharacterController.Examples
         private Vector3 lastInnerNormal = Vector3.zero;
         private Vector3 lastOuterNormal = Vector3.zero;
 
+
+        [SerializeField]
+        private CURRENT_TERRAIN currentTerrain;
+        [SerializeField]
+        private AK.Wwise.Event footstepsEvent;
+
+        private float _timeSinceLastFootstep = 0f;
+        private const float FootstepInterval = 0.5f;
+
+        [SerializeField]
+        private AK.Wwise.Switch[] terrainSwitch;
+
+
         private void Awake()
         {
             // Handle initial state
@@ -98,6 +113,28 @@ namespace KinematicCharacterController.Examples
             Motor.CharacterController = this;
         }
 
+        private void CheckTerrain()
+        {
+            RaycastHit[] hit;
+
+            hit = Physics.RaycastAll(transform.position, Vector3.down, 10.0f);
+
+            foreach (RaycastHit rayhit in hit)
+            {
+                if (rayhit.transform.gameObject.layer == LayerMask.NameToLayer("Wood"))
+                {
+                    currentTerrain = CURRENT_TERRAIN.Wood;
+                }
+                else if (rayhit.transform.gameObject.layer == LayerMask.NameToLayer("Rock"))
+                {
+                    currentTerrain = CURRENT_TERRAIN.Rock;
+                }
+                else if (rayhit.transform.gameObject.layer == LayerMask.NameToLayer("OldWood"))
+                {
+                    currentTerrain = CURRENT_TERRAIN.OldWood;
+                }
+            }
+        }
         /// <summary>
         /// Handles movement state transitions and enter/exit callbacks
         /// </summary>
@@ -278,6 +315,31 @@ namespace KinematicCharacterController.Examples
         /// This is where you tell your character what its velocity should be right now. 
         /// This is the ONLY place where you can set the character's velocity
         /// </summary>
+        /// 
+
+        private void PlayFootstep(int terrain)
+        {
+            terrainSwitch[terrain].SetValue(this.gameObject);
+            AkSoundEngine.PostEvent(footstepsEvent.Id, this.gameObject);
+        }
+
+        public void SelectAndPlayFootstep()
+        {
+            switch (currentTerrain)
+            {
+                case CURRENT_TERRAIN.Rock:
+                    PlayFootstep(0);
+                    break;
+
+                case CURRENT_TERRAIN.Wood:
+                    PlayFootstep(1);
+                    break;
+
+                case CURRENT_TERRAIN.OldWood:
+                    PlayFootstep(2);
+                    break;
+            }
+        }
         public void UpdateVelocity(ref Vector3 currentVelocity, float deltaTime)
         {
             switch (CurrentCharacterState)
@@ -301,6 +363,16 @@ namespace KinematicCharacterController.Examples
 
                             // Smooth movement Velocity
                             currentVelocity = Vector3.Lerp(currentVelocity, targetMovementVelocity, 1f - Mathf.Exp(-StableMovementSharpness * deltaTime));
+
+                            CheckTerrain();
+
+                            // Update footstep timer and call the event if necessary
+                            _timeSinceLastFootstep += deltaTime;
+                            if (_moveInputVector.magnitude > 0 && _timeSinceLastFootstep >= FootstepInterval)
+                            {
+                                SelectAndPlayFootstep();
+                                _timeSinceLastFootstep = 0f;
+                            }
                         }
                         // Air movement
                         else
@@ -311,6 +383,7 @@ namespace KinematicCharacterController.Examples
                                 Vector3 addedVelocity = _moveInputVector * AirAccelerationSpeed * deltaTime;
 
                                 Vector3 currentVelocityOnInputsPlane = Vector3.ProjectOnPlane(currentVelocity, Motor.CharacterUp);
+
 
                                 // Limit air velocity from inputs
                                 if (currentVelocityOnInputsPlane.magnitude < MaxAirMoveSpeed)
@@ -394,6 +467,7 @@ namespace KinematicCharacterController.Examples
         /// </summary>
         public void AfterCharacterUpdate(float deltaTime)
         {
+            //AkSoundEngine.PostEvent(footstepsEvent.Id, this.gameObject);
             switch (CurrentCharacterState)
             {
                 case CharacterState.Default:
@@ -483,6 +557,7 @@ namespace KinematicCharacterController.Examples
 
         public void OnMovementHit(Collider hitCollider, Vector3 hitNormal, Vector3 hitPoint, ref HitStabilityReport hitStabilityReport)
         {
+            //AkSoundEngine.PostEvent(footstepsEvent.Id, this.gameObject);
         }
 
         public void AddVelocity(Vector3 velocity)

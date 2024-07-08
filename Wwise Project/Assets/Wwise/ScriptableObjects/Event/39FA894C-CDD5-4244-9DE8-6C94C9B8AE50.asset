@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f97030f91c8e5b48a776ee9e2d4fcfa, type: 3}
+  m_Name: 39FA894C-CDD5-4244-9DE8-6C94C9B8AE50
+  m_EditorClassIdentifier: 
+  objectName: Footsteps
+  id: 2385628198
+  guid: 39FA894C-CDD5-4244-9DE8-6C94C9B8AE50

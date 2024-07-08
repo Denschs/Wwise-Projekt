@@ -3,152 +3,23 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{7620E787-99B9-4B14-91C5-0A7A3A7DDE55}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="Play_SatanLaugh1" ID="{5D947B9F-F7EC-4357-A298-A74CC4BAF4E3}">
+				<Event Name="Footsteps" ID="{39FA894C-CDD5-4244-9DE8-6C94C9B8AE50}">
 					<ChildrenList>
-						<Action Name="" ID="{A83AAC42-FDC0-4856-AADB-039D0C8CF14F}" ShortID="234077948">
+						<Action Name="" ID="{C0DA4C39-A3B6-466E-A82E-2CC34040A4C3}" ShortID="554069452">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="SatanLaugh1" ID="{DFF8465C-215A-4FE7-8714-561C42F0D14F}" WorkUnitID="{9111B664-7432-4BD0-9C23-8AA8E921762E}"/>
+									<ObjectRef Name="Footsteps" ID="{1C97124B-BE7B-4FED-877E-AF3079B05B61}" WorkUnitID="{9111B664-7432-4BD0-9C23-8AA8E921762E}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_2_23__Opelucid_City_Gym__Pok_mon_Black_" ID="{A4757DF8-9E5D-4CC6-B5B8-C1E6DC782F4B}">
+				<Event Name="Qietch" ID="{E229E72E-CD66-432F-9E58-9F35283B9B72}">
 					<ChildrenList>
-						<Action Name="" ID="{125716F0-80AA-4283-8917-4A4D1D5EA10B}" ShortID="531553746">
+						<Action Name="" ID="{996FD8E0-8546-40D6-8706-58511C899DFC}" ShortID="595157924">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="2-23_-Opelucid-City-Gym-_Pokémon-Black_" ID="{58004176-63F7-4F15-8393-80D8FA52BD8F}" WorkUnitID="{9111B664-7432-4BD0-9C23-8AA8E921762E}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Play_1_52__Trainers__Eyes_Meet__Clerk___" ID="{CD28F2E9-0531-4371-9588-15A8035CA662}">
-					<ChildrenList>
-						<Action Name="" ID="{02FA9642-E69C-4CB1-90FA-9C955F929B8B}" ShortID="3728885">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="1-52_-Trainers_-Eyes-Meet-_Clerk-♂_" ID="{B64DBE51-CCD9-472A-9E0B-194E4F7544BE}" WorkUnitID="{9111B664-7432-4BD0-9C23-8AA8E921762E}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Stop_Event" ID="{A3E7A0BF-3371-4B8E-8E23-EAE868911FEA}">
-					<ChildrenList>
-						<Action Name="" ID="{81D0C208-2B77-4681-BA2A-413272802F5B}" ShortID="1005261906">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="2"/>
-								<Property Name="Scope" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="1-52_-Trainers_-Eyes-Meet-_Clerk-♂_" ID="{B64DBE51-CCD9-472A-9E0B-194E4F7544BE}" WorkUnitID="{9111B664-7432-4BD0-9C23-8AA8E921762E}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{EC102969-C267-47FC-8069-7A8BC2DD0417}" ShortID="730364924">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="2"/>
-								<Property Name="Scope" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="SatanLaugh1" ID="{DFF8465C-215A-4FE7-8714-561C42F0D14F}" WorkUnitID="{9111B664-7432-4BD0-9C23-8AA8E921762E}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{3F46C5DF-33C9-47A2-8D25-063607E48904}" ShortID="828473684">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="2"/>
-								<Property Name="Scope" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="2-23_-Opelucid-City-Gym-_Pokémon-Black_" ID="{58004176-63F7-4F15-8393-80D8FA52BD8F}" WorkUnitID="{9111B664-7432-4BD0-9C23-8AA8E921762E}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="PlayIntro" ID="{E27942D7-AC22-45A4-9618-CAD8C610E131}">
-					<ChildrenList>
-						<Action Name="" ID="{7257C1EE-2818-4385-8F68-078B1C8BD4DA}" ShortID="213162705">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="New Music Playlist Container" ID="{098F9AF6-3BF2-4AC8-BA69-2AFB56B87C58}" WorkUnitID="{EA74F34D-53B6-4955-9B7D-0CA418FBBF05}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Set_Switch_Alive" ID="{D73A64A0-7B43-47E6-838A-5E4713DB5137}">
-					<ChildrenList>
-						<Action Name="" ID="{39C8C982-BE15-4D26-ACCD-6099ECD32FEA}" ShortID="516208716">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="23"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Alive2" ID="{5CA0512E-4A83-447E-B837-B1DA65F4C88F}" WorkUnitID="{F7FFBD5B-0AB6-4139-85E9-510C8C8E4F80}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Set_State_Alive" ID="{0A5B689C-EE92-44F6-B9F8-BC2D49C5FAF9}">
-					<ChildrenList>
-						<Action Name="" ID="{29EF8197-8D3D-4F3A-93DF-F3805D5C45E0}" ShortID="476293691">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="22"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Alive" ID="{2EF88DC1-C649-4E98-B23C-AB0E92948B27}" WorkUnitID="{4C334B3D-93A7-4C45-AE91-6C610F9C0A7D}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Set_State_Dead" ID="{53931AF0-58B1-4526-91D6-ABAC7EF5F5F3}">
-					<ChildrenList>
-						<Action Name="" ID="{D316D8D4-3CF8-426B-8020-EA64DC01044D}" ShortID="371163226">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="22"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Dead" ID="{C6DC91DF-C7EF-42CA-9BDC-95A2C4800ADD}" WorkUnitID="{4C334B3D-93A7-4C45-AE91-6C610F9C0A7D}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Set_Switch_Dead2" ID="{3393E510-1C7E-482A-B435-2FCB2DD17E63}">
-					<ChildrenList>
-						<Action Name="" ID="{05C43D4B-A5C5-49EA-ADFF-5429EB7BFAE1}" ShortID="697855987">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="23"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Dead2" ID="{B86487BC-FB36-48BA-A3B9-3C94294BC5A6}" WorkUnitID="{F7FFBD5B-0AB6-4139-85E9-510C8C8E4F80}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Trigger_New_Trigger" ID="{6A9DE7BF-1177-4FEA-ACD0-36DC2AE125D2}">
-					<ChildrenList>
-						<Action Name="" ID="{B5A9B595-CA21-4FC3-BCCE-DE7133783B2B}" ShortID="642982655">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="35"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="New_Trigger" ID="{00511F06-6A06-41B3-A20D-C6911BF32EB7}" WorkUnitID="{D70852C6-5276-49C3-863A-C04A0F73EA14}"/>
+									<ObjectRef Name="Shoes-squeak-on-wooden-floor" ID="{02B4D970-74FD-4BDB-8B66-C2AC8CB6DFA6}" WorkUnitID="{9111B664-7432-4BD0-9C23-8AA8E921762E}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

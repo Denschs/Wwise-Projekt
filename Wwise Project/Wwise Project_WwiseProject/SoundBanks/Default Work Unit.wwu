@@ -5,15 +5,7 @@
 			<ChildrenList>
 				<SoundBank Name="main" ID="{0F3FACC4-E010-450A-A023-22646430FD0A}">
 					<ObjectInclusionList>
-						<ObjectRef Name="Play_SatanLaugh1" ID="{5D947B9F-F7EC-4357-A298-A74CC4BAF4E3}" WorkUnitID="{7620E787-99B9-4B14-91C5-0A7A3A7DDE55}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_1_52__Trainers__Eyes_Meet__Clerk___" ID="{CD28F2E9-0531-4371-9588-15A8035CA662}" WorkUnitID="{7620E787-99B9-4B14-91C5-0A7A3A7DDE55}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Set_State_Alive" ID="{0A5B689C-EE92-44F6-B9F8-BC2D49C5FAF9}" WorkUnitID="{7620E787-99B9-4B14-91C5-0A7A3A7DDE55}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Set_State_Dead" ID="{53931AF0-58B1-4526-91D6-ABAC7EF5F5F3}" WorkUnitID="{7620E787-99B9-4B14-91C5-0A7A3A7DDE55}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="PlayIntro" ID="{E27942D7-AC22-45A4-9618-CAD8C610E131}" WorkUnitID="{7620E787-99B9-4B14-91C5-0A7A3A7DDE55}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Set_Switch_Alive" ID="{D73A64A0-7B43-47E6-838A-5E4713DB5137}" WorkUnitID="{7620E787-99B9-4B14-91C5-0A7A3A7DDE55}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Set_Switch_Dead2" ID="{3393E510-1C7E-482A-B435-2FCB2DD17E63}" WorkUnitID="{7620E787-99B9-4B14-91C5-0A7A3A7DDE55}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Stop_Event" ID="{A3E7A0BF-3371-4B8E-8E23-EAE868911FEA}" WorkUnitID="{7620E787-99B9-4B14-91C5-0A7A3A7DDE55}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_2_23__Opelucid_City_Gym__Pok_mon_Black_" ID="{A4757DF8-9E5D-4CC6-B5B8-C1E6DC782F4B}" WorkUnitID="{7620E787-99B9-4B14-91C5-0A7A3A7DDE55}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Footsteps" ID="{39FA894C-CDD5-4244-9DE8-6C94C9B8AE50}" WorkUnitID="{7620E787-99B9-4B14-91C5-0A7A3A7DDE55}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
