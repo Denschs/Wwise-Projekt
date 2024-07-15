@@ -4,231 +4,11 @@
 		<WorkUnit Name="Default Work Unit" ID="{9111B664-7432-4BD0-9C23-8AA8E921762E}" PersistMode="Standalone">
 			<ChildrenList>
 				<Folder Name="BG" ID="{E90CDAD7-A43F-429A-BA93-771435C8133B}" ShortID="938425982">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="10"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
-						<Folder Name="Horror and Thriller Ambient Pack" ID="{9E581DA6-0BF5-4560-BD20-C34999226215}" ShortID="820330589">
-							<ChildrenList>
-								<Sound Name="Horror Theme #1" ID="{D5D207B1-B12F-4BFB-AC69-30DE1BFD2EBB}" ShortID="578289320">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2CB5A79F-1F38-419D-A2E6-030C9A5A94AD}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{978F782A-9C17-4A77-A0F5-307E9C6660FE}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Horror Theme #1" ID="{C37830C5-FF87-4A1C-BC94-68D0BA9CBB83}">
-											<Language>SFX</Language>
-											<AudioFile>Musikdiewirnutzenwollen\BG\Horror and Thriller Ambient Pack\Horror Theme #1.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="359756611"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Horror Theme #1" ID="{C37830C5-FF87-4A1C-BC94-68D0BA9CBB83}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Horror Theme #10" ID="{790FB4ED-222B-44D0-935C-F81BD264DC1F}" ShortID="651768786">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2CB5A79F-1F38-419D-A2E6-030C9A5A94AD}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{978F782A-9C17-4A77-A0F5-307E9C6660FE}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Horror Theme #10" ID="{169877D1-BEEB-4544-B4DB-3987CC97E0BC}">
-											<Language>SFX</Language>
-											<AudioFile>Musikdiewirnutzenwollen\BG\Horror and Thriller Ambient Pack\Horror Theme #10.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="448995048"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Horror Theme #10" ID="{169877D1-BEEB-4544-B4DB-3987CC97E0BC}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Horror Theme #2" ID="{430F9479-F220-4E21-BD8B-10FCA5819E24}" ShortID="935188336">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2CB5A79F-1F38-419D-A2E6-030C9A5A94AD}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{978F782A-9C17-4A77-A0F5-307E9C6660FE}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Horror Theme #2" ID="{729E0364-2398-4874-BF8E-F52885443A5D}">
-											<Language>SFX</Language>
-											<AudioFile>Musikdiewirnutzenwollen\BG\Horror and Thriller Ambient Pack\Horror Theme #2.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="1023078442"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Horror Theme #2" ID="{729E0364-2398-4874-BF8E-F52885443A5D}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Horror Theme #3" ID="{20BF7447-2D86-4232-9BD4-995509BF603F}" ShortID="547525012">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2CB5A79F-1F38-419D-A2E6-030C9A5A94AD}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{978F782A-9C17-4A77-A0F5-307E9C6660FE}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Horror Theme #3" ID="{98B5BF75-5C0D-4B4B-BED4-2C34248F6B6B}">
-											<Language>SFX</Language>
-											<AudioFile>Musikdiewirnutzenwollen\BG\Horror and Thriller Ambient Pack\Horror Theme #3.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="397372336"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Horror Theme #3" ID="{98B5BF75-5C0D-4B4B-BED4-2C34248F6B6B}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Horror Theme #4" ID="{4E0D339F-3094-4009-96DE-64979AF4E529}" ShortID="615818679">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2CB5A79F-1F38-419D-A2E6-030C9A5A94AD}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{978F782A-9C17-4A77-A0F5-307E9C6660FE}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Horror Theme #4" ID="{30A43CC4-E3B4-46A1-BEA7-15D8A031638F}">
-											<Language>SFX</Language>
-											<AudioFile>Musikdiewirnutzenwollen\BG\Horror and Thriller Ambient Pack\Horror Theme #4.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="343714610"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Horror Theme #4" ID="{30A43CC4-E3B4-46A1-BEA7-15D8A031638F}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Horror Theme #5" ID="{9A8D5300-6980-4030-901A-65E5DF482706}" ShortID="246286195">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2CB5A79F-1F38-419D-A2E6-030C9A5A94AD}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{978F782A-9C17-4A77-A0F5-307E9C6660FE}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Horror Theme #5" ID="{EE8895F6-E125-4D22-8BFC-204CFFDD754B}">
-											<Language>SFX</Language>
-											<AudioFile>Musikdiewirnutzenwollen\BG\Horror and Thriller Ambient Pack\Horror Theme #5.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="97990240"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Horror Theme #5" ID="{EE8895F6-E125-4D22-8BFC-204CFFDD754B}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Horror Theme #6" ID="{761213EC-9E8A-439B-AD16-95EBB5E824DB}" ShortID="472244227">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2CB5A79F-1F38-419D-A2E6-030C9A5A94AD}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{978F782A-9C17-4A77-A0F5-307E9C6660FE}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Horror Theme #6" ID="{68D4CBAA-0D5E-44D7-98B9-B529797E2477}">
-											<Language>SFX</Language>
-											<AudioFile>Musikdiewirnutzenwollen\BG\Horror and Thriller Ambient Pack\Horror Theme #6.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="692527580"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Horror Theme #6" ID="{68D4CBAA-0D5E-44D7-98B9-B529797E2477}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Horror Theme #7" ID="{A8559356-ADFA-40D2-9C3B-F2A027C57E7D}" ShortID="962885422">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2CB5A79F-1F38-419D-A2E6-030C9A5A94AD}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{978F782A-9C17-4A77-A0F5-307E9C6660FE}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Horror Theme #7" ID="{C4AFDA76-458D-43B0-AEB4-514ED767DBB9}">
-											<Language>SFX</Language>
-											<AudioFile>Musikdiewirnutzenwollen\BG\Horror and Thriller Ambient Pack\Horror Theme #7.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="930475107"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Horror Theme #7" ID="{C4AFDA76-458D-43B0-AEB4-514ED767DBB9}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Horror Theme #8" ID="{ACD2EC4C-01CF-4D30-9DA6-6013D01B064D}" ShortID="11999491">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2CB5A79F-1F38-419D-A2E6-030C9A5A94AD}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{978F782A-9C17-4A77-A0F5-307E9C6660FE}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Horror Theme #8" ID="{51BEFA7D-1BBB-43CD-B436-1BC60336BD65}">
-											<Language>SFX</Language>
-											<AudioFile>Musikdiewirnutzenwollen\BG\Horror and Thriller Ambient Pack\Horror Theme #8.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="995786629"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Horror Theme #8" ID="{51BEFA7D-1BBB-43CD-B436-1BC60336BD65}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Horror Theme #9" ID="{0DFB8694-F842-4DE5-97DB-C0B27E118A51}" ShortID="566014451">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2CB5A79F-1F38-419D-A2E6-030C9A5A94AD}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{978F782A-9C17-4A77-A0F5-307E9C6660FE}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Horror Theme #9" ID="{F1B43A24-B706-44B6-A796-C5E7A8586395}">
-											<Language>SFX</Language>
-											<AudioFile>Musikdiewirnutzenwollen\BG\Horror and Thriller Ambient Pack\Horror Theme #9.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="355492892"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Horror Theme #9" ID="{F1B43A24-B706-44B6-A796-C5E7A8586395}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-							</ChildrenList>
-						</Folder>
 						<Sound Name="Amb_bell" ID="{8622BBE0-0BC1-4C9B-A3B4-4DECAD711756}" ShortID="611699753">
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -384,6 +164,9 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="SR_Strange_room" ID="{2874F3C9-C852-4F00-A051-7EDC727CDD34}" ShortID="4805203">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2CB5A79F-1F38-419D-A2E6-030C9A5A94AD}"/>
@@ -408,6 +191,10 @@
 					</ChildrenList>
 				</Folder>
 				<Folder Name="0" ID="{0930F11C-EBD9-4FE3-A558-E52CB7AE0064}" ShortID="968893100">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="1"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Sound Name="fluorescent-lamp-flickering-17625" ID="{3A3E335C-1617-4DDD-A881-C66481000EA2}" ShortID="953535539">
 							<ReferenceList>
@@ -456,6 +243,10 @@
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Dachgeschoss" ID="{FD533909-FB5B-4262-A199-E857B55AB328}" ShortID="577323578">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="12"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Sound Name="rise2" ID="{CE89A83F-6095-4FE9-B58D-981018834EAF}" ShortID="169777513">
 							<ReferenceList>
@@ -490,6 +281,10 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="rise9" ID="{6E3B75EB-B369-4369-A47A-99567D47C0EF}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="7.33727913091878"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Musikdiewirnutzenwollen\Dachgeschoss\rise9.wav</AudioFile>
 									<MediaIDList>
@@ -502,6 +297,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="audience-applause-with-cheering-100682" ID="{A69210B4-677D-40C7-A68B-7666A948F2EF}" ShortID="580529593">
+							<PropertyList>
+								<Property Name="OutputBusVolume" Type="Real64">
+									<ValueList>
+										<Value>-10</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2CB5A79F-1F38-419D-A2E6-030C9A5A94AD}"/>
@@ -534,6 +336,11 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="flashbang-78581" ID="{1B6536A4-C946-4FC1-8CA8-5389A2BECDBF}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="4.04319917084127"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="4.04319917084127"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>flashbang-78581.wav</AudioFile>
 									<MediaIDList>
@@ -570,10 +377,48 @@
 					</ChildrenList>
 				</Folder>
 				<Folder Name="3" ID="{2D3DF80A-B170-44ED-96CA-F66270F22FA9}" ShortID="126775632">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="6"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
-						<Folder Name="Messerschleifen" ID="{A70FED09-563D-47F0-AE2F-1D6189173EDF}" ShortID="673824753">
+						<RandomSequenceContainer Name="Messerschleifen" ID="{296EF472-08DB-4CC7-B162-C7681C345749}" ShortID="668138190">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2CB5A79F-1F38-419D-A2E6-030C9A5A94AD}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{978F782A-9C17-4A77-A0F5-307E9C6660FE}"/>
+								</Reference>
+							</ReferenceList>
 							<ChildrenList>
+								<Sound Name="noise5" ID="{A05F9950-89BA-4844-984C-51ABECF5DFA5}" ShortID="187430922">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2CB5A79F-1F38-419D-A2E6-030C9A5A94AD}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{978F782A-9C17-4A77-A0F5-307E9C6660FE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="noise5" ID="{E6ABA261-0DAC-4132-9B66-EF1024336734}">
+											<Language>SFX</Language>
+											<AudioFile>Musikdiewirnutzenwollen\3.Stock\Messerschleifen\noise5.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="83017666"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="noise5" ID="{E6ABA261-0DAC-4132-9B66-EF1024336734}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 								<Sound Name="noise3" ID="{4DF4306F-A72C-4788-9A18-8AB7C0A33487}" ShortID="340779371">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="IsLoopingInfinite" Type="bool" Value="False"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2CB5A79F-1F38-419D-A2E6-030C9A5A94AD}"/>
@@ -584,6 +429,10 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="noise3" ID="{ED33F2AC-DB6A-42DF-B4A2-36D1CACED036}">
+											<PropertyList>
+												<Property Name="LoopEnd" Type="Real64" Value="1.2219786568396"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Musikdiewirnutzenwollen\3.Stock\Messerschleifen\noise3.wav</AudioFile>
 											<MediaIDList>
@@ -593,50 +442,6 @@
 									</ChildrenList>
 									<ActiveSourceList>
 										<ActiveSource Name="noise3" ID="{ED33F2AC-DB6A-42DF-B4A2-36D1CACED036}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="noise37" ID="{16D0BED0-E64A-4814-989B-831E8EA7F572}" ShortID="972405920">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2CB5A79F-1F38-419D-A2E6-030C9A5A94AD}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{978F782A-9C17-4A77-A0F5-307E9C6660FE}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="noise37" ID="{474DA7E5-78F7-4013-AECE-AA7C1F9A4D05}">
-											<Language>SFX</Language>
-											<AudioFile>Musikdiewirnutzenwollen\3.Stock\Messerschleifen\noise37.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="927070855"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="noise37" ID="{474DA7E5-78F7-4013-AECE-AA7C1F9A4D05}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="noise38" ID="{29F2005F-F13D-4AD8-9499-8F94BE0D132F}" ShortID="52999708">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2CB5A79F-1F38-419D-A2E6-030C9A5A94AD}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{978F782A-9C17-4A77-A0F5-307E9C6660FE}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="noise38" ID="{8F7CEFEB-6B05-4372-A7F2-8D3663E55309}">
-											<Language>SFX</Language>
-											<AudioFile>Musikdiewirnutzenwollen\3.Stock\Messerschleifen\noise38.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="664799748"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="noise38" ID="{8F7CEFEB-6B05-4372-A7F2-8D3663E55309}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="noise39" ID="{C6BA6B13-FE40-478B-849D-EDAC590492AC}" ShortID="782804085">
@@ -661,7 +466,7 @@
 										<ActiveSource Name="noise39" ID="{2D8E9C46-46EC-43B6-98A1-55BD5F344AB1}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="noise5" ID="{A05F9950-89BA-4844-984C-51ABECF5DFA5}" ShortID="187430922">
+								<Sound Name="noise38" ID="{29F2005F-F13D-4AD8-9499-8F94BE0D132F}" ShortID="52999708">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2CB5A79F-1F38-419D-A2E6-030C9A5A94AD}"/>
@@ -671,23 +476,49 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="noise5" ID="{E6ABA261-0DAC-4132-9B66-EF1024336734}">
+										<AudioFileSource Name="noise38" ID="{8F7CEFEB-6B05-4372-A7F2-8D3663E55309}">
 											<Language>SFX</Language>
-											<AudioFile>Musikdiewirnutzenwollen\3.Stock\Messerschleifen\noise5.wav</AudioFile>
+											<AudioFile>Musikdiewirnutzenwollen\3.Stock\Messerschleifen\noise38.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="83017666"/>
+												<MediaID ID="664799748"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="noise5" ID="{E6ABA261-0DAC-4132-9B66-EF1024336734}" Platform="Linked"/>
+										<ActiveSource Name="noise38" ID="{8F7CEFEB-6B05-4372-A7F2-8D3663E55309}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="noise37" ID="{16D0BED0-E64A-4814-989B-831E8EA7F572}" ShortID="972405920">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2CB5A79F-1F38-419D-A2E6-030C9A5A94AD}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{978F782A-9C17-4A77-A0F5-307E9C6660FE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="noise37" ID="{474DA7E5-78F7-4013-AECE-AA7C1F9A4D05}">
+											<Language>SFX</Language>
+											<AudioFile>Musikdiewirnutzenwollen\3.Stock\Messerschleifen\noise37.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="927070855"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="noise37" ID="{474DA7E5-78F7-4013-AECE-AA7C1F9A4D05}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
-						</Folder>
+						</RandomSequenceContainer>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="1" ID="{11B3CCA9-D414-45CA-A6F1-C44A7BC793C9}" ShortID="77530835">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="3"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Sound Name="noise29" ID="{4CF0A085-D892-4A44-BA45-61257B0739F4}" ShortID="956041849">
 							<ReferenceList>
@@ -734,6 +565,19 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="white-noise-179828" ID="{30140301-5B34-4B9D-A068-5860D611D573}" ShortID="748881385">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="OutputBusVolume" Type="Real64">
+									<ValueList>
+										<Value>-30</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-17</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2CB5A79F-1F38-419D-A2E6-030C9A5A94AD}"/>
@@ -758,8 +602,15 @@
 					</ChildrenList>
 				</Folder>
 				<Folder Name="2" ID="{A1446BBB-6889-4F02-8F4B-4153A0F00B4B}" ShortID="438662893">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="5"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Sound Name="CLOCKTick_InsJ_Clock-01_Ticking_Single-01" ID="{9D69EB38-C85D-4438-B1B4-6077B95EAC07}" ShortID="604546512">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2CB5A79F-1F38-419D-A2E6-030C9A5A94AD}"/>
@@ -770,6 +621,9 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="CLOCKTick_InsJ_Clock-01_Ticking_Single-01" ID="{104E4B76-179D-407A-B0DC-98AD61A3CCE6}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Musikdiewirnutzenwollen\2.Stock\CLOCKTick_InsJ_Clock-01_Ticking_Single-01.wav</AudioFile>
 									<MediaIDList>
@@ -782,6 +636,14 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="DM-CGS-04" ID="{384D0072-A100-4EA2-92E9-1AB7BEA81758}" ShortID="747026564">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>50</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2CB5A79F-1F38-419D-A2E6-030C9A5A94AD}"/>
@@ -803,13 +665,63 @@
 								<ActiveSource Name="DM-CGS-04" ID="{27506BEE-69C4-425A-90E4-9C60188984DF}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<Sound Name="DM-CGS-04_Kopie" ID="{CD17ED8E-28B5-44C4-A02F-A9AAA66EA5F7}" ShortID="48860160">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="OutputBusVolume" Type="Real64">
+									<ValueList>
+										<Value>-10</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>-110</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2CB5A79F-1F38-419D-A2E6-030C9A5A94AD}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{978F782A-9C17-4A77-A0F5-307E9C6660FE}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="DM-CGS-04" ID="{3561B101-0D6D-4DEB-8CE2-BA961B3CA78E}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.654250974069596"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Musikdiewirnutzenwollen\2.Stock\DM-CGS-04.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="352155599"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="DM-CGS-04" ID="{3561B101-0D6D-4DEB-8CE2-BA961B3CA78E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Allgemein" ID="{7B00A842-0510-4636-B6AA-FE6A0E1A3C6F}" ShortID="660752119">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="8"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Folder Name="Key Pickup" ID="{0389F242-C1AA-41BC-96D7-226DE2411095}" ShortID="242089874">
 							<ChildrenList>
 								<Sound Name="Card Select 2" ID="{7A8F17FA-B462-4E64-ABE9-A8C454781692}" ShortID="907115496">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2CB5A79F-1F38-419D-A2E6-030C9A5A94AD}"/>
@@ -832,6 +744,13 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="CHAINImpt_InsJ_Chains_Metal_Dropping_Close_01-01" ID="{994D2338-8C9F-4C55-A170-4AE7AC58E9CC}" ShortID="739256097">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2CB5A79F-1F38-419D-A2E6-030C9A5A94AD}"/>
@@ -899,7 +818,7 @@
 								<ActiveSource Name="DOORAntq_InsJ_Door_Church_Closing_01-01" ID="{2C948661-8E7D-40E9-96E3-DE075F0EFEFF}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="noise7" ID="{14551B08-2D36-4F96-B6C5-264B1AE33E50}" ShortID="213472084">
+						<RandomSequenceContainer Name="DoorOpen" ID="{086DF15A-0ADA-493A-A825-7579E5C882A6}" ShortID="1037838300">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2CB5A79F-1F38-419D-A2E6-030C9A5A94AD}"/>
@@ -909,65 +828,59 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="noise7" ID="{FC346D9A-014A-4A02-B8A7-E406A0BB9128}">
-									<Language>SFX</Language>
-									<AudioFile>Musikdiewirnutzenwollen\Allgemein\noise7.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="273483449"/>
-									</MediaIDList>
-								</AudioFileSource>
+								<Sound Name="noise7" ID="{14551B08-2D36-4F96-B6C5-264B1AE33E50}" ShortID="213472084">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2CB5A79F-1F38-419D-A2E6-030C9A5A94AD}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{978F782A-9C17-4A77-A0F5-307E9C6660FE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="noise7" ID="{FC346D9A-014A-4A02-B8A7-E406A0BB9128}">
+											<Language>SFX</Language>
+											<AudioFile>Musikdiewirnutzenwollen\Allgemein\noise7.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="273483449"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="noise7" ID="{FC346D9A-014A-4A02-B8A7-E406A0BB9128}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Door-squeaking" ID="{1FA52D73-1902-4E7F-8FA8-0C99ECBD058B}" ShortID="553045973">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2CB5A79F-1F38-419D-A2E6-030C9A5A94AD}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{978F782A-9C17-4A77-A0F5-307E9C6660FE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Door-squeaking" ID="{E3129AED-F17B-4D5D-B419-7FFDEE614A32}">
+											<Language>SFX</Language>
+											<AudioFile>Door-squeaking.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="631768779"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Door-squeaking" ID="{E3129AED-F17B-4D5D-B419-7FFDEE614A32}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="noise7" ID="{FC346D9A-014A-4A02-B8A7-E406A0BB9128}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Door-squeaking" ID="{1FA52D73-1902-4E7F-8FA8-0C99ECBD058B}" ShortID="553045973">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2CB5A79F-1F38-419D-A2E6-030C9A5A94AD}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{978F782A-9C17-4A77-A0F5-307E9C6660FE}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Door-squeaking" ID="{E3129AED-F17B-4D5D-B419-7FFDEE614A32}">
-									<Language>SFX</Language>
-									<AudioFile>Door-squeaking.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="631768779"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Door-squeaking" ID="{E3129AED-F17B-4D5D-B419-7FFDEE614A32}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Shoes-squeak-on-wooden-floor" ID="{02B4D970-74FD-4BDB-8B66-C2AC8CB6DFA6}" ShortID="164248647">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2CB5A79F-1F38-419D-A2E6-030C9A5A94AD}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{978F782A-9C17-4A77-A0F5-307E9C6660FE}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Shoes-squeak-on-wooden-floor" ID="{042ABD87-E5F1-4C33-A0A4-FA838489116F}">
-									<Language>SFX</Language>
-									<AudioFile>Shoes-squeak-on-wooden-floor.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="694772785"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Shoes-squeak-on-wooden-floor" ID="{042ABD87-E5F1-4C33-A0A4-FA838489116F}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
+						</RandomSequenceContainer>
 					</ChildrenList>
 				</Folder>
 				<SwitchContainer Name="Footsteps" ID="{1C97124B-BE7B-4FED-877E-AF3079B05B61}" ShortID="836379477">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="26"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2CB5A79F-1F38-419D-A2E6-030C9A5A94AD}"/>
@@ -1217,6 +1130,13 @@
 							</ObjectLists>
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="Footsteps_Wood" ID="{0FED2A60-18C0-49B5-A5AA-45C0E6F48077}" ShortID="626603929">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-2</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2CB5A79F-1F38-419D-A2E6-030C9A5A94AD}"/>
@@ -1448,6 +1368,260 @@
 								</Sound>
 							</ChildrenList>
 						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Footsteps_Wood_Knarrend" ID="{3AC242E8-2DBC-4BA7-8889-4A69EA454626}" ShortID="22601405">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2CB5A79F-1F38-419D-A2E6-030C9A5A94AD}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{978F782A-9C17-4A77-A0F5-307E9C6660FE}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Footsteps_Wood_Walk_01" ID="{7541ED81-FEB5-48E1-AB27-2DE5BC29ED1D}" ShortID="240721857">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2CB5A79F-1F38-419D-A2E6-030C9A5A94AD}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{978F782A-9C17-4A77-A0F5-307E9C6660FE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Footsteps_Wood_Walk_01" ID="{8D12F4EF-4437-49CF-9521-36D5CDDA8B93}">
+											<Language>SFX</Language>
+											<AudioFile>Musikdiewirnutzenwollen\Allgemein\Footsteps_Wood\Footsteps_Wood_Walk_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="256417860"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Footsteps_Wood_Walk_01" ID="{8D12F4EF-4437-49CF-9521-36D5CDDA8B93}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Footsteps_Wood_Walk_02" ID="{878CA4E6-C280-4A75-9746-D89C595CF3FB}" ShortID="745863100">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2CB5A79F-1F38-419D-A2E6-030C9A5A94AD}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{978F782A-9C17-4A77-A0F5-307E9C6660FE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Footsteps_Wood_Walk_02" ID="{B049F4FB-23FE-48DF-875B-7C2F1BA1708B}">
+											<Language>SFX</Language>
+											<AudioFile>Musikdiewirnutzenwollen\Allgemein\Footsteps_Wood\Footsteps_Wood_Walk_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="517972216"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Footsteps_Wood_Walk_02" ID="{B049F4FB-23FE-48DF-875B-7C2F1BA1708B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Footsteps_Wood_Walk_03" ID="{2244CDFD-0D0D-46FA-B01F-9CBF002C7700}" ShortID="960140965">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2CB5A79F-1F38-419D-A2E6-030C9A5A94AD}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{978F782A-9C17-4A77-A0F5-307E9C6660FE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Footsteps_Wood_Walk_03" ID="{A955AFFE-A19B-43B3-A9CD-F889D1A00B6B}">
+											<Language>SFX</Language>
+											<AudioFile>Musikdiewirnutzenwollen\Allgemein\Footsteps_Wood\Footsteps_Wood_Walk_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="121338232"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Footsteps_Wood_Walk_03" ID="{A955AFFE-A19B-43B3-A9CD-F889D1A00B6B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Footsteps_Wood_Walk_04" ID="{B2D5DD1E-CA36-45B9-9755-29F9CB192740}" ShortID="716931878">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2CB5A79F-1F38-419D-A2E6-030C9A5A94AD}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{978F782A-9C17-4A77-A0F5-307E9C6660FE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Footsteps_Wood_Walk_04" ID="{8CC8A436-5C42-4145-A23E-DE1E7E5F48D0}">
+											<Language>SFX</Language>
+											<AudioFile>Musikdiewirnutzenwollen\Allgemein\Footsteps_Wood\Footsteps_Wood_Walk_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="148050561"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Footsteps_Wood_Walk_04" ID="{8CC8A436-5C42-4145-A23E-DE1E7E5F48D0}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Footsteps_Wood_Walk_05" ID="{1A09DDDB-A1D5-4A28-A250-1F9A8E884563}" ShortID="270299022">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2CB5A79F-1F38-419D-A2E6-030C9A5A94AD}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{978F782A-9C17-4A77-A0F5-307E9C6660FE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Footsteps_Wood_Walk_05" ID="{01DDA423-AE16-4031-A6E0-4EDF93A6C8B1}">
+											<Language>SFX</Language>
+											<AudioFile>Musikdiewirnutzenwollen\Allgemein\Footsteps_Wood\Footsteps_Wood_Walk_05.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="959194428"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Footsteps_Wood_Walk_05" ID="{01DDA423-AE16-4031-A6E0-4EDF93A6C8B1}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Footsteps_Wood_Walk_06" ID="{4C263038-AC5D-4437-871B-F77641D1B8AA}" ShortID="720728062">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2CB5A79F-1F38-419D-A2E6-030C9A5A94AD}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{978F782A-9C17-4A77-A0F5-307E9C6660FE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Footsteps_Wood_Walk_06" ID="{9F963FA2-47BD-4052-A860-74F5DD5B2AB4}">
+											<Language>SFX</Language>
+											<AudioFile>Musikdiewirnutzenwollen\Allgemein\Footsteps_Wood\Footsteps_Wood_Walk_06.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="788351061"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Footsteps_Wood_Walk_06" ID="{9F963FA2-47BD-4052-A860-74F5DD5B2AB4}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Footsteps_Wood_Walk_07" ID="{2A96E460-677A-45D2-A526-029D0C160DFC}" ShortID="358504952">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2CB5A79F-1F38-419D-A2E6-030C9A5A94AD}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{978F782A-9C17-4A77-A0F5-307E9C6660FE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Footsteps_Wood_Walk_07" ID="{8FDE963E-0BBD-4233-9A4B-717C96FCC176}">
+											<Language>SFX</Language>
+											<AudioFile>Musikdiewirnutzenwollen\Allgemein\Footsteps_Wood\Footsteps_Wood_Walk_07.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="687987218"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Footsteps_Wood_Walk_07" ID="{8FDE963E-0BBD-4233-9A4B-717C96FCC176}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Footsteps_Wood_Walk_08" ID="{F42665C9-6630-4112-8EBD-99225FAD3F04}" ShortID="878407700">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2CB5A79F-1F38-419D-A2E6-030C9A5A94AD}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{978F782A-9C17-4A77-A0F5-307E9C6660FE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Footsteps_Wood_Walk_08" ID="{5ABB2F81-87AB-4151-86BC-90A9E2F4A172}">
+											<Language>SFX</Language>
+											<AudioFile>Musikdiewirnutzenwollen\Allgemein\Footsteps_Wood\Footsteps_Wood_Walk_08.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="248425135"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Footsteps_Wood_Walk_08" ID="{5ABB2F81-87AB-4151-86BC-90A9E2F4A172}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Footsteps_Wood_Walk_09" ID="{E39483C2-7DA4-4461-BA3F-6855942A64D7}" ShortID="119939350">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2CB5A79F-1F38-419D-A2E6-030C9A5A94AD}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{978F782A-9C17-4A77-A0F5-307E9C6660FE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Footsteps_Wood_Walk_09" ID="{400EE6F7-E62E-4588-BA8A-C2F65ABBF9B9}">
+											<Language>SFX</Language>
+											<AudioFile>Musikdiewirnutzenwollen\Allgemein\Footsteps_Wood\Footsteps_Wood_Walk_09.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="15473058"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Footsteps_Wood_Walk_09" ID="{400EE6F7-E62E-4588-BA8A-C2F65ABBF9B9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Footsteps_Wood_Walk_10" ID="{E31CFE94-63A7-47A4-B65A-A518B2D19EF9}" ShortID="129103721">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2CB5A79F-1F38-419D-A2E6-030C9A5A94AD}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{978F782A-9C17-4A77-A0F5-307E9C6660FE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Footsteps_Wood_Walk_10" ID="{C0C3D4F8-7030-411A-89D3-4B7FB523DEC9}">
+											<Language>SFX</Language>
+											<AudioFile>Musikdiewirnutzenwollen\Allgemein\Footsteps_Wood\Footsteps_Wood_Walk_10.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="250545174"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Footsteps_Wood_Walk_10" ID="{C0C3D4F8-7030-411A-89D3-4B7FB523DEC9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Shoes-squeak-on-wooden-floor" ID="{02B4D970-74FD-4BDB-8B66-C2AC8CB6DFA6}" ShortID="164248647">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2CB5A79F-1F38-419D-A2E6-030C9A5A94AD}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{978F782A-9C17-4A77-A0F5-307E9C6660FE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Shoes-squeak-on-wooden-floor" ID="{042ABD87-E5F1-4C33-A0A4-FA838489116F}">
+											<Language>SFX</Language>
+											<AudioFile>Shoes-squeak-on-wooden-floor.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="694772785"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Shoes-squeak-on-wooden-floor" ID="{042ABD87-E5F1-4C33-A0A4-FA838489116F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
 					</ChildrenList>
 					<GroupingInfo>
 						<GroupingBehaviorList>
@@ -1457,8 +1631,17 @@
 							<GroupingBehavior>
 								<ItemRef Name="Footsteps_Wood" ID="{0FED2A60-18C0-49B5-A5AA-45C0E6F48077}"/>
 							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="Footsteps_Wood_Knarrend" ID="{3AC242E8-2DBC-4BA7-8889-4A69EA454626}"/>
+							</GroupingBehavior>
 						</GroupingBehaviorList>
 						<GroupingList>
+							<Grouping>
+								<SwitchRef Name="Wood_Knarr" ID="{DD37664D-3DE1-4A18-82B9-05DFFBCE4DBA}"/>
+								<ItemList>
+									<ItemRef Name="Footsteps_Wood_Knarrend" ID="{3AC242E8-2DBC-4BA7-8889-4A69EA454626}"/>
+								</ItemList>
+							</Grouping>
 							<Grouping>
 								<SwitchRef Name="Rock" ID="{8B6C2279-C94C-4DEF-A792-97E7A547FC94}"/>
 								<ItemList>

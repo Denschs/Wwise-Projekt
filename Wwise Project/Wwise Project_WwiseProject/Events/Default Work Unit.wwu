@@ -3,23 +3,284 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{7620E787-99B9-4B14-91C5-0A7A3A7DDE55}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="Footsteps" ID="{39FA894C-CDD5-4244-9DE8-6C94C9B8AE50}">
+				<Folder Name="Allgemein" ID="{29A1FF5C-15EB-48D3-9AC5-7653F7AEC116}" ShortID="755040233">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="8"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
-						<Action Name="" ID="{C0DA4C39-A3B6-466E-A82E-2CC34040A4C3}" ShortID="554069452">
+						<Event Name="Footsteps" ID="{39FA894C-CDD5-4244-9DE8-6C94C9B8AE50}">
+							<ChildrenList>
+								<Action Name="" ID="{C0DA4C39-A3B6-466E-A82E-2CC34040A4C3}" ShortID="554069452">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Footsteps" ID="{1C97124B-BE7B-4FED-877E-AF3079B05B61}" WorkUnitID="{9111B664-7432-4BD0-9C23-8AA8E921762E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="DoorClosed" ID="{AF787FAC-5181-43B3-A1DA-DECA93E7BA34}">
+							<ChildrenList>
+								<Action Name="" ID="{3778AC54-3C1A-4007-99F0-7DC58BB33CF5}" ShortID="95022670">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="DOORAntq_InsJ_Door_Church_Closing_01-01" ID="{17931685-3840-45D2-A61B-BCCD2FD43C74}" WorkUnitID="{9111B664-7432-4BD0-9C23-8AA8E921762E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="DoorOpen" ID="{03914D3F-AEE0-4AC8-8233-BF1ABF79D88F}">
+							<ChildrenList>
+								<Action Name="" ID="{5CADA700-D5A3-4AAC-887B-4BC6FF0127C4}" ShortID="936878374">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Door-squeaking" ID="{1FA52D73-1902-4E7F-8FA8-0C99ECBD058B}" WorkUnitID="{9111B664-7432-4BD0-9C23-8AA8E921762E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{2C55E260-812B-4FF8-960C-0D7D13E178B3}" ShortID="5817169">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="DoorOpen" ID="{086DF15A-0ADA-493A-A825-7579E5C882A6}" WorkUnitID="{9111B664-7432-4BD0-9C23-8AA8E921762E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Key_Pickup" ID="{E94E9593-82A8-4596-99DA-F975142243EC}">
+							<ChildrenList>
+								<Action Name="" ID="{89548106-07BB-4014-88F5-DEBBD73E5934}" ShortID="142051063">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="OBJCoin_InsJ_Coin_Spending_01" ID="{009F8E71-ADA7-495C-99E3-E0D34A2C493F}" WorkUnitID="{9111B664-7432-4BD0-9C23-8AA8E921762E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Stock1" ID="{400BD958-A621-4427-83F8-61DACDF749B7}" ShortID="672671176">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="4"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Event Name="Stock1BG" ID="{47E53280-F57E-4CA3-A2E1-BCBD8ECA9B4E}">
+							<ChildrenList>
+								<Action Name="" ID="{EAF4311C-AE41-4361-B3FC-C154B91BED0D}" ShortID="958893069">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="white-noise-179828" ID="{30140301-5B34-4B9D-A068-5860D611D573}" WorkUnitID="{9111B664-7432-4BD0-9C23-8AA8E921762E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{2FAE90AD-E1EE-4B3C-86C2-83447A2C1552}" ShortID="440947425">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="water-drip-72357" ID="{D4043936-C7C7-447D-B23B-A38760E5E404}" WorkUnitID="{9111B664-7432-4BD0-9C23-8AA8E921762E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{A2B355D0-EA12-4023-B299-46951274E489}" ShortID="357575645">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="noise29" ID="{4CF0A085-D892-4A44-BA45-61257B0739F4}" WorkUnitID="{9111B664-7432-4BD0-9C23-8AA8E921762E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Lobby" ID="{210953C7-8AF9-4F70-A663-085C46A1D001}" ShortID="508601184">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="1"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Event Name="LobbyBG" ID="{091E7424-209C-42EA-988F-5713C68D0D01}">
+							<ChildrenList>
+								<Action Name="" ID="{D1B996D6-D180-4EF1-9256-6C1D2B31C776}" ShortID="662863350">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="fluorescent-lamp-flickering-17625" ID="{3A3E335C-1617-4DDD-A881-C66481000EA2}" WorkUnitID="{9111B664-7432-4BD0-9C23-8AA8E921762E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{93FF7936-D1C1-4D5C-955E-3C6E906778E5}" ShortID="69706513">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="lamp-electricity-buzzingwav-14609" ID="{7CB501CD-D4F6-476A-AF20-CF2F024863D2}" WorkUnitID="{9111B664-7432-4BD0-9C23-8AA8E921762E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Stock2" ID="{5A497724-36C8-43CB-BC9A-BE0FABB23F49}" ShortID="675662067">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="6"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Event Name="Stock2BG" ID="{36627FF4-E025-43BE-B1DE-D5344A3D2E3D}">
+							<ChildrenList>
+								<Action Name="" ID="{52B1FC14-3DBF-417D-95FF-D17D417D4EF3}" ShortID="428889949">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="CLOCKTick_InsJ_Clock-01_Ticking_Single-01" ID="{9D69EB38-C85D-4438-B1B4-6077B95EAC07}" WorkUnitID="{9111B664-7432-4BD0-9C23-8AA8E921762E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{681BA587-630D-455A-84EF-269D7C1A4ED7}" ShortID="357993777">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="DM-CGS-04" ID="{384D0072-A100-4EA2-92E9-1AB7BEA81758}" WorkUnitID="{9111B664-7432-4BD0-9C23-8AA8E921762E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{CF9839F4-2BDE-4C84-A06F-61F6FFB24BC8}" ShortID="522682095">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="DM-CGS-04_Kopie" ID="{CD17ED8E-28B5-44C4-A02F-A9AAA66EA5F7}" WorkUnitID="{9111B664-7432-4BD0-9C23-8AA8E921762E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="ClockKeyPickup" ID="{AC5F89A0-AEBA-412F-91CE-539947BA9E44}">
+							<ChildrenList>
+								<Action Name="" ID="{88382A94-9AE4-4A6B-B95A-4D359E28E5B4}" ShortID="89349365">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="3"/>
+									</PropertyList>
+									<ReferenceList/>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Stock3" ID="{1CAE2C68-9684-43C6-B78A-9179CC5D12C8}" ShortID="787660207">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="10"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Event Name="Stock3BG" ID="{F051314F-D27E-471A-ABD9-7CE8114C5799}">
+							<ChildrenList>
+								<Action Name="" ID="{8E1935C7-40BB-4F79-87CD-508D72EFE4AB}" ShortID="321006477">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Messerschleifen" ID="{296EF472-08DB-4CC7-B162-C7681C345749}" WorkUnitID="{9111B664-7432-4BD0-9C23-8AA8E921762E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Stock4" ID="{06C5BCD2-9DD7-46B0-B3F3-6544C4015E69}" ShortID="581698818">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="12"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Event Name="Stock4BG" ID="{24D9FCC3-170A-417F-890C-5F3FA4AB3B13}"/>
+						<Event Name="Flashbang" ID="{D4AB0FB7-03F1-4342-85DE-8E1131DF8645}">
+							<ChildrenList>
+								<Action Name="" ID="{80DF64F3-869F-4044-B039-0CA338030F14}" ShortID="315749531">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="flashbang-78581" ID="{D998D2D9-2DE7-4056-B83E-169842B619DB}" WorkUnitID="{9111B664-7432-4BD0-9C23-8AA8E921762E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="PartyTime" ID="{4695C64E-9E27-41F0-9C4B-1250BD8A43FF}">
+							<ChildrenList>
+								<Action Name="" ID="{25C85D53-F68B-46EE-AECD-A291C77E0BFD}" ShortID="565297527">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="audience-applause-with-cheering-100682" ID="{A69210B4-677D-40C7-A68B-7666A948F2EF}" WorkUnitID="{9111B664-7432-4BD0-9C23-8AA8E921762E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{81FBC12D-8FE9-41A0-96E1-3E681D57C6DB}" ShortID="230843830">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="party-horn-68443" ID="{3BB01035-4BC2-40FF-8552-26BBE07B6BE8}" WorkUnitID="{9111B664-7432-4BD0-9C23-8AA8E921762E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="FinalDoor" ID="{F6E01DAE-CD7A-4058-B9C2-A0E4079CD970}">
+							<ChildrenList>
+								<Action Name="" ID="{20E932D9-DCB9-4A93-8AFC-9514FF88BFD2}" ShortID="358478276">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="rise9" ID="{2BC7D541-FA09-4A4A-AEB8-8E53E1C10854}" WorkUnitID="{9111B664-7432-4BD0-9C23-8AA8E921762E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Event Name="Stop" ID="{D5616FCD-2A97-48F9-83D2-F7FE1D309F91}">
+					<ChildrenList>
+						<Action Name="" ID="{86098DD6-FF94-4566-A9B9-0F9040D57604}" ShortID="743605362">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="3"/>
+							</PropertyList>
+							<ReferenceList/>
+						</Action>
+						<Action Name="" ID="{7FDAD86E-53F1-49BA-B502-429888212618}" ShortID="74734415">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="8"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList/>
+						</Action>
+						<Action Name="" ID="{88AC04F4-7A91-4AD0-BEBF-286F0F8B4417}" ShortID="666217395">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="7"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Footsteps" ID="{1C97124B-BE7B-4FED-877E-AF3079B05B61}" WorkUnitID="{9111B664-7432-4BD0-9C23-8AA8E921762E}"/>
+									<ObjectRef Name="Build" ID="{22DDE312-2F42-4E33-92DA-AA2D9D9BF8CA}" WorkUnitID="{EA74F34D-53B6-4955-9B7D-0CA418FBBF05}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Qietch" ID="{E229E72E-CD66-432F-9E58-9F35283B9B72}">
+				<Event Name="ResumeBG" ID="{2606A386-A4A8-42D8-82AA-2D397179725E}">
 					<ChildrenList>
-						<Action Name="" ID="{996FD8E0-8546-40D6-8706-58511C899DFC}" ShortID="595157924">
+						<Action Name="" ID="{EB23880A-3822-439A-A6E0-B32B42BF8691}" ShortID="924368551">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="10"/>
+							</PropertyList>
+							<ReferenceList/>
+						</Action>
+						<Action Name="" ID="{849749C5-FB81-4ACF-86CD-64A2702AFE1A}" ShortID="877872713">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="9"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Shoes-squeak-on-wooden-floor" ID="{02B4D970-74FD-4BDB-8B66-C2AC8CB6DFA6}" WorkUnitID="{9111B664-7432-4BD0-9C23-8AA8E921762E}"/>
+									<ObjectRef Name="Build" ID="{22DDE312-2F42-4E33-92DA-AA2D9D9BF8CA}" WorkUnitID="{EA74F34D-53B6-4955-9B7D-0CA418FBBF05}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

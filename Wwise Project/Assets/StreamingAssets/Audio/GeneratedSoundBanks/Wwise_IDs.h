@@ -42,6 +42,7 @@ namespace AK
             {
                 static const AkUniqueID ROCK = 2144363834U;
                 static const AkUniqueID WOOD = 2058049674U;
+                static const AkUniqueID WOOD_KNARR = 299048019U;
             } // namespace SWITCH
         } // namespace FOOTSTEPS
 

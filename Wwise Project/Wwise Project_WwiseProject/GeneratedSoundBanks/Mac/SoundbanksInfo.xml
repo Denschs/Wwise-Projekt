@@ -42,13 +42,14 @@
 				</SwitchGroup>
 				<SwitchGroup Id="2385628198" Name="Footsteps">
 					<Switches>
+						<Switch Id="299048019" Name="Wood_Knarr"/>
 						<Switch Id="2058049674" Name="Wood"/>
 						<Switch Id="2144363834" Name="Rock"/>
 					</Switches>
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{9A8A9E5A-F572-B3CF-4DAB-2026FEA4ED82}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{F687799B-59FE-9EAE-BCF0-6924612151D8}">
 			<ShortName>main</ShortName>
 			<Path>main.bnk</Path>
 			<Media>
@@ -108,6 +109,10 @@
 					<ShortName>Musikdiewirnutzenwollen\Allgemein\Footsteps_Wood\Footsteps_Wood_Walk_07.wav</ShortName>
 					<CachePath>SFX/Musikdiewirnutzenwollen/Allgemein/Footsteps_Wood/Footsteps_Wood_Walk_07_818F3B66.wem</CachePath>
 				</File>
+				<File Id="694772785" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Shoes-squeak-on-wooden-floor.wav</ShortName>
+					<CachePath>SFX/Shoes-squeak-on-wooden-floor_818F3B66.wem</CachePath>
+				</File>
 				<File Id="709133678" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Musikdiewirnutzenwollen\0.Erdgeschoss\Footsteps_Rock\Footsteps_Rock_Walk_07.wav</ShortName>
 					<CachePath>SFX/Musikdiewirnutzenwollen/0.Erdgeschoss/Footsteps_Rock/Footsteps_Rock_Walk_07_818F3B66.wem</CachePath>
@@ -135,8 +140,24 @@
 				</ShareSets>
 			</Plugins>
 			<Events>
-				<Event Id="2385628198" Name="Footsteps" DurationType="OneShot" DurationMin="0.38014585" DurationMax="0.5927917">
+				<Event Id="2385628198" Name="Footsteps" DurationType="OneShot" DurationMin="0.26696876" DurationMax="0.5927917">
 					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="2385628198" Id="299048019"/>
+							<MediaRefs>
+								<MediaRef Id="15473058"/>
+								<MediaRef Id="121338232"/>
+								<MediaRef Id="148050561"/>
+								<MediaRef Id="248425135"/>
+								<MediaRef Id="250545174"/>
+								<MediaRef Id="256417860"/>
+								<MediaRef Id="517972216"/>
+								<MediaRef Id="687987218"/>
+								<MediaRef Id="694772785"/>
+								<MediaRef Id="788351061"/>
+								<MediaRef Id="959194428"/>
+							</MediaRefs>
+						</SwitchContainer>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="2385628198" Id="2144363834" Default="true"/>
 							<MediaRefs>
@@ -177,6 +198,7 @@
 			<SwitchGroups>
 				<SwitchGroup Id="2385628198" Name="Footsteps">
 					<Switches>
+						<Switch Id="299048019" Name="Wood_Knarr"/>
 						<Switch Id="2058049674" Name="Wood"/>
 						<Switch Id="2144363834" Name="Rock"/>
 					</Switches>
@@ -184,5 +206,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{EA6F2AA4-AA3C-97BE-DCEE-2D5AA1FA1893}</FileHash>
+	<FileHash>{0FC4144D-705C-5202-CD4F-6AF564481F9D}</FileHash>
 </SoundBanksInfo>

@@ -60,7 +60,7 @@
 					<ChildrenList>
 						<MusicSegment Name="Intro" ID="{38E62B11-E362-415D-B32A-FEF4621971CD}" ShortID="538720020">
 							<PropertyList>
-								<Property Name="EndPosition" Type="Real64" Value="7272.74376417234"/>
+								<Property Name="EndPosition" Type="Real64" Value="1084533.33333333"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -71,45 +71,28 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<MusicTrack Name="ES_Far_From_Home_Piano_03_Ver_03_132_BPM" ID="{1254A214-6E27-4584-AEFF-C8859427E7EB}" ShortID="331985036">
-									<PropertyList>
-										<Property Name="MusicTrackType" Type="int16" Value="3"/>
-									</PropertyList>
+								<MusicTrack Name="Amb_bell" ID="{775A140C-B424-4B94-9E2B-593C5F6DA816}" ShortID="290800815">
 									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2CB5A79F-1F38-419D-A2E6-030C9A5A94AD}"/>
-										</Reference>
-										<Reference Name="DefaultSwitchOrState">
-											<ObjectRef Name="Alive" ID="{2EF88DC1-C649-4E98-B23C-AB0E92948B27}" WorkUnitID="{4C334B3D-93A7-4C45-AE91-6C610F9C0A7D}"/>
-										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{978F782A-9C17-4A77-A0F5-307E9C6660FE}"/>
 										</Reference>
-										<Reference Name="SwitchGroupOrStateGroup">
-											<ObjectRef Name="Alive" ID="{1F3D7793-5339-4FA4-A5F7-E64610E295C2}" WorkUnitID="{4C334B3D-93A7-4C45-AE91-6C610F9C0A7D}"/>
-										</Reference>
 										<Reference Name="TransitionRoot">
 											<Custom>
-												<MusicTransition Name="Root" ID="{0D34EC3D-C761-43E3-89E3-48E9D5D86384}">
+												<MusicTransition Name="Root" ID="{9F5FC7D9-EDFC-4EBC-94EB-67E5D11E72BC}">
 													<PropertyList>
 														<Property Name="IsFolder" Type="bool" Value="True"/>
 													</PropertyList>
-													<ChildrenList>
-														<MusicTransition Name="Transition" ID="{7204E690-9FDB-4A91-BF65-3CD1C7A04B04}">
-															<TransitionInfo/>
-														</MusicTransition>
-													</ChildrenList>
 													<TransitionInfo/>
 												</MusicTransition>
 											</Custom>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="ES_Far_From_Home_Piano_03_Ver_03_132_BPM" ID="{1FDE29B7-87D7-486C-91FF-ACA903D46D6E}">
+										<AudioFileSource Name="Amb_bell" ID="{6DB7F914-47C0-46C4-AEB6-C0C737D340D0}">
 											<Language>SFX</Language>
-											<AudioFile>ES_Far_From_Home_Piano_03_Ver_03_132_BPM.wav</AudioFile>
+											<AudioFile>Amb_bell.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="114825398"/>
+												<MediaID ID="401783065"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
@@ -117,28 +100,387 @@
 										<ObjectList Name="Sequences">
 											<Reference>
 												<Local>
-													<MusicTrackSequence Name="" ID="{766F0508-2A81-4C2C-ACDF-A88FDA7E1254}">
+													<MusicTrackSequence Name="" ID="{023A2446-6123-4656-9E2F-AB80A79896DF}">
 														<ObjectLists>
 															<ObjectList Name="Clips">
 																<Reference>
 																	<Local>
-																		<MusicClip Name="ES_Far_From_Home_Piano_03_Ver_03_132_BPM" ID="{4A4010D0-39B6-4269-A3F3-B0A265F26A7C}">
+																		<MusicClip Name="Amb_bell" ID="{DECC55CB-59FC-44B4-B131-DA05B4FD58E8}">
 																			<PropertyList>
-																				<Property Name="EndTrimOffset" Type="Real64" Value="7272.74376417234"/>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="27428.5714285714"/>
 																				<Property Name="FadeInMode" Type="int16" Value="0"/>
 																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																			</PropertyList>
-																			<AudioSourceRef Name="ES_Far_From_Home_Piano_03_Ver_03_132_BPM" ID="{1FDE29B7-87D7-486C-91FF-ACA903D46D6E}"/>
+																			<AudioSourceRef Name="Amb_bell" ID="{6DB7F914-47C0-46C4-AEB6-C0C737D340D0}"/>
 																		</MusicClip>
 																	</Local>
 																</Reference>
 															</ObjectList>
 														</ObjectLists>
-														<ReferenceList>
-															<Reference Name="TrackSequenceSwitch">
-																<ObjectRef Name="Dead" ID="{C6DC91DF-C7EF-42CA-9BDC-95A2C4800ADD}" WorkUnitID="{4C334B3D-93A7-4C45-AE91-6C610F9C0A7D}"/>
-															</Reference>
-														</ReferenceList>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+								<MusicTrack Name="Amb_Deep_impacts" ID="{147F3603-7E3B-4161-A247-DC5A539E7E8A}" ShortID="424730750">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{978F782A-9C17-4A77-A0F5-307E9C6660FE}"/>
+										</Reference>
+										<Reference Name="TransitionRoot">
+											<Custom>
+												<MusicTransition Name="Root" ID="{703BE53F-B6E8-4C4D-A3CE-70683AF4DB15}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Amb_Deep_impacts" ID="{A8D8CB6C-8828-4AD1-AE5A-3639AC188DF1}">
+											<Language>SFX</Language>
+											<AudioFile>Amb_Deep_impacts.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="582618334"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{63F4F579-EDCB-4F35-BD36-A3CA5574876C}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Amb_Deep_impacts" ID="{E5E3F21E-3E13-4E7B-BDD8-E6F5234193AD}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="13714.2857142857"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Amb_Deep_impacts" ID="{A8D8CB6C-8828-4AD1-AE5A-3639AC188DF1}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+								<MusicTrack Name="Amb_Deep_impacts_stress" ID="{44191221-4A96-4E71-85B9-2E687ACA296E}" ShortID="151131088">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{978F782A-9C17-4A77-A0F5-307E9C6660FE}"/>
+										</Reference>
+										<Reference Name="TransitionRoot">
+											<Custom>
+												<MusicTransition Name="Root" ID="{6C2A61A3-9B9A-48B6-BEE0-2F95A3601940}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Amb_Deep_impacts_stress" ID="{EFB84AF9-A527-4AFE-ADFA-35ED9C88D12D}">
+											<Language>SFX</Language>
+											<AudioFile>Amb_Deep_impacts_stress.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="206055607"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{0EF0C6EE-C9C1-42D2-957A-36E3148BA9BF}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Amb_Deep_impacts_stress" ID="{44C1FC57-0238-48B0-9E52-F0C90ADAB83C}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="13714.2857142857"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Amb_Deep_impacts_stress" ID="{EFB84AF9-A527-4AFE-ADFA-35ED9C88D12D}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+								<MusicTrack Name="beat3" ID="{6A8DE0ED-268A-4B47-A0B5-F7BF24207203}" ShortID="116998549">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{978F782A-9C17-4A77-A0F5-307E9C6660FE}"/>
+										</Reference>
+										<Reference Name="TransitionRoot">
+											<Custom>
+												<MusicTransition Name="Root" ID="{37B3B955-03B7-4A1B-AF31-1C6FCDD3D6EB}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="beat3" ID="{B9AD589D-EB60-4B9C-9FE1-E3857B84E914}">
+											<Language>SFX</Language>
+											<AudioFile>beat3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="867474887"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{4C7E9F5D-8ADD-415F-A83C-BFCBD6E931FF}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="beat3" ID="{6AF54CA4-B11E-4F96-9E21-B8105066B8C0}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="1798.07256235828"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="beat3" ID="{B9AD589D-EB60-4B9C-9FE1-E3857B84E914}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+								<MusicTrack Name="bell1" ID="{70736574-41A6-4998-827E-C4EF6EE8FA9E}" ShortID="687641791">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{978F782A-9C17-4A77-A0F5-307E9C6660FE}"/>
+										</Reference>
+										<Reference Name="TransitionRoot">
+											<Custom>
+												<MusicTransition Name="Root" ID="{3AE8C4CB-9F18-41CC-A23A-91DE827C24CB}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="bell1" ID="{62EBB765-0C1B-454E-B6BC-1882E48A4BCE}">
+											<Language>SFX</Language>
+											<AudioFile>bell1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="829995634"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{36BCB6A8-2FB0-4759-8107-2A3E80DC1357}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="bell1" ID="{C0C883A4-08E7-41CB-AF5B-B545FADD6096}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="9639.43310657597"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="bell1" ID="{62EBB765-0C1B-454E-B6BC-1882E48A4BCE}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+								<MusicTrack Name="noise33" ID="{1548775E-5879-4F29-8EAB-2FC59D784721}" ShortID="1046461251">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{978F782A-9C17-4A77-A0F5-307E9C6660FE}"/>
+										</Reference>
+										<Reference Name="TransitionRoot">
+											<Custom>
+												<MusicTransition Name="Root" ID="{3D12EACC-584D-4275-8F13-CBC3AD38E8BB}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="noise33" ID="{1521303D-3892-412B-BED3-4913BDF3E119}">
+											<Language>SFX</Language>
+											<AudioFile>noise33.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="836810128"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{219F0C61-E5D3-4426-97CE-B100C9FEDEA9}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="noise33" ID="{2FDCEAAB-6A5A-419F-903A-9187A37103B5}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="4350.95238095238"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="noise33" ID="{1521303D-3892-412B-BED3-4913BDF3E119}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+								<MusicTrack Name="noise34" ID="{92578DD1-B782-4CEF-BF18-A2D10B07B80B}" ShortID="221554273">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{978F782A-9C17-4A77-A0F5-307E9C6660FE}"/>
+										</Reference>
+										<Reference Name="TransitionRoot">
+											<Custom>
+												<MusicTransition Name="Root" ID="{FAA7B39B-79F5-4403-8ACD-316A1C76D3F4}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="noise34" ID="{A851DB64-3D02-4523-8573-B622050CAC99}">
+											<Language>SFX</Language>
+											<AudioFile>noise34.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="537258712"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{E953DBFC-F87D-4E36-A53D-1394534BA18A}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="noise34" ID="{3616BDE1-99BF-4D32-8C76-5E6A455FB805}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="7663.4693877551"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="noise34" ID="{A851DB64-3D02-4523-8573-B622050CAC99}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+								<MusicTrack Name="SR_Strange_room" ID="{7A0AB76A-A926-4A1D-B802-BF191E068706}" ShortID="330038819">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{978F782A-9C17-4A77-A0F5-307E9C6660FE}"/>
+										</Reference>
+										<Reference Name="TransitionRoot">
+											<Custom>
+												<MusicTransition Name="Root" ID="{1ACF0A24-EE5B-41DC-AED2-1A1F5B70B382}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SR_Strange_room" ID="{A6F78BA5-9B58-4CA5-8ED1-A45485FECCCF}">
+											<Language>SFX</Language>
+											<AudioFile>SR_Strange_room.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="988807591"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{C6189ECE-64F3-41AB-B484-F3477DC0170C}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="SR_Strange_room" ID="{78CE5E1C-ED80-42F0-9BEC-0B7261190EB1}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="76800"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="SR_Strange_room" ID="{A6F78BA5-9B58-4CA5-8ED1-A45485FECCCF}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
 													</MusicTrackSequence>
 												</Local>
 											</Reference>
@@ -168,7 +510,7 @@
 						</MusicSegment>
 						<MusicSegment Name="Build" ID="{22DDE312-2F42-4E33-92DA-AA2D9D9BF8CA}" ShortID="583803832">
 							<PropertyList>
-								<Property Name="EndPosition" Type="Real64" Value="7272.74376417234"/>
+								<Property Name="EndPosition" Type="Real64" Value="136800"/>
 								<Property Name="OverrideOutput" Type="bool" Value="True"/>
 							</PropertyList>
 							<ReferenceList>
@@ -180,45 +522,28 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<MusicTrack Name="ES_Far_From_Home_Piano_03_Ver_02_132_BPM" ID="{B4C1D707-54D8-4BA6-81A7-8D28FF1487E6}" ShortID="586522823">
-									<PropertyList>
-										<Property Name="MusicTrackType" Type="int16" Value="3"/>
-									</PropertyList>
+								<MusicTrack Name="Horror Theme #1" ID="{38778ADC-7087-4D26-A12F-E57114DD756C}" ShortID="21758643">
 									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2CB5A79F-1F38-419D-A2E6-030C9A5A94AD}"/>
-										</Reference>
-										<Reference Name="DefaultSwitchOrState">
-											<ObjectRef Name="Dead" ID="{C6DC91DF-C7EF-42CA-9BDC-95A2C4800ADD}" WorkUnitID="{4C334B3D-93A7-4C45-AE91-6C610F9C0A7D}"/>
-										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{978F782A-9C17-4A77-A0F5-307E9C6660FE}"/>
 										</Reference>
-										<Reference Name="SwitchGroupOrStateGroup">
-											<ObjectRef Name="Alive" ID="{1F3D7793-5339-4FA4-A5F7-E64610E295C2}" WorkUnitID="{4C334B3D-93A7-4C45-AE91-6C610F9C0A7D}"/>
-										</Reference>
 										<Reference Name="TransitionRoot">
 											<Custom>
-												<MusicTransition Name="Root" ID="{AF540F24-67B6-42F5-A138-13E24EA308EF}">
+												<MusicTransition Name="Root" ID="{4A311D53-DB86-416E-9385-5C6E382F3338}">
 													<PropertyList>
 														<Property Name="IsFolder" Type="bool" Value="True"/>
 													</PropertyList>
-													<ChildrenList>
-														<MusicTransition Name="Transition" ID="{5FED229C-88FB-40B3-B45C-FF33B7400DD6}">
-															<TransitionInfo/>
-														</MusicTransition>
-													</ChildrenList>
 													<TransitionInfo/>
 												</MusicTransition>
 											</Custom>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="ES_Far_From_Home_Piano_03_Ver_02_132_BPM" ID="{97A9FD6F-312C-49A2-8E6F-CF928363DFD4}">
+										<AudioFileSource Name="Horror Theme #1" ID="{083EFB45-3071-4939-B8B6-A24CED583CA7}">
 											<Language>SFX</Language>
-											<AudioFile>ES_Far_From_Home_Piano_03_Ver_02_132_BPM.wav</AudioFile>
+											<AudioFile>Horror Theme #1.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="893952430"/>
+												<MediaID ID="935561141"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
@@ -226,70 +551,51 @@
 										<ObjectList Name="Sequences">
 											<Reference>
 												<Local>
-													<MusicTrackSequence Name="" ID="{806F1416-976D-4FCE-9196-0A564FACD1B3}">
+													<MusicTrackSequence Name="" ID="{DB65A2D9-5CA0-43D1-8D49-18A8FB25CDED}">
 														<ObjectLists>
 															<ObjectList Name="Clips">
 																<Reference>
 																	<Local>
-																		<MusicClip Name="ES_Far_From_Home_Piano_03_Ver_02_132_BPM" ID="{18BB85C7-F8F6-408C-B365-E5A855D1E291}">
+																		<MusicClip Name="Horror Theme #1" ID="{35B013F9-BE6C-4B3A-B3B4-E812BDB42ABD}">
 																			<PropertyList>
-																				<Property Name="EndTrimOffset" Type="Real64" Value="7272.74376417234"/>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="134400"/>
 																				<Property Name="FadeInMode" Type="int16" Value="0"/>
 																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																			</PropertyList>
-																			<AudioSourceRef Name="ES_Far_From_Home_Piano_03_Ver_02_132_BPM" ID="{97A9FD6F-312C-49A2-8E6F-CF928363DFD4}"/>
+																			<AudioSourceRef Name="Horror Theme #1" ID="{083EFB45-3071-4939-B8B6-A24CED583CA7}"/>
 																		</MusicClip>
 																	</Local>
 																</Reference>
 															</ObjectList>
 														</ObjectLists>
-														<ReferenceList>
-															<Reference Name="TrackSequenceSwitch">
-																<ObjectRef Name="Dead" ID="{C6DC91DF-C7EF-42CA-9BDC-95A2C4800ADD}" WorkUnitID="{4C334B3D-93A7-4C45-AE91-6C610F9C0A7D}"/>
-															</Reference>
-														</ReferenceList>
 													</MusicTrackSequence>
 												</Local>
 											</Reference>
 										</ObjectList>
 									</ObjectLists>
 								</MusicTrack>
-								<MusicTrack Name="ES_Far_From_Home_Violin_132_BPM" ID="{21058257-6668-4E87-AD8B-D7B9156D5B76}" ShortID="592777963">
-									<PropertyList>
-										<Property Name="MusicTrackType" Type="int16" Value="3"/>
-									</PropertyList>
+								<MusicTrack Name="Horror Theme #2" ID="{2146A834-4E40-41D5-8B90-1BFD47411AFC}" ShortID="31359900">
 									<ReferenceList>
-										<Reference Name="DefaultSwitchOrState">
-											<ObjectRef Name="Alive" ID="{2EF88DC1-C649-4E98-B23C-AB0E92948B27}" WorkUnitID="{4C334B3D-93A7-4C45-AE91-6C610F9C0A7D}"/>
-										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{978F782A-9C17-4A77-A0F5-307E9C6660FE}"/>
 										</Reference>
-										<Reference Name="SwitchGroupOrStateGroup">
-											<ObjectRef Name="Alive" ID="{1F3D7793-5339-4FA4-A5F7-E64610E295C2}" WorkUnitID="{4C334B3D-93A7-4C45-AE91-6C610F9C0A7D}"/>
-										</Reference>
 										<Reference Name="TransitionRoot">
 											<Custom>
-												<MusicTransition Name="Root" ID="{D2A3CE9B-B829-4EB0-A410-588DB6E3CB17}">
+												<MusicTransition Name="Root" ID="{D046EF7E-5737-4E3A-A7D0-F8B8A138319E}">
 													<PropertyList>
 														<Property Name="IsFolder" Type="bool" Value="True"/>
 													</PropertyList>
-													<ChildrenList>
-														<MusicTransition Name="Transition" ID="{44C24838-744E-4C4A-9EB8-693B82438E7F}">
-															<TransitionInfo/>
-														</MusicTransition>
-													</ChildrenList>
 													<TransitionInfo/>
 												</MusicTransition>
 											</Custom>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="ES_Far_From_Home_Violin_132_BPM" ID="{442EC750-F9BB-4A2F-A526-C89E604E19A0}">
+										<AudioFileSource Name="Horror Theme #2" ID="{6B7FD9BC-272D-4C95-81E3-540E1632F752}">
 											<Language>SFX</Language>
-											<AudioFile>ES_Far_From_Home_Violin_132_BPM.wav</AudioFile>
+											<AudioFile>Horror Theme #2.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="804304384"/>
+												<MediaID ID="171780775"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
@@ -297,28 +603,439 @@
 										<ObjectList Name="Sequences">
 											<Reference>
 												<Local>
-													<MusicTrackSequence Name="" ID="{2CA9E989-4C65-4E82-99CA-AC75C2EC76AA}">
+													<MusicTrackSequence Name="" ID="{DDFF6C01-C33A-45D5-B86B-F50CEED41258}">
 														<ObjectLists>
 															<ObjectList Name="Clips">
 																<Reference>
 																	<Local>
-																		<MusicClip Name="ES_Far_From_Home_Violin_132_BPM" ID="{F1ADE3BF-3D26-4060-BDD3-9DA7B918D65F}">
+																		<MusicClip Name="Horror Theme #2" ID="{C9CAD8FE-7E9C-48C4-9866-6232D280B887}">
 																			<PropertyList>
-																				<Property Name="EndTrimOffset" Type="Real64" Value="7272.74376417234"/>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="136800"/>
 																				<Property Name="FadeInMode" Type="int16" Value="0"/>
 																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																			</PropertyList>
-																			<AudioSourceRef Name="ES_Far_From_Home_Violin_132_BPM" ID="{442EC750-F9BB-4A2F-A526-C89E604E19A0}"/>
+																			<AudioSourceRef Name="Horror Theme #2" ID="{6B7FD9BC-272D-4C95-81E3-540E1632F752}"/>
 																		</MusicClip>
 																	</Local>
 																</Reference>
 															</ObjectList>
 														</ObjectLists>
-														<ReferenceList>
-															<Reference Name="TrackSequenceSwitch">
-																<ObjectRef Name="Alive" ID="{2EF88DC1-C649-4E98-B23C-AB0E92948B27}" WorkUnitID="{4C334B3D-93A7-4C45-AE91-6C610F9C0A7D}"/>
-															</Reference>
-														</ReferenceList>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+								<MusicTrack Name="Horror Theme #3" ID="{51AFB447-6648-42C1-8C0C-BD9408876E62}" ShortID="912235329">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{978F782A-9C17-4A77-A0F5-307E9C6660FE}"/>
+										</Reference>
+										<Reference Name="TransitionRoot">
+											<Custom>
+												<MusicTransition Name="Root" ID="{BB504013-B77E-40EE-A91A-F735518A33D1}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Horror Theme #3" ID="{3F3F8CC3-8080-4D54-810D-C9B31AA14522}">
+											<Language>SFX</Language>
+											<AudioFile>Horror Theme #3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="444503217"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{63A53E41-6884-423F-B03C-8B4FD411BC20}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Horror Theme #3" ID="{8E66CD5D-FB04-4382-BC7A-A8CEE51FDA21}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="134400"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Horror Theme #3" ID="{3F3F8CC3-8080-4D54-810D-C9B31AA14522}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+								<MusicTrack Name="Horror Theme #4" ID="{CA235DE4-6C7C-432D-AB15-2070D8F967D7}" ShortID="544374884">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{978F782A-9C17-4A77-A0F5-307E9C6660FE}"/>
+										</Reference>
+										<Reference Name="TransitionRoot">
+											<Custom>
+												<MusicTransition Name="Root" ID="{6D3A4F6E-293D-4A24-8005-6794FB7CC026}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Horror Theme #4" ID="{62A4ABE4-68FE-40D7-A3C5-A14DE57294AF}">
+											<Language>SFX</Language>
+											<AudioFile>Horror Theme #4.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="996901833"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{53904401-C2F4-4D36-87D1-661A576183E3}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Horror Theme #4" ID="{7E25FC9B-3DCD-474B-807A-71FF12192C32}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="96000"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Horror Theme #4" ID="{62A4ABE4-68FE-40D7-A3C5-A14DE57294AF}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+								<MusicTrack Name="Horror Theme #5" ID="{ABB5A6A7-4EF1-4B6B-9FBB-94063F1D0F7B}" ShortID="286673034">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{978F782A-9C17-4A77-A0F5-307E9C6660FE}"/>
+										</Reference>
+										<Reference Name="TransitionRoot">
+											<Custom>
+												<MusicTransition Name="Root" ID="{9E5A3473-36F6-47EE-A8B7-227E707EF7D8}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Horror Theme #5" ID="{ED2DAAAE-4A31-4BF2-A339-1AEF6BB2C067}">
+											<Language>SFX</Language>
+											<AudioFile>Horror Theme #5.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="335246441"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{B0FC6ECD-3D18-4141-BBD5-8B9CEF3127E9}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Horror Theme #5" ID="{C1319AE7-F786-44B1-A972-CE22459B4BCA}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="106666.666666667"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Horror Theme #5" ID="{ED2DAAAE-4A31-4BF2-A339-1AEF6BB2C067}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+								<MusicTrack Name="Horror Theme #6" ID="{6710815E-12AA-468C-A6D2-961B4F3E4A52}" ShortID="451139707">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{978F782A-9C17-4A77-A0F5-307E9C6660FE}"/>
+										</Reference>
+										<Reference Name="TransitionRoot">
+											<Custom>
+												<MusicTransition Name="Root" ID="{992F07CB-80CA-4106-9E10-6D08651F6930}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Horror Theme #6" ID="{C239C603-8EF5-4FB4-B19E-886F23A899F4}">
+											<Language>SFX</Language>
+											<AudioFile>Horror Theme #6.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="315723486"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{166A3C8E-7CB0-4A9D-955C-8A2514A9C0C7}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Horror Theme #6" ID="{2DE81B71-C251-4AC7-888B-228EE19B71D9}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="106666.666666667"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Horror Theme #6" ID="{C239C603-8EF5-4FB4-B19E-886F23A899F4}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+								<MusicTrack Name="Horror Theme #7" ID="{9FE3A228-9937-4298-AB2F-2192FA664E7C}" ShortID="664483801">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{978F782A-9C17-4A77-A0F5-307E9C6660FE}"/>
+										</Reference>
+										<Reference Name="TransitionRoot">
+											<Custom>
+												<MusicTransition Name="Root" ID="{179BD98C-B70C-4904-A298-0DCC896C2F2F}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Horror Theme #7" ID="{EA61860F-FEF2-4F4A-9B1F-8411ABA5C2B7}">
+											<Language>SFX</Language>
+											<AudioFile>Horror Theme #7.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="454830293"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{0D51A01F-672E-4A97-B78F-688FAEEFB163}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Horror Theme #7" ID="{266CE1BD-4EFE-400B-A6ED-209F5402F0FA}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="106666.666666667"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Horror Theme #7" ID="{EA61860F-FEF2-4F4A-9B1F-8411ABA5C2B7}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+								<MusicTrack Name="Horror Theme #8" ID="{532DE8D1-8609-4D95-BCE8-33C0F19C22F6}" ShortID="480691085">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{978F782A-9C17-4A77-A0F5-307E9C6660FE}"/>
+										</Reference>
+										<Reference Name="TransitionRoot">
+											<Custom>
+												<MusicTransition Name="Root" ID="{AAF92FF8-0B60-4F09-8CBA-4D8594645883}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Horror Theme #8" ID="{33D6211E-DA02-45DC-B633-574C733D3903}">
+											<Language>SFX</Language>
+											<AudioFile>Horror Theme #8.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="149271450"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{F58A6466-1B69-41CC-9CF5-0D22E94822EE}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Horror Theme #8" ID="{4B2CBA76-1039-43CC-8C40-F483337A332D}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="57600"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Horror Theme #8" ID="{33D6211E-DA02-45DC-B633-574C733D3903}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+								<MusicTrack Name="Horror Theme #9" ID="{7B979202-FE26-49F6-A43A-EF2BF96F7F92}" ShortID="633458393">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{978F782A-9C17-4A77-A0F5-307E9C6660FE}"/>
+										</Reference>
+										<Reference Name="TransitionRoot">
+											<Custom>
+												<MusicTransition Name="Root" ID="{FC0A96B0-BD6D-4BE5-95ED-C96FA89C4C01}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Horror Theme #9" ID="{8ABEC280-5374-46F3-AA6B-CD98A4FD1E0C}">
+											<Language>SFX</Language>
+											<AudioFile>Horror Theme #9.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="250244351"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{2931FEA4-E4AA-4461-A23B-9A0CF8A18273}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Horror Theme #9" ID="{C488CBC7-2F8A-48F3-8D5B-68383EEC6C0E}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="98666.6666666667"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Horror Theme #9" ID="{8ABEC280-5374-46F3-AA6B-CD98A4FD1E0C}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+								<MusicTrack Name="Horror Theme #10" ID="{5930DF01-6759-471F-8B84-B41E3D0B0CA1}" ShortID="544083285">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{978F782A-9C17-4A77-A0F5-307E9C6660FE}"/>
+										</Reference>
+										<Reference Name="TransitionRoot">
+											<Custom>
+												<MusicTransition Name="Root" ID="{1B57A05C-CAD1-4266-A406-3A3F7327B8F2}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Horror Theme #10" ID="{C66104E8-3451-42EB-B18B-E6256FE4B8CD}">
+											<Language>SFX</Language>
+											<AudioFile>Horror Theme #10.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="424601708"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{2EEFE987-BB1B-4CAF-B706-8D53961C5E18}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Horror Theme #10" ID="{0FF5E33B-01D1-48E3-8C12-61B3CC503B4D}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="106666.666666667"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Horror Theme #10" ID="{C66104E8-3451-42EB-B18B-E6256FE4B8CD}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
 													</MusicTrackSequence>
 												</Local>
 											</Reference>

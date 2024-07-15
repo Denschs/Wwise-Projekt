@@ -13,6 +13,7 @@
 					<ChildrenList>
 						<Switch Name="Wood" ID="{811CF2C0-74D2-4418-A7C6-89B46D00061C}"/>
 						<Switch Name="Rock" ID="{8B6C2279-C94C-4DEF-A792-97E7A547FC94}"/>
+						<Switch Name="Wood_Knarr" ID="{DD37664D-3DE1-4A18-82B9-05DFFBCE4DBA}"/>
 					</ChildrenList>
 				</SwitchGroup>
 			</ChildrenList>
