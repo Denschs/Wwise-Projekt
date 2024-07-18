@@ -5,7 +5,28 @@
 			<ChildrenList>
 				<SoundBank Name="main" ID="{0F3FACC4-E010-450A-A023-22646430FD0A}">
 					<ObjectInclusionList>
+						<ObjectRef Name="FinalDoor" ID="{F6E01DAE-CD7A-4058-B9C2-A0E4079CD970}" WorkUnitID="{7620E787-99B9-4B14-91C5-0A7A3A7DDE55}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="ClockKeyPickup" ID="{AC5F89A0-AEBA-412F-91CE-539947BA9E44}" WorkUnitID="{7620E787-99B9-4B14-91C5-0A7A3A7DDE55}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stock4BG" ID="{24D9FCC3-170A-417F-890C-5F3FA4AB3B13}" WorkUnitID="{7620E787-99B9-4B14-91C5-0A7A3A7DDE55}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PartyTime" ID="{4695C64E-9E27-41F0-9C4B-1250BD8A43FF}" WorkUnitID="{7620E787-99B9-4B14-91C5-0A7A3A7DDE55}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Footsteps" ID="{39FA894C-CDD5-4244-9DE8-6C94C9B8AE50}" WorkUnitID="{7620E787-99B9-4B14-91C5-0A7A3A7DDE55}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stock3BGStop" ID="{0AEF1DE6-4613-42AC-A381-9AF95057D8E2}" WorkUnitID="{7620E787-99B9-4B14-91C5-0A7A3A7DDE55}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="ResumeBG" ID="{2606A386-A4A8-42D8-82AA-2D397179725E}" WorkUnitID="{7620E787-99B9-4B14-91C5-0A7A3A7DDE55}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="LobbyBG" ID="{091E7424-209C-42EA-988F-5713C68D0D01}" WorkUnitID="{7620E787-99B9-4B14-91C5-0A7A3A7DDE55}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Flashbang" ID="{D4AB0FB7-03F1-4342-85DE-8E1131DF8645}" WorkUnitID="{7620E787-99B9-4B14-91C5-0A7A3A7DDE55}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="DoorClosed" ID="{AF787FAC-5181-43B3-A1DA-DECA93E7BA34}" WorkUnitID="{7620E787-99B9-4B14-91C5-0A7A3A7DDE55}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stock2BG" ID="{36627FF4-E025-43BE-B1DE-D5344A3D2E3D}" WorkUnitID="{7620E787-99B9-4B14-91C5-0A7A3A7DDE55}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="MainMenuBG" ID="{15DBF421-40D9-446A-B21D-F766EFA07A2D}" WorkUnitID="{7620E787-99B9-4B14-91C5-0A7A3A7DDE55}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="StartGameButton" ID="{1E228CBB-B409-4536-B1A5-42201D48CDC2}" WorkUnitID="{7620E787-99B9-4B14-91C5-0A7A3A7DDE55}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="ButtonClick" ID="{2D62D00D-D368-4553-BAFA-C4F028D0C0CE}" WorkUnitID="{7620E787-99B9-4B14-91C5-0A7A3A7DDE55}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Key_Pickup" ID="{E94E9593-82A8-4596-99DA-F975142243EC}" WorkUnitID="{7620E787-99B9-4B14-91C5-0A7A3A7DDE55}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stock3BG" ID="{F051314F-D27E-471A-ABD9-7CE8114C5799}" WorkUnitID="{7620E787-99B9-4B14-91C5-0A7A3A7DDE55}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop" ID="{D5616FCD-2A97-48F9-83D2-F7FE1D309F91}" WorkUnitID="{7620E787-99B9-4B14-91C5-0A7A3A7DDE55}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stock1BGStop" ID="{7AA6FF5E-C6A0-493D-B491-1367C57C6D3C}" WorkUnitID="{7620E787-99B9-4B14-91C5-0A7A3A7DDE55}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stock2BGStop" ID="{374FA618-6777-4A8F-B177-36A29D4C72C4}" WorkUnitID="{7620E787-99B9-4B14-91C5-0A7A3A7DDE55}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="DoorOpen" ID="{03914D3F-AEE0-4AC8-8233-BF1ABF79D88F}" WorkUnitID="{7620E787-99B9-4B14-91C5-0A7A3A7DDE55}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="LobbyBGStop" ID="{71851570-E5F8-4C9B-8FA2-88F78E95F525}" WorkUnitID="{7620E787-99B9-4B14-91C5-0A7A3A7DDE55}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stock1BG" ID="{47E53280-F57E-4CA3-A2E1-BCBD8ECA9B4E}" WorkUnitID="{7620E787-99B9-4B14-91C5-0A7A3A7DDE55}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

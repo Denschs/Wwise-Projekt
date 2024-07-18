@@ -100,6 +100,40 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Stock1BGStop" ID="{7AA6FF5E-C6A0-493D-B491-1367C57C6D3C}">
+							<ChildrenList>
+								<Action Name="" ID="{446F7ADA-248C-4CE0-8E0A-77F2F8FA5ACF}" ShortID="127848867">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="noise29" ID="{4CF0A085-D892-4A44-BA45-61257B0739F4}" WorkUnitID="{9111B664-7432-4BD0-9C23-8AA8E921762E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{74887493-7F99-45B0-A566-AEC6E3DA5156}" ShortID="346193539">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="water-drip-72357" ID="{D4043936-C7C7-447D-B23B-A38760E5E404}" WorkUnitID="{9111B664-7432-4BD0-9C23-8AA8E921762E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{44FC81CD-CE33-47E1-9595-67574DAA2561}" ShortID="280210914">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="white-noise-179828" ID="{30140301-5B34-4B9D-A068-5860D611D573}" WorkUnitID="{9111B664-7432-4BD0-9C23-8AA8E921762E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Lobby" ID="{210953C7-8AF9-4F70-A663-085C46A1D001}" ShortID="508601184">
@@ -118,6 +152,30 @@
 									</ReferenceList>
 								</Action>
 								<Action Name="" ID="{93FF7936-D1C1-4D5C-955E-3C6E906778E5}" ShortID="69706513">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="lamp-electricity-buzzingwav-14609" ID="{7CB501CD-D4F6-476A-AF20-CF2F024863D2}" WorkUnitID="{9111B664-7432-4BD0-9C23-8AA8E921762E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="LobbyBGStop" ID="{71851570-E5F8-4C9B-8FA2-88F78E95F525}">
+							<ChildrenList>
+								<Action Name="" ID="{EB18CAE1-F678-4BB9-A8C2-F44CF47B8A10}" ShortID="304877209">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="fluorescent-lamp-flickering-17625" ID="{3A3E335C-1617-4DDD-A881-C66481000EA2}" WorkUnitID="{9111B664-7432-4BD0-9C23-8AA8E921762E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{CB923EB1-BF0D-4EB4-AACF-1217B86FBF6F}" ShortID="957236460">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="lamp-electricity-buzzingwav-14609" ID="{7CB501CD-D4F6-476A-AF20-CF2F024863D2}" WorkUnitID="{9111B664-7432-4BD0-9C23-8AA8E921762E}"/>
@@ -169,6 +227,40 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Stock2BGStop" ID="{374FA618-6777-4A8F-B177-36A29D4C72C4}">
+							<ChildrenList>
+								<Action Name="" ID="{95CF7617-AEEC-4DFC-A757-5758C034629C}" ShortID="219016982">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="CLOCKTick_InsJ_Clock-01_Ticking_Single-01" ID="{9D69EB38-C85D-4438-B1B4-6077B95EAC07}" WorkUnitID="{9111B664-7432-4BD0-9C23-8AA8E921762E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{A776851D-269A-45C3-8579-E347DB204B66}" ShortID="568844977">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="DM-CGS-04" ID="{384D0072-A100-4EA2-92E9-1AB7BEA81758}" WorkUnitID="{9111B664-7432-4BD0-9C23-8AA8E921762E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{7060271C-27B6-4DD9-A7CC-32FB3DEAEE65}" ShortID="224858821">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="DM-CGS-04_Kopie" ID="{CD17ED8E-28B5-44C4-A02F-A9AAA66EA5F7}" WorkUnitID="{9111B664-7432-4BD0-9C23-8AA8E921762E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Stock3" ID="{1CAE2C68-9684-43C6-B78A-9179CC5D12C8}" ShortID="787660207">
@@ -180,6 +272,20 @@
 						<Event Name="Stock3BG" ID="{F051314F-D27E-471A-ABD9-7CE8114C5799}">
 							<ChildrenList>
 								<Action Name="" ID="{8E1935C7-40BB-4F79-87CD-508D72EFE4AB}" ShortID="321006477">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Messerschleifen" ID="{296EF472-08DB-4CC7-B162-C7681C345749}" WorkUnitID="{9111B664-7432-4BD0-9C23-8AA8E921762E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stock3BGStop" ID="{0AEF1DE6-4613-42AC-A381-9AF95057D8E2}">
+							<ChildrenList>
+								<Action Name="" ID="{7F07A9EB-4CF0-4180-8DB8-691AC770FD99}" ShortID="296045219">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Messerschleifen" ID="{296EF472-08DB-4CC7-B162-C7681C345749}" WorkUnitID="{9111B664-7432-4BD0-9C23-8AA8E921762E}"/>
@@ -286,6 +392,43 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Folder Name="MainMenu" ID="{BEB60ED2-C38A-4DC6-B548-16DE69581BA3}" ShortID="232169072">
+					<ChildrenList>
+						<Event Name="MainMenuBG" ID="{15DBF421-40D9-446A-B21D-F766EFA07A2D}">
+							<ChildrenList>
+								<Action Name="" ID="{CD7ED919-C6A9-4B79-9E04-907B9AEB2DC7}" ShortID="773608129">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SR_Strange_room" ID="{2874F3C9-C852-4F00-A051-7EDC727CDD34}" WorkUnitID="{9111B664-7432-4BD0-9C23-8AA8E921762E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="StartGameButton" ID="{1E228CBB-B409-4536-B1A5-42201D48CDC2}">
+							<ChildrenList>
+								<Action Name="" ID="{AA3397A9-D890-492E-939F-F319C7B38629}" ShortID="306444384">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Amb_bell" ID="{8622BBE0-0BC1-4C9B-A3B4-4DECAD711756}" WorkUnitID="{9111B664-7432-4BD0-9C23-8AA8E921762E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="ButtonClick" ID="{2D62D00D-D368-4553-BAFA-C4F028D0C0CE}">
+							<ChildrenList>
+								<Action Name="" ID="{31332F8B-835F-4BCD-89CF-BEB12DB5468D}" ShortID="935601504">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="click" ID="{D13F8231-C512-4FBD-9223-30E03FF31E99}" WorkUnitID="{9111B664-7432-4BD0-9C23-8AA8E921762E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

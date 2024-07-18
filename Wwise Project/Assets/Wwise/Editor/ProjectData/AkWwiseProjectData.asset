@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: bae820f74a0c644399d695337cea4a0e
     GuidInternal: 
-    m_lastTime: -8584805727817298313
+    m_lastTime: -8584802817454943924
     List:
     - name: main
       guid: c4ac3f0f10e00a45a02322646430fd0a
@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 87e72076b999144b91c50a7a3a7dde55
     GuidInternal: 
-    m_lastTime: -8584805688107488699
+    m_lastTime: -8584802817613773884
     List:
     - name: Allgemein
       guid: 5cffa129eb15d3489ac57653f7aec116
@@ -113,6 +113,26 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: ButtonClick
+      guid: 0dd0622d68d35345bafac4f028d0c0ce
+      id: 4051332235
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 87e72076b999144b91c50a7a3a7dde55
+      - ElementName: MainMenu
+        ObjectType: 4
+        guid: d20eb6be8ac3c64db54816de69581ba3
+      - ElementName: ButtonClick
+        ObjectType: 3
+        guid: 0dd0622d68d35345bafac4f028d0c0ce
+      Path: Events\Default Work Unit\MainMenu\ButtonClick
+      maxAttenuation: 0
+      maxDuration: 0.03818594
+      minDuration: 0.03818594
     - name: ClockKeyPickup
       guid: a0895facbaae2f4191ce539947ba9e44
       id: 2565034306
@@ -131,8 +151,8 @@ MonoBehaviour:
         guid: a0895facbaae2f4191ce539947ba9e44
       Path: Events\Default Work Unit\Stock2\ClockKeyPickup
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0
+      minDuration: 0
     - name: DoorClosed
       guid: ac7f78af8151b343a1dadeca93e7ba34
       id: 1697683977
@@ -151,8 +171,8 @@ MonoBehaviour:
         guid: ac7f78af8151b343a1dadeca93e7ba34
       Path: Events\Default Work Unit\Allgemein\DoorClosed
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 1.6539896
+      minDuration: 1.6539896
     - name: DoorOpen
       guid: 3f4d9103e0aec84a8233bf1abf79d88f
       id: 1404805401
@@ -171,8 +191,8 @@ MonoBehaviour:
         guid: 3f4d9103e0aec84a8233bf1abf79d88f
       Path: Events\Default Work Unit\Allgemein\DoorOpen
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 1.5640926
+      minDuration: 1.5121057
     - name: FinalDoor
       guid: ae1de0f67acd5840b9c2a0e4079cd970
       id: 4137697555
@@ -191,8 +211,8 @@ MonoBehaviour:
         guid: ae1de0f67acd5840b9c2a0e4079cd970
       Path: Events\Default Work Unit\Stock4\FinalDoor
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 7.3372793
+      minDuration: 7.3372793
     - name: Flashbang
       guid: b70fabd4f103424385de8e1131df8645
       id: 544300867
@@ -211,8 +231,8 @@ MonoBehaviour:
         guid: b70fabd4f103424385de8e1131df8645
       Path: Events\Default Work Unit\Stock4\Flashbang
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 4.043199
+      minDuration: 4.043199
     - name: Footsteps
       guid: 4c89fa39d5cd44429de86c94c9b8ae50
       id: 2385628198
@@ -251,8 +271,8 @@ MonoBehaviour:
         guid: 93954ee9a882964599daf975142243ec
       Path: Events\Default Work Unit\Allgemein\Key_Pickup
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0.58889586
+      minDuration: 0.58889586
     - name: Lobby
       guid: c7530921f98a704fa663085c46a1d001
       id: 290285391
@@ -287,6 +307,63 @@ MonoBehaviour:
         ObjectType: 3
         guid: 24741e099c20ea42988f5713c68d0d01
       Path: Events\Default Work Unit\Lobby\LobbyBG
+      maxAttenuation: 10
+      maxDuration: -1
+      minDuration: -1
+    - name: LobbyBGStop
+      guid: 70158571f8e59b4c8fa288f78e95f525
+      id: 2175140498
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 87e72076b999144b91c50a7a3a7dde55
+      - ElementName: Lobby
+        ObjectType: 4
+        guid: c7530921f98a704fa663085c46a1d001
+      - ElementName: LobbyBGStop
+        ObjectType: 3
+        guid: 70158571f8e59b4c8fa288f78e95f525
+      Path: Events\Default Work Unit\Lobby\LobbyBGStop
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: MainMenu
+      guid: d20eb6be8ac3c64db54816de69581ba3
+      id: 3604647259
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 87e72076b999144b91c50a7a3a7dde55
+      - ElementName: MainMenu
+        ObjectType: 4
+        guid: d20eb6be8ac3c64db54816de69581ba3
+      Path: Events\Default Work Unit\MainMenu
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: MainMenuBG
+      guid: 21f4db15d9406a44b21df766efa07a2d
+      id: 3317115262
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 87e72076b999144b91c50a7a3a7dde55
+      - ElementName: MainMenu
+        ObjectType: 4
+        guid: d20eb6be8ac3c64db54816de69581ba3
+      - ElementName: MainMenuBG
+        ObjectType: 3
+        guid: 21f4db15d9406a44b21df766efa07a2d
+      Path: Events\Default Work Unit\MainMenu\MainMenuBG
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -308,8 +385,8 @@ MonoBehaviour:
         guid: 4ec69546279ef0419c4b1250bd8a43ff
       Path: Events\Default Work Unit\Stock4\PartyTime
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 23.304
+      minDuration: 23.304
     - name: ResumeBG
       guid: 86a30626a8a4d84282aa2d397179725e
       id: 1862445301
@@ -325,8 +402,28 @@ MonoBehaviour:
         guid: 86a30626a8a4d84282aa2d397179725e
       Path: Events\Default Work Unit\ResumeBG
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0
+      minDuration: 0
+    - name: StartGameButton
+      guid: bb8c221e09b43645b1a542201d48cdc2
+      id: 2720010237
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 87e72076b999144b91c50a7a3a7dde55
+      - ElementName: MainMenu
+        ObjectType: 4
+        guid: d20eb6be8ac3c64db54816de69581ba3
+      - ElementName: StartGameButton
+        ObjectType: 3
+        guid: bb8c221e09b43645b1a542201d48cdc2
+      Path: Events\Default Work Unit\MainMenu\StartGameButton
+      maxAttenuation: 0
+      maxDuration: 5.53878
+      minDuration: 5.53878
     - name: Stock1
       guid: 58d90b4021a6274483f861dacdf749b7
       id: 577918786
@@ -362,8 +459,28 @@ MonoBehaviour:
         guid: 8032e5477ef5a34ca2e1bcbd8eca9b4e
       Path: Events\Default Work Unit\Stock1\Stock1BG
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 59.784
+      minDuration: 59.784
+    - name: Stock1BGStop
+      guid: 5effa67aa0c63d49b4911367c57c6d3c
+      id: 4195713867
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 87e72076b999144b91c50a7a3a7dde55
+      - ElementName: Stock1
+        ObjectType: 4
+        guid: 58d90b4021a6274483f861dacdf749b7
+      - ElementName: Stock1BGStop
+        ObjectType: 3
+        guid: 5effa67aa0c63d49b4911367c57c6d3c
+      Path: Events\Default Work Unit\Stock1\Stock1BGStop
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - name: Stock2
       guid: 2477495ac836cb43bc9abe0fabb23f49
       id: 577918785
@@ -401,6 +518,26 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Stock2BGStop
+      guid: 18a64f3777678f4ab17736a29d4c72c4
+      id: 1565151532
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 87e72076b999144b91c50a7a3a7dde55
+      - ElementName: Stock2
+        ObjectType: 4
+        guid: 2477495ac836cb43bc9abe0fabb23f49
+      - ElementName: Stock2BGStop
+        ObjectType: 3
+        guid: 18a64f3777678f4ab17736a29d4c72c4
+      Path: Events\Default Work Unit\Stock2\Stock2BGStop
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - name: Stock3
       guid: 682cae1c8496c643b78a9179cc5d12c8
       id: 577918784
@@ -435,9 +572,29 @@ MonoBehaviour:
         ObjectType: 3
         guid: 4f3151f07ed21a47abd97ce8114c5799
       Path: Events\Default Work Unit\Stock3\Stock3BG
+      maxAttenuation: 10
+      maxDuration: 3.6594844
+      minDuration: 1.6394331
+    - name: Stock3BGStop
+      guid: e61def0a1346ac42a3819af95057d8e2
+      id: 1147059385
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 87e72076b999144b91c50a7a3a7dde55
+      - ElementName: Stock3
+        ObjectType: 4
+        guid: 682cae1c8496c643b78a9179cc5d12c8
+      - ElementName: Stock3BGStop
+        ObjectType: 3
+        guid: e61def0a1346ac42a3819af95057d8e2
+      Path: Events\Default Work Unit\Stock3\Stock3BGStop
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0
+      minDuration: 0
     - name: Stock4
       guid: d2bcc506d79db046b3f36544c4015e69
       id: 577918791
@@ -473,8 +630,8 @@ MonoBehaviour:
         guid: c3fcd9240a177f41890c5f3fa4ab3b13
       Path: Events\Default Work Unit\Stock4\Stock4BG
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0
+      minDuration: 0
     - name: Stop
       guid: cd6f61d5972af94883d2f7fe1d309f91
       id: 788884573
@@ -490,8 +647,8 @@ MonoBehaviour:
         guid: cd6f61d5972af94883d2f7fe1d309f91
       Path: Events\Default Work Unit\Stop
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0
+      minDuration: 0
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -758,9 +915,9 @@ MonoBehaviour:
         ObjectType: 14
         guid: 061f5100066ab341a20dc6911bf32eb7
       Path: Triggers\Default Work Unit\New_Trigger
-  ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 05000000060000000c0000000d0000000f0000001000000011000000
+  ExpandedFileSystemItemIds: 0100000002000000030000000400000005000000060000000700000008000000090000000b0000000c0000000d0000000e0000000f0000001000000011000000170000001a0000001c00000028000000290000002b0000002f0000003000000031000000
+  ExpandedWaapiItemIds: 01000000020000000300000005000000060000000700000008000000090000000c0000000d0000000e0000000f00000010000000110000001c000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
-  currentDataSource: 0
+  currentDataSource: 1
   CurrentPluginConfig: 

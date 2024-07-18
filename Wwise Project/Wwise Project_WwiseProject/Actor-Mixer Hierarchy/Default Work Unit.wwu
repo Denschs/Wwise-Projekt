@@ -20,6 +20,10 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="Amb_bell" ID="{BF60CB8D-0C0F-405F-B082-0C54443211E5}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="5.53878044567283"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Musikdiewirnutzenwollen\BG\Amb_bell.wav</AudioFile>
 									<MediaIDList>
@@ -197,7 +201,99 @@
 					</PropertyList>
 					<ChildrenList>
 						<Sound Name="fluorescent-lamp-flickering-17625" ID="{3A3E335C-1617-4DDD-A881-C66481000EA2}" ShortID="953535539">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="10"/>
+							</PropertyList>
 							<ReferenceList>
+								<Reference Name="Attenuation">
+									<Custom CreatedFrom="{608C0033-B45F-468D-A7E1-AE6C99C4D160}">
+										<Attenuation Name="New Attenuation (Custom)" ID="{53A923C9-A674-4391-B361-130D71B320F2}" ShortID="50556961">
+											<PropertyList>
+												<Property Name="RadiusMax" Type="Real64" Value="10"/>
+											</PropertyList>
+											<CurveUsageInfoList>
+												<VolumeDryUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+														<Curve Name="VolumeDry" ID="{323EF675-98EF-47E1-94EB-5081B417CD31}">
+															<PropertyList>
+																<Property Name="Flags" Type="int32" Value="3"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>0</YPos>
+																	<Flags>5</Flags>
+																</Point>
+																<Point>
+																	<XPos>10</XPos>
+																	<YPos>-2.41148</YPos>
+																	<Flags>37</Flags>
+																</Point>
+															</PointList>
+														</Curve>
+													</CurveUsageInfo>
+												</VolumeDryUsage>
+												<VolumeWetGameUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+												</VolumeWetGameUsage>
+												<VolumeWetUserUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+												</VolumeWetUserUsage>
+												<LowPassFilterUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</LowPassFilterUsage>
+												<HighPassFilterUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</HighPassFilterUsage>
+												<SpreadUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</SpreadUsage>
+												<FocusUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</FocusUsage>
+												<ObstructionVolumeUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</ObstructionVolumeUsage>
+												<ObstructionLPFUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</ObstructionLPFUsage>
+												<ObstructionHPFUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</ObstructionHPFUsage>
+												<OcclusionVolumeUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</OcclusionVolumeUsage>
+												<OcclusionLPFUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</OcclusionLPFUsage>
+												<OcclusionHPFUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</OcclusionHPFUsage>
+												<DiffractionVolumeUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</DiffractionVolumeUsage>
+												<DiffractionLPFUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</DiffractionLPFUsage>
+												<DiffractionHPFUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</DiffractionHPFUsage>
+												<TransmissionVolumeUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</TransmissionVolumeUsage>
+												<TransmissionLPFUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</TransmissionLPFUsage>
+												<TransmissionHPFUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</TransmissionHPFUsage>
+											</CurveUsageInfoList>
+										</Attenuation>
+									</Custom>
+								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2CB5A79F-1F38-419D-A2E6-030C9A5A94AD}"/>
 								</Reference>
@@ -219,7 +315,16 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="lamp-electricity-buzzingwav-14609" ID="{7CB501CD-D4F6-476A-AF20-CF2F024863D2}" ShortID="572632158">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="10"/>
+							</PropertyList>
 							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="New Attenuation" ID="{608C0033-B45F-468D-A7E1-AE6C99C4D160}" WorkUnitID="{CFD3BD3B-6CDB-444A-A9A9-3B26C1CFE317}"/>
+								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2CB5A79F-1F38-419D-A2E6-030C9A5A94AD}"/>
 								</Reference>
@@ -383,7 +488,14 @@
 					</PropertyList>
 					<ChildrenList>
 						<RandomSequenceContainer Name="Messerschleifen" ID="{296EF472-08DB-4CC7-B162-C7681C345749}" ShortID="668138190">
+							<PropertyList>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+							</PropertyList>
 							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="New Attenuation" ID="{608C0033-B45F-468D-A7E1-AE6C99C4D160}" WorkUnitID="{CFD3BD3B-6CDB-444A-A9A9-3B26C1CFE317}"/>
+								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2CB5A79F-1F38-419D-A2E6-030C9A5A94AD}"/>
 								</Reference>
@@ -567,6 +679,7 @@
 						<Sound Name="white-noise-179828" ID="{30140301-5B34-4B9D-A068-5860D611D573}" ShortID="748881385">
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="EnableDiffraction" Type="bool" Value="True"/>
 								<Property Name="OutputBusVolume" Type="Real64">
 									<ValueList>
 										<Value>-30</Value>
@@ -574,11 +687,14 @@
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-17</Value>
+										<Value>-10</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
 							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Attenuation_Dennis" ID="{797C140C-239A-41BE-88D9-18AF12F9BD97}" WorkUnitID="{CFD3BD3B-6CDB-444A-A9A9-3B26C1CFE317}"/>
+								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2CB5A79F-1F38-419D-A2E6-030C9A5A94AD}"/>
 								</Reference>
@@ -839,6 +955,10 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="noise7" ID="{FC346D9A-014A-4A02-B8A7-E406A0BB9128}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="1.51210571774054"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Musikdiewirnutzenwollen\Allgemein\noise7.wav</AudioFile>
 											<MediaIDList>
@@ -861,6 +981,11 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Door-squeaking" ID="{E3129AED-F17B-4D5D-B419-7FFDEE614A32}">
+											<PropertyList>
+												<Property Name="LoopBegin" Type="Real64" Value="0"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="1.56409265417171"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Door-squeaking.wav</AudioFile>
 											<MediaIDList>
@@ -874,6 +999,28 @@
 								</Sound>
 							</ChildrenList>
 						</RandomSequenceContainer>
+						<Sound Name="click" ID="{D13F8231-C512-4FBD-9223-30E03FF31E99}" ShortID="1030263063">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2CB5A79F-1F38-419D-A2E6-030C9A5A94AD}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{978F782A-9C17-4A77-A0F5-307E9C6660FE}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="click" ID="{73CF8F8D-4B9F-4681-BD35-3E0BAB3C1C6F}">
+									<Language>SFX</Language>
+									<AudioFile>click.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="786818957"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="click" ID="{73CF8F8D-4B9F-4681-BD35-3E0BAB3C1C6F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</Folder>
 				<SwitchContainer Name="Footsteps" ID="{1C97124B-BE7B-4FED-877E-AF3079B05B61}" ShortID="836379477">

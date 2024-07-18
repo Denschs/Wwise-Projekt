@@ -11,6 +11,10 @@ namespace SojaExiles
 		public Animator openandclose;
 		public bool open;
 		public Transform Player;
+		[SerializeField]
+		private AK.Wwise.Event doorOpenEvent;
+		[SerializeField]
+		private AK.Wwise.Event doorLockedEvent;
 
 		void Start()
 		{
@@ -56,6 +60,7 @@ namespace SojaExiles
 			print("you are opening the door");
 			openandclose.Play("Opening");
 			open = true;
+			AkSoundEngine.PostEvent(doorOpenEvent.Id, this.gameObject);
 			yield return new WaitForSeconds(.5f);
 		}
 

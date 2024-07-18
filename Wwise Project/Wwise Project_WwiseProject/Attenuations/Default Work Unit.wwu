@@ -5,7 +5,7 @@
 			<ChildrenList>
 				<Attenuation Name="Attenuation_Dennis" ID="{797C140C-239A-41BE-88D9-18AF12F9BD97}" ShortID="143191843">
 					<PropertyList>
-						<Property Name="RadiusMax" Type="Real64" Value="50"/>
+						<Property Name="RadiusMax" Type="Real64" Value="20"/>
 					</PropertyList>
 					<CurveUsageInfoList>
 						<VolumeDryUsage>
@@ -21,12 +21,12 @@
 											<Flags>5</Flags>
 										</Point>
 										<Point>
-											<XPos>24.418</XPos>
-											<YPos>-4.43673</YPos>
+											<XPos>12.263572</XPos>
+											<YPos>-3.14811</YPos>
 											<Flags>0</Flags>
 										</Point>
 										<Point>
-											<XPos>50</XPos>
+											<XPos>20</XPos>
 											<YPos>-200</YPos>
 											<Flags>37</Flags>
 										</Point>
@@ -53,12 +53,12 @@
 											<Flags>5</Flags>
 										</Point>
 										<Point>
-											<XPos>24.85847</XPos>
+											<XPos>9.943388</XPos>
 											<YPos>59</YPos>
 											<Flags>0</Flags>
 										</Point>
 										<Point>
-											<XPos>50</XPos>
+											<XPos>20</XPos>
 											<YPos>100</YPos>
 											<Flags>37</Flags>
 										</Point>
@@ -114,6 +114,9 @@
 					</CurveUsageInfoList>
 				</Attenuation>
 				<Attenuation Name="New Attenuation" ID="{608C0033-B45F-468D-A7E1-AE6C99C4D160}" ShortID="885983784">
+					<PropertyList>
+						<Property Name="RadiusMax" Type="Real64" Value="10"/>
+					</PropertyList>
 					<CurveUsageInfoList>
 						<VolumeDryUsage>
 							<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
@@ -128,8 +131,8 @@
 											<Flags>5</Flags>
 										</Point>
 										<Point>
-											<XPos>100</XPos>
-											<YPos>-200</YPos>
+											<XPos>10</XPos>
+											<YPos>-2.41148</YPos>
 											<Flags>37</Flags>
 										</Point>
 									</PointList>
