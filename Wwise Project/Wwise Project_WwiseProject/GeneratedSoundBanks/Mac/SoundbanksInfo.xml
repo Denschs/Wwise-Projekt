@@ -49,7 +49,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{06A9AD4E-E93B-2613-22F1-396103FF97DA}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{12F6E32A-9644-0760-1D35-67E86C908FC8}">
 			<ShortName>main</ShortName>
 			<Path>main.bnk</Path>
 			<Media>
@@ -107,7 +107,7 @@
 				</File>
 				<File Id="273483449" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Musikdiewirnutzenwollen\Allgemein\noise7.wav</ShortName>
-					<CachePath>SFX/Musikdiewirnutzenwollen/Allgemein/noise7_E2C0E757.wem</CachePath>
+					<CachePath>SFX/Musikdiewirnutzenwollen/Allgemein/noise7_9A87E4FA.wem</CachePath>
 				</File>
 				<File Id="281733115" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Musikdiewirnutzenwollen\Allgemein\Key Pickup\OBJCoin_InsJ_Coin_Spending_01.wav</ShortName>
@@ -139,7 +139,7 @@
 				</File>
 				<File Id="483930553" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Musikdiewirnutzenwollen\BG\Amb_bell.wav</ShortName>
-					<CachePath>SFX/Musikdiewirnutzenwollen/BG/Amb_bell_4C7DB529.wem</CachePath>
+					<CachePath>SFX/Musikdiewirnutzenwollen/BG/Amb_bell_271861AE.wem</CachePath>
 				</File>
 				<File Id="517972216" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Musikdiewirnutzenwollen\Allgemein\Footsteps_Wood\Footsteps_Wood_Walk_02.wav</ShortName>
@@ -159,7 +159,7 @@
 				</File>
 				<File Id="631768779" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Door-squeaking.wav</ShortName>
-					<CachePath>SFX/Door-squeaking_B904CB95.wem</CachePath>
+					<CachePath>SFX/Door-squeaking_CA30AA33.wem</CachePath>
 				</File>
 				<File Id="664799748" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Musikdiewirnutzenwollen\3.Stock\Messerschleifen\noise38.wav</ShortName>
@@ -329,6 +329,7 @@
 					</MediaRefs>
 				</Event>
 				<Event Id="2175140498" Name="LobbyBGStop" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="2241370003" Name="MainBGStop" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="3317115262" Name="MainMenuBG" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="406853291"/>
@@ -386,5 +387,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{1D6D2CCD-F612-A190-E70F-EB7BBC318FE2}</FileHash>
+	<FileHash>{A7B3AED5-730F-A234-09C5-CD5EA8E3A522}</FileHash>
 </SoundBanksInfo>

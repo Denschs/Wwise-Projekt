@@ -23,6 +23,7 @@ namespace AK
         static const AkUniqueID KEY_PICKUP = 761761105U;
         static const AkUniqueID LOBBYBG = 1721292362U;
         static const AkUniqueID LOBBYBGSTOP = 2175140498U;
+        static const AkUniqueID MAINBGSTOP = 2241370003U;
         static const AkUniqueID MAINMENUBG = 3317115262U;
         static const AkUniqueID PARTYTIME = 1553366040U;
         static const AkUniqueID RESUMEBG = 1862445301U;
