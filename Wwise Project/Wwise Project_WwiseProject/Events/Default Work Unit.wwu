@@ -98,6 +98,28 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
+								<Action Name="" ID="{05D9B822-BEC7-42C1-A0CA-9EB57A4E5902}" ShortID="120573001">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="5"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="BG Lobby" ID="{22DDE312-2F42-4E33-92DA-AA2D9D9BF8CA}" WorkUnitID="{EA74F34D-53B6-4955-9B7D-0CA418FBBF05}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{A9F843AF-D318-4056-BAFD-C6064E4A6C38}" ShortID="480671387">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="BG 1" ID="{48610966-8238-4676-B403-E9595ABB74E1}" WorkUnitID="{EA74F34D-53B6-4955-9B7D-0CA418FBBF05}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 							</ChildrenList>
 						</Event>
 						<Event Name="Stock1BGStop" ID="{7AA6FF5E-C6A0-493D-B491-1367C57C6D3C}">
@@ -155,6 +177,23 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="lamp-electricity-buzzingwav-14609" ID="{7CB501CD-D4F6-476A-AF20-CF2F024863D2}" WorkUnitID="{9111B664-7432-4BD0-9C23-8AA8E921762E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{D8EDF00D-347C-45A5-9147-7D8315324C05}" ShortID="840804125">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="41"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="MainBGStop" ID="{F5375A2E-C97F-41CD-BCB2-49C3CED55983}" WorkUnitID="{7620E787-99B9-4B14-91C5-0A7A3A7DDE55}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{F2C81107-3C61-4352-A7B1-4DC7301F18DF}" ShortID="246912392">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="BG Lobby" ID="{22DDE312-2F42-4E33-92DA-AA2D9D9BF8CA}" WorkUnitID="{EA74F34D-53B6-4955-9B7D-0CA418FBBF05}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -278,6 +317,27 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
+								<Action Name="" ID="{65A083BF-D724-4E83-A3EA-B3FD887B238C}" ShortID="476354211">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="BG 1" ID="{48610966-8238-4676-B403-E9595ABB74E1}" WorkUnitID="{EA74F34D-53B6-4955-9B7D-0CA418FBBF05}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{56766B88-7AFC-4FC4-842A-DE8CD325C16D}" ShortID="112037806">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="BG Messer" ID="{3943F6C2-D56E-4826-88E0-E99495CF2EEA}" WorkUnitID="{EA74F34D-53B6-4955-9B7D-0CA418FBBF05}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 							</ChildrenList>
 						</Event>
 						<Event Name="Stock3BGStop" ID="{0AEF1DE6-4613-42AC-A381-9AF95057D8E2}">
@@ -335,9 +395,22 @@
 						<Event Name="FinalDoor" ID="{F6E01DAE-CD7A-4058-B9C2-A0E4079CD970}">
 							<ChildrenList>
 								<Action Name="" ID="{20E932D9-DCB9-4A93-8AFC-9514FF88BFD2}" ShortID="358478276">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="5"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="rise9" ID="{2BC7D541-FA09-4A4A-AEB8-8E53E1C10854}" WorkUnitID="{9111B664-7432-4BD0-9C23-8AA8E921762E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{3BC7E586-AFCE-4DFF-9309-C6580E43662C}" ShortID="782754222">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="BG Messer" ID="{3943F6C2-D56E-4826-88E0-E99495CF2EEA}" WorkUnitID="{EA74F34D-53B6-4955-9B7D-0CA418FBBF05}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -366,7 +439,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Build" ID="{22DDE312-2F42-4E33-92DA-AA2D9D9BF8CA}" WorkUnitID="{EA74F34D-53B6-4955-9B7D-0CA418FBBF05}"/>
+									<ObjectRef Name="BG Lobby" ID="{22DDE312-2F42-4E33-92DA-AA2D9D9BF8CA}" WorkUnitID="{EA74F34D-53B6-4955-9B7D-0CA418FBBF05}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -386,7 +459,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Build" ID="{22DDE312-2F42-4E33-92DA-AA2D9D9BF8CA}" WorkUnitID="{EA74F34D-53B6-4955-9B7D-0CA418FBBF05}"/>
+									<ObjectRef Name="BG Lobby" ID="{22DDE312-2F42-4E33-92DA-AA2D9D9BF8CA}" WorkUnitID="{EA74F34D-53B6-4955-9B7D-0CA418FBBF05}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -427,6 +500,31 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="MainBGStop" ID="{F5375A2E-C97F-41CD-BCB2-49C3CED55983}">
+							<ChildrenList>
+								<Action Name="" ID="{70114861-77F0-443D-9FAC-5EFE0903596F}" ShortID="843292228">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SR_Strange_room" ID="{2874F3C9-C852-4F00-A051-7EDC727CDD34}" WorkUnitID="{9111B664-7432-4BD0-9C23-8AA8E921762E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="BG" ID="{AACF25E6-FFC8-4A0D-8162-5DD44E5A1F1C}" ShortID="575232664">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="26"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Event Name="BGLobby" ID="{3144040F-969B-4F58-B3F7-120B40038F5C}"/>
+						<Event Name="BGMesser" ID="{8B98C36E-C141-43B8-AF2B-EA3BAB201790}"/>
+						<Event Name="BGNormal" ID="{3B8F06BC-5531-4766-AB61-8BE46AAAC47B}"/>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

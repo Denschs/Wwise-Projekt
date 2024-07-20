@@ -8,6 +8,7 @@
 						<ObjectRef Name="FinalDoor" ID="{F6E01DAE-CD7A-4058-B9C2-A0E4079CD970}" WorkUnitID="{7620E787-99B9-4B14-91C5-0A7A3A7DDE55}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="ClockKeyPickup" ID="{AC5F89A0-AEBA-412F-91CE-539947BA9E44}" WorkUnitID="{7620E787-99B9-4B14-91C5-0A7A3A7DDE55}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stock4BG" ID="{24D9FCC3-170A-417F-890C-5F3FA4AB3B13}" WorkUnitID="{7620E787-99B9-4B14-91C5-0A7A3A7DDE55}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="MainBGStop" ID="{F5375A2E-C97F-41CD-BCB2-49C3CED55983}" WorkUnitID="{7620E787-99B9-4B14-91C5-0A7A3A7DDE55}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PartyTime" ID="{4695C64E-9E27-41F0-9C4B-1250BD8A43FF}" WorkUnitID="{7620E787-99B9-4B14-91C5-0A7A3A7DDE55}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Footsteps" ID="{39FA894C-CDD5-4244-9DE8-6C94C9B8AE50}" WorkUnitID="{7620E787-99B9-4B14-91C5-0A7A3A7DDE55}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stock3BGStop" ID="{0AEF1DE6-4613-42AC-A381-9AF95057D8E2}" WorkUnitID="{7620E787-99B9-4B14-91C5-0A7A3A7DDE55}" Origin="Manual" Filter="7"/>

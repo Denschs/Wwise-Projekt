@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: bae820f74a0c644399d695337cea4a0e
     GuidInternal: 
-    m_lastTime: -8584802160116441343
+    m_lastTime: -8584802003511741542
     List:
     - name: main
       guid: c4ac3f0f10e00a45a02322646430fd0a
@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 87e72076b999144b91c50a7a3a7dde55
     GuidInternal: 
-    m_lastTime: -8584802160122731594
+    m_lastTime: -8584802000738386573
     List:
     - name: Allgemein
       guid: 5cffa129eb15d3489ac57653f7aec116
@@ -110,6 +110,83 @@ MonoBehaviour:
         ObjectType: 4
         guid: 5cffa129eb15d3489ac57653f7aec116
       Path: Events\Default Work Unit\Allgemein
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: BG
+      guid: e625cfaac8ff0d4a81625dd44e5a1f1c
+      id: 1870080928
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 87e72076b999144b91c50a7a3a7dde55
+      - ElementName: BG
+        ObjectType: 4
+        guid: e625cfaac8ff0d4a81625dd44e5a1f1c
+      Path: Events\Default Work Unit\BG
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: BGLobby
+      guid: 0f0444319b96584fb3f7120b40038f5c
+      id: 1799097544
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 87e72076b999144b91c50a7a3a7dde55
+      - ElementName: BG
+        ObjectType: 4
+        guid: e625cfaac8ff0d4a81625dd44e5a1f1c
+      - ElementName: BGLobby
+        ObjectType: 3
+        guid: 0f0444319b96584fb3f7120b40038f5c
+      Path: Events\Default Work Unit\BG\BGLobby
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: BGMesser
+      guid: 6ec3988b41c1b843af2bea3bab201790
+      id: 3647454241
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 87e72076b999144b91c50a7a3a7dde55
+      - ElementName: BG
+        ObjectType: 4
+        guid: e625cfaac8ff0d4a81625dd44e5a1f1c
+      - ElementName: BGMesser
+        ObjectType: 3
+        guid: 6ec3988b41c1b843af2bea3bab201790
+      Path: Events\Default Work Unit\BG\BGMesser
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: BGNormal
+      guid: bc068f3b31556647ab618be46aaac47b
+      id: 262363249
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 87e72076b999144b91c50a7a3a7dde55
+      - ElementName: BG
+        ObjectType: 4
+        guid: e625cfaac8ff0d4a81625dd44e5a1f1c
+      - ElementName: BGNormal
+        ObjectType: 3
+        guid: bc068f3b31556647ab618be46aaac47b
+      Path: Events\Default Work Unit\BG\BGNormal
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -330,6 +407,26 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
+    - name: MainBGStop
+      guid: 2e5a37f57fc9cd41bcb249c3ced55983
+      id: 2241370003
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 87e72076b999144b91c50a7a3a7dde55
+      - ElementName: MainMenu
+        ObjectType: 4
+        guid: d20eb6be8ac3c64db54816de69581ba3
+      - ElementName: MainBGStop
+        ObjectType: 3
+        guid: 2e5a37f57fc9cd41bcb249c3ced55983
+      Path: Events\Default Work Unit\MainMenu\MainBGStop
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - name: MainMenu
       guid: d20eb6be8ac3c64db54816de69581ba3
       id: 3604647259
@@ -459,8 +556,8 @@ MonoBehaviour:
         guid: 8032e5477ef5a34ca2e1bcbd8eca9b4e
       Path: Events\Default Work Unit\Stock1\Stock1BG
       maxAttenuation: 0
-      maxDuration: 59.784
-      minDuration: 59.784
+      maxDuration: 98.666664
+      minDuration: 98.666664
     - name: Stock1BGStop
       guid: 5effa67aa0c63d49b4911367c57c6d3c
       id: 4195713867
