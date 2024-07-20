@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: bae820f74a0c644399d695337cea4a0e
     GuidInternal: 
-    m_lastTime: -8584802003511741542
+    m_lastTime: -8584801343091549805
     List:
     - name: main
       guid: c4ac3f0f10e00a45a02322646430fd0a
@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 87e72076b999144b91c50a7a3a7dde55
     GuidInternal: 
-    m_lastTime: -8584802000738386573
+    m_lastTime: -8584801343093171968
     List:
     - name: Allgemein
       guid: 5cffa129eb15d3489ac57653f7aec116
@@ -384,7 +384,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 24741e099c20ea42988f5713c68d0d01
       Path: Events\Default Work Unit\Lobby\LobbyBG
-      maxAttenuation: 10
+      maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
     - name: LobbyBGStop
@@ -669,7 +669,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 4f3151f07ed21a47abd97ce8114c5799
       Path: Events\Default Work Unit\Stock3\Stock3BG
-      maxAttenuation: 10
+      maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
     - name: Stock3BGStop

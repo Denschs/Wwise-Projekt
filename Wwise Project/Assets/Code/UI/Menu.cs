@@ -8,6 +8,7 @@ public class Menu : MonoBehaviour
     public GameObject mainMenu;
     public GameObject creditsConvas;
     public GameObject tutorialConvas;
+    public GameObject tutorial2;
 
     [SerializeField]
     private AK.Wwise.Event buttonSFX;
@@ -65,11 +66,19 @@ public class Menu : MonoBehaviour
         tutorialConvas.SetActive(true);
     }
 
+    public void showTutorial2()
+    {
+        AkSoundEngine.PostEvent(buttonSFX.Id, this.gameObject);
+        mainMenu.SetActive(false);
+        tutorial2.SetActive(true);
+    }
+
     public void hideTutorial()
     {
         AkSoundEngine.PostEvent(buttonSFX.Id, this.gameObject);
         mainMenu.SetActive(true);
         tutorialConvas.SetActive(false);
+        tutorial2.SetActive(false);
     }
     public void QuitGame()
     {

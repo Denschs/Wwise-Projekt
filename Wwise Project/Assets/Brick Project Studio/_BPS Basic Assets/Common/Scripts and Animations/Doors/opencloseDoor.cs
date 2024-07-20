@@ -11,6 +11,7 @@ namespace SojaExiles
 		public Animator openandclose;
 		public bool open;
 		public Transform Player;
+		public GameObject flashBangDoor;
 		[SerializeField]
 		private AK.Wwise.Event doorOpenEvent;
 		[SerializeField]
@@ -60,6 +61,19 @@ namespace SojaExiles
 			print("you are opening the door");
 			openandclose.Play("Opening");
 			open = true;
+			if (flashBangDoor)
+			{
+				FlashBang flashBang = flashBangDoor.GetComponent<FlashBang>();
+				if (flashBang != null)
+				{
+					Debug.Log("WhiteImage eingeschaltet");
+					StartCoroutine(flashBang.WhiteFade());
+				}
+				else
+				{
+					Debug.LogError("FlashBang component not found on the door GameObject.");
+				}
+			}
 			AkSoundEngine.PostEvent(doorOpenEvent.Id, this.gameObject);
 			yield return new WaitForSeconds(.5f);
 		}
