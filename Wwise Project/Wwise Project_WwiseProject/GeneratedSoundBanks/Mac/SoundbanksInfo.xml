@@ -49,185 +49,217 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{12F6E32A-9644-0760-1D35-67E86C908FC8}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{286A0A99-1044-98EB-C80F-FB44140F1AA2}">
 			<ShortName>main</ShortName>
 			<Path>main.bnk</Path>
 			<Media>
 				<File Id="15473058" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Musikdiewirnutzenwollen\Allgemein\Footsteps_Wood\Footsteps_Wood_Walk_09.wav</ShortName>
-					<CachePath>SFX/Musikdiewirnutzenwollen/Allgemein/Footsteps_Wood/Footsteps_Wood_Walk_09_818F3B66.wem</CachePath>
+					<CachePath>SFX/Musikdiewirnutzenwollen/Allgemein/Footsteps_Wood/Footsteps_Wood_Walk_09_8E324C96.wem</CachePath>
 				</File>
 				<File Id="17998917" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>flashbang-78581.wav</ShortName>
-					<CachePath>SFX/flashbang-78581_79D7F0C8.wem</CachePath>
+					<CachePath>SFX/flashbang-78581_F636A398.wem</CachePath>
 				</File>
 				<File Id="83017666" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Musikdiewirnutzenwollen\3.Stock\Messerschleifen\noise5.wav</ShortName>
-					<CachePath>SFX/Musikdiewirnutzenwollen/3.Stock/Messerschleifen/noise5_818F3B66.wem</CachePath>
+					<CachePath>SFX/Musikdiewirnutzenwollen/3.Stock/Messerschleifen/noise5_8E324C96.wem</CachePath>
 				</File>
 				<File Id="92599921" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Musikdiewirnutzenwollen\0.Erdgeschoss\Footsteps_Rock\Footsteps_Rock_Walk_03.wav</ShortName>
-					<CachePath>SFX/Musikdiewirnutzenwollen/0.Erdgeschoss/Footsteps_Rock/Footsteps_Rock_Walk_03_818F3B66.wem</CachePath>
+					<CachePath>SFX/Musikdiewirnutzenwollen/0.Erdgeschoss/Footsteps_Rock/Footsteps_Rock_Walk_03_8E324C96.wem</CachePath>
 				</File>
 				<File Id="121338232" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Musikdiewirnutzenwollen\Allgemein\Footsteps_Wood\Footsteps_Wood_Walk_03.wav</ShortName>
-					<CachePath>SFX/Musikdiewirnutzenwollen/Allgemein/Footsteps_Wood/Footsteps_Wood_Walk_03_818F3B66.wem</CachePath>
+					<CachePath>SFX/Musikdiewirnutzenwollen/Allgemein/Footsteps_Wood/Footsteps_Wood_Walk_03_8E324C96.wem</CachePath>
 				</File>
 				<File Id="125878770" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Musikdiewirnutzenwollen\0.Erdgeschoss\Footsteps_Rock\Footsteps_Rock_Walk_04.wav</ShortName>
-					<CachePath>SFX/Musikdiewirnutzenwollen/0.Erdgeschoss/Footsteps_Rock/Footsteps_Rock_Walk_04_818F3B66.wem</CachePath>
+					<CachePath>SFX/Musikdiewirnutzenwollen/0.Erdgeschoss/Footsteps_Rock/Footsteps_Rock_Walk_04_8E324C96.wem</CachePath>
 				</File>
 				<File Id="131407623" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Musikdiewirnutzenwollen\0.Erdgeschoss\Footsteps_Rock\Footsteps_Rock_Walk_08.wav</ShortName>
-					<CachePath>SFX/Musikdiewirnutzenwollen/0.Erdgeschoss/Footsteps_Rock/Footsteps_Rock_Walk_08_818F3B66.wem</CachePath>
+					<CachePath>SFX/Musikdiewirnutzenwollen/0.Erdgeschoss/Footsteps_Rock/Footsteps_Rock_Walk_08_8E324C96.wem</CachePath>
 				</File>
 				<File Id="134575767" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Musikdiewirnutzenwollen\Dachgeschoss\rise9.wav</ShortName>
-					<CachePath>SFX/Musikdiewirnutzenwollen/Dachgeschoss/rise9_C2761D2C.wem</CachePath>
+					<CachePath>SFX/Musikdiewirnutzenwollen/Dachgeschoss/rise9_295CD91C.wem</CachePath>
 				</File>
 				<File Id="148050561" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Musikdiewirnutzenwollen\Allgemein\Footsteps_Wood\Footsteps_Wood_Walk_04.wav</ShortName>
-					<CachePath>SFX/Musikdiewirnutzenwollen/Allgemein/Footsteps_Wood/Footsteps_Wood_Walk_04_818F3B66.wem</CachePath>
+					<CachePath>SFX/Musikdiewirnutzenwollen/Allgemein/Footsteps_Wood/Footsteps_Wood_Walk_04_8E324C96.wem</CachePath>
 				</File>
 				<File Id="248425135" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Musikdiewirnutzenwollen\Allgemein\Footsteps_Wood\Footsteps_Wood_Walk_08.wav</ShortName>
-					<CachePath>SFX/Musikdiewirnutzenwollen/Allgemein/Footsteps_Wood/Footsteps_Wood_Walk_08_818F3B66.wem</CachePath>
+					<CachePath>SFX/Musikdiewirnutzenwollen/Allgemein/Footsteps_Wood/Footsteps_Wood_Walk_08_8E324C96.wem</CachePath>
+				</File>
+				<File Id="250244351" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Horror Theme #9.wav</ShortName>
+					<CachePath>SFX/Horror Theme #9_56CEF360.wem</CachePath>
 				</File>
 				<File Id="250545174" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Musikdiewirnutzenwollen\Allgemein\Footsteps_Wood\Footsteps_Wood_Walk_10.wav</ShortName>
-					<CachePath>SFX/Musikdiewirnutzenwollen/Allgemein/Footsteps_Wood/Footsteps_Wood_Walk_10_818F3B66.wem</CachePath>
+					<CachePath>SFX/Musikdiewirnutzenwollen/Allgemein/Footsteps_Wood/Footsteps_Wood_Walk_10_8E324C96.wem</CachePath>
 				</File>
 				<File Id="256417860" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Musikdiewirnutzenwollen\Allgemein\Footsteps_Wood\Footsteps_Wood_Walk_01.wav</ShortName>
-					<CachePath>SFX/Musikdiewirnutzenwollen/Allgemein/Footsteps_Wood/Footsteps_Wood_Walk_01_818F3B66.wem</CachePath>
+					<CachePath>SFX/Musikdiewirnutzenwollen/Allgemein/Footsteps_Wood/Footsteps_Wood_Walk_01_8E324C96.wem</CachePath>
 				</File>
 				<File Id="257494614" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>lamp-electricity-buzzingwav-14609.wav</ShortName>
-					<CachePath>SFX/lamp-electricity-buzzingwav-14609_FBC78EF0.wem</CachePath>
+					<CachePath>SFX/lamp-electricity-buzzingwav-14609_56CEF360.wem</CachePath>
 				</File>
 				<File Id="273483449" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Musikdiewirnutzenwollen\Allgemein\noise7.wav</ShortName>
-					<CachePath>SFX/Musikdiewirnutzenwollen/Allgemein/noise7_9A87E4FA.wem</CachePath>
+					<CachePath>SFX/Musikdiewirnutzenwollen/Allgemein/noise7_A3094A2A.wem</CachePath>
 				</File>
 				<File Id="281733115" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Musikdiewirnutzenwollen\Allgemein\Key Pickup\OBJCoin_InsJ_Coin_Spending_01.wav</ShortName>
-					<CachePath>SFX/Musikdiewirnutzenwollen/Allgemein/Key Pickup/OBJCoin_InsJ_Coin_Spending_01_818F3B66.wem</CachePath>
+					<CachePath>SFX/Musikdiewirnutzenwollen/Allgemein/Key Pickup/OBJCoin_InsJ_Coin_Spending_01_8E324C96.wem</CachePath>
 				</File>
 				<File Id="322929756" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Musikdiewirnutzenwollen\Allgemein\DOORAntq_InsJ_Door_Church_Closing_01-01.wav</ShortName>
-					<CachePath>SFX/Musikdiewirnutzenwollen/Allgemein/DOORAntq_InsJ_Door_Church_Closing_01-01_818F3B66.wem</CachePath>
+					<CachePath>SFX/Musikdiewirnutzenwollen/Allgemein/DOORAntq_InsJ_Door_Church_Closing_01-01_8E324C96.wem</CachePath>
 				</File>
 				<File Id="330383340" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Musikdiewirnutzenwollen\0.Erdgeschoss\Footsteps_Rock\Footsteps_Rock_Walk_02.wav</ShortName>
-					<CachePath>SFX/Musikdiewirnutzenwollen/0.Erdgeschoss/Footsteps_Rock/Footsteps_Rock_Walk_02_818F3B66.wem</CachePath>
+					<CachePath>SFX/Musikdiewirnutzenwollen/0.Erdgeschoss/Footsteps_Rock/Footsteps_Rock_Walk_02_8E324C96.wem</CachePath>
 				</File>
 				<File Id="331036737" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Musikdiewirnutzenwollen\0.Erdgeschoss\Footsteps_Rock\Footsteps_Rock_Walk_01.wav</ShortName>
-					<CachePath>SFX/Musikdiewirnutzenwollen/0.Erdgeschoss/Footsteps_Rock/Footsteps_Rock_Walk_01_818F3B66.wem</CachePath>
+					<CachePath>SFX/Musikdiewirnutzenwollen/0.Erdgeschoss/Footsteps_Rock/Footsteps_Rock_Walk_01_8E324C96.wem</CachePath>
 				</File>
 				<File Id="352155599" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Musikdiewirnutzenwollen\2.Stock\DM-CGS-04.wav</ShortName>
-					<CachePath>SFX/Musikdiewirnutzenwollen/2.Stock/DM-CGS-04_CC998914.wem</CachePath>
+					<CachePath>SFX/Musikdiewirnutzenwollen/2.Stock/DM-CGS-04_DF2D7024.wem</CachePath>
 				</File>
 				<File Id="406853291" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Musikdiewirnutzenwollen\BG\SR_Strange_room.wav</ShortName>
-					<CachePath>SFX/Musikdiewirnutzenwollen/BG/SR_Strange_room_FBC78EF0.wem</CachePath>
+					<CachePath>SFX/Musikdiewirnutzenwollen/BG/SR_Strange_room_56CEF360.wem</CachePath>
 				</File>
 				<File Id="413314599" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Musikdiewirnutzenwollen\2.Stock\CLOCKTick_InsJ_Clock-01_Ticking_Single-01.wav</ShortName>
-					<CachePath>SFX/Musikdiewirnutzenwollen/2.Stock/CLOCKTick_InsJ_Clock-01_Ticking_Single-01_11A93380.wem</CachePath>
+					<CachePath>SFX/Musikdiewirnutzenwollen/2.Stock/CLOCKTick_InsJ_Clock-01_Ticking_Single-01_2C9019F0.wem</CachePath>
 				</File>
 				<File Id="483930553" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Musikdiewirnutzenwollen\BG\Amb_bell.wav</ShortName>
-					<CachePath>SFX/Musikdiewirnutzenwollen/BG/Amb_bell_271861AE.wem</CachePath>
+					<CachePath>SFX/Musikdiewirnutzenwollen/BG/Amb_bell_D39A0EDE.wem</CachePath>
 				</File>
 				<File Id="517972216" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Musikdiewirnutzenwollen\Allgemein\Footsteps_Wood\Footsteps_Wood_Walk_02.wav</ShortName>
-					<CachePath>SFX/Musikdiewirnutzenwollen/Allgemein/Footsteps_Wood/Footsteps_Wood_Walk_02_818F3B66.wem</CachePath>
+					<CachePath>SFX/Musikdiewirnutzenwollen/Allgemein/Footsteps_Wood/Footsteps_Wood_Walk_02_8E324C96.wem</CachePath>
 				</File>
 				<File Id="536357085" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Musikdiewirnutzenwollen\3.Stock\Messerschleifen\noise3.wav</ShortName>
-					<CachePath>SFX/Musikdiewirnutzenwollen/3.Stock/Messerschleifen/noise3_5A3F676A.wem</CachePath>
+					<CachePath>SFX/Musikdiewirnutzenwollen/3.Stock/Messerschleifen/noise3_0095A85A.wem</CachePath>
+				</File>
+				<File Id="537258712" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>noise34.wav</ShortName>
+					<CachePath>SFX/noise34_56CEF360.wem</CachePath>
 				</File>
 				<File Id="539979854" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Musikdiewirnutzenwollen\0.Erdgeschoss\Footsteps_Rock\Footsteps_Rock_Walk_09.wav</ShortName>
-					<CachePath>SFX/Musikdiewirnutzenwollen/0.Erdgeschoss/Footsteps_Rock/Footsteps_Rock_Walk_09_818F3B66.wem</CachePath>
+					<CachePath>SFX/Musikdiewirnutzenwollen/0.Erdgeschoss/Footsteps_Rock/Footsteps_Rock_Walk_09_8E324C96.wem</CachePath>
 				</File>
 				<File Id="622548957" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>white-noise-179828.wav</ShortName>
-					<CachePath>SFX/white-noise-179828_818F3B66.wem</CachePath>
+					<CachePath>SFX/white-noise-179828_8E324C96.wem</CachePath>
 				</File>
 				<File Id="631768779" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Door-squeaking.wav</ShortName>
-					<CachePath>SFX/Door-squeaking_CA30AA33.wem</CachePath>
+					<CachePath>SFX/Door-squeaking_F2AA67E3.wem</CachePath>
 				</File>
 				<File Id="664799748" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Musikdiewirnutzenwollen\3.Stock\Messerschleifen\noise38.wav</ShortName>
-					<CachePath>SFX/Musikdiewirnutzenwollen/3.Stock/Messerschleifen/noise38_818F3B66.wem</CachePath>
+					<CachePath>SFX/Musikdiewirnutzenwollen/3.Stock/Messerschleifen/noise38_8E324C96.wem</CachePath>
 				</File>
 				<File Id="687987218" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Musikdiewirnutzenwollen\Allgemein\Footsteps_Wood\Footsteps_Wood_Walk_07.wav</ShortName>
-					<CachePath>SFX/Musikdiewirnutzenwollen/Allgemein/Footsteps_Wood/Footsteps_Wood_Walk_07_818F3B66.wem</CachePath>
+					<CachePath>SFX/Musikdiewirnutzenwollen/Allgemein/Footsteps_Wood/Footsteps_Wood_Walk_07_8E324C96.wem</CachePath>
 				</File>
 				<File Id="693500632" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Musikdiewirnutzenwollen\1.Stock\noise29.wav</ShortName>
-					<CachePath>SFX/Musikdiewirnutzenwollen/1.Stock/noise29_818F3B66.wem</CachePath>
+					<CachePath>SFX/Musikdiewirnutzenwollen/1.Stock/noise29_8E324C96.wem</CachePath>
 				</File>
 				<File Id="694772785" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Shoes-squeak-on-wooden-floor.wav</ShortName>
-					<CachePath>SFX/Shoes-squeak-on-wooden-floor_818F3B66.wem</CachePath>
+					<CachePath>SFX/Shoes-squeak-on-wooden-floor_8E324C96.wem</CachePath>
 				</File>
 				<File Id="709133678" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Musikdiewirnutzenwollen\0.Erdgeschoss\Footsteps_Rock\Footsteps_Rock_Walk_07.wav</ShortName>
-					<CachePath>SFX/Musikdiewirnutzenwollen/0.Erdgeschoss/Footsteps_Rock/Footsteps_Rock_Walk_07_818F3B66.wem</CachePath>
+					<CachePath>SFX/Musikdiewirnutzenwollen/0.Erdgeschoss/Footsteps_Rock/Footsteps_Rock_Walk_07_8E324C96.wem</CachePath>
 				</File>
 				<File Id="739798177" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>water-drip-72357.wav</ShortName>
-					<CachePath>SFX/water-drip-72357_818F3B66.wem</CachePath>
+					<CachePath>SFX/water-drip-72357_8E324C96.wem</CachePath>
 				</File>
 				<File Id="749705989" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Musikdiewirnutzenwollen\2.Stock\DM-CGS-04.wav</ShortName>
-					<CachePath>SFX/Musikdiewirnutzenwollen/2.Stock/DM-CGS-04_FBC78EF0.wem</CachePath>
+					<CachePath>SFX/Musikdiewirnutzenwollen/2.Stock/DM-CGS-04_56CEF360.wem</CachePath>
 				</File>
 				<File Id="774566217" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Musikdiewirnutzenwollen\0.Erdgeschoss\Footsteps_Rock\Footsteps_Rock_Walk_05.wav</ShortName>
-					<CachePath>SFX/Musikdiewirnutzenwollen/0.Erdgeschoss/Footsteps_Rock/Footsteps_Rock_Walk_05_818F3B66.wem</CachePath>
+					<CachePath>SFX/Musikdiewirnutzenwollen/0.Erdgeschoss/Footsteps_Rock/Footsteps_Rock_Walk_05_8E324C96.wem</CachePath>
 				</File>
 				<File Id="786818957" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>click.wav</ShortName>
-					<CachePath>SFX/click_818F3B66.wem</CachePath>
+					<CachePath>SFX/click_8E324C96.wem</CachePath>
 				</File>
 				<File Id="788351061" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Musikdiewirnutzenwollen\Allgemein\Footsteps_Wood\Footsteps_Wood_Walk_06.wav</ShortName>
-					<CachePath>SFX/Musikdiewirnutzenwollen/Allgemein/Footsteps_Wood/Footsteps_Wood_Walk_06_818F3B66.wem</CachePath>
+					<CachePath>SFX/Musikdiewirnutzenwollen/Allgemein/Footsteps_Wood/Footsteps_Wood_Walk_06_8E324C96.wem</CachePath>
 				</File>
 				<File Id="806089115" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Musikdiewirnutzenwollen\3.Stock\Messerschleifen\noise39.wav</ShortName>
-					<CachePath>SFX/Musikdiewirnutzenwollen/3.Stock/Messerschleifen/noise39_818F3B66.wem</CachePath>
+					<CachePath>SFX/Musikdiewirnutzenwollen/3.Stock/Messerschleifen/noise39_8E324C96.wem</CachePath>
+				</File>
+				<File Id="829995634" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>bell1.wav</ShortName>
+					<CachePath>SFX/bell1_56CEF360.wem</CachePath>
+				</File>
+				<File Id="836810128" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>noise33.wav</ShortName>
+					<CachePath>SFX/noise33_56CEF360.wem</CachePath>
+				</File>
+				<File Id="867474887" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>beat3.wav</ShortName>
+					<CachePath>SFX/beat3_56CEF360.wem</CachePath>
 				</File>
 				<File Id="880822252" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>fluorescent-lamp-flickering-17625.wav</ShortName>
-					<CachePath>SFX/fluorescent-lamp-flickering-17625_FBC78EF0.wem</CachePath>
+					<CachePath>SFX/fluorescent-lamp-flickering-17625_56CEF360.wem</CachePath>
 				</File>
 				<File Id="927070855" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Musikdiewirnutzenwollen\3.Stock\Messerschleifen\noise37.wav</ShortName>
-					<CachePath>SFX/Musikdiewirnutzenwollen/3.Stock/Messerschleifen/noise37_818F3B66.wem</CachePath>
+					<CachePath>SFX/Musikdiewirnutzenwollen/3.Stock/Messerschleifen/noise37_8E324C96.wem</CachePath>
+				</File>
+				<File Id="935561141" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Horror Theme #1.wav</ShortName>
+					<CachePath>SFX/Horror Theme #1_56CEF360.wem</CachePath>
 				</File>
 				<File Id="948170472" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>party-horn-68443.wav</ShortName>
-					<CachePath>SFX/party-horn-68443_818F3B66.wem</CachePath>
+					<CachePath>SFX/party-horn-68443_8E324C96.wem</CachePath>
 				</File>
 				<File Id="959194428" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Musikdiewirnutzenwollen\Allgemein\Footsteps_Wood\Footsteps_Wood_Walk_05.wav</ShortName>
-					<CachePath>SFX/Musikdiewirnutzenwollen/Allgemein/Footsteps_Wood/Footsteps_Wood_Walk_05_818F3B66.wem</CachePath>
+					<CachePath>SFX/Musikdiewirnutzenwollen/Allgemein/Footsteps_Wood/Footsteps_Wood_Walk_05_8E324C96.wem</CachePath>
 				</File>
 				<File Id="978743873" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Musikdiewirnutzenwollen\0.Erdgeschoss\Footsteps_Rock\Footsteps_Rock_Walk_06.wav</ShortName>
-					<CachePath>SFX/Musikdiewirnutzenwollen/0.Erdgeschoss/Footsteps_Rock/Footsteps_Rock_Walk_06_818F3B66.wem</CachePath>
+					<CachePath>SFX/Musikdiewirnutzenwollen/0.Erdgeschoss/Footsteps_Rock/Footsteps_Rock_Walk_06_8E324C96.wem</CachePath>
+				</File>
+				<File Id="988807591" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SR_Strange_room.wav</ShortName>
+					<CachePath>SFX/SR_Strange_room_56CEF360.wem</CachePath>
+				</File>
+				<File Id="996901833" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Horror Theme #4.wav</ShortName>
+					<CachePath>SFX/Horror Theme #4_56CEF360.wem</CachePath>
 				</File>
 				<File Id="1036100041" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>audience-applause-with-cheering-100682.wav</ShortName>
-					<CachePath>SFX/audience-applause-with-cheering-100682_818F3B66.wem</CachePath>
+					<CachePath>SFX/audience-applause-with-cheering-100682_8E324C96.wem</CachePath>
 				</File>
 			</Media>
 			<Plugins>
@@ -322,11 +354,21 @@
 						<MediaRef Id="281733115"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1721292362" Name="LobbyBG" MaxAttenuation="10" DurationType="Infinite">
+				<Event Id="1721292362" Name="LobbyBG" DurationType="Infinite">
 					<MediaRefs>
+						<MediaRef Id="250244351"/>
 						<MediaRef Id="257494614"/>
+						<MediaRef Id="537258712"/>
+						<MediaRef Id="829995634"/>
+						<MediaRef Id="836810128"/>
+						<MediaRef Id="867474887"/>
 						<MediaRef Id="880822252"/>
+						<MediaRef Id="935561141"/>
+						<MediaRef Id="988807591"/>
 					</MediaRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="2241370003" Name="MainBGStop"/>
+					</ActionPostEvent>
 				</Event>
 				<Event Id="2175140498" Name="LobbyBGStop" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="2241370003" Name="MainBGStop" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
@@ -347,11 +389,18 @@
 						<MediaRef Id="483930553"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3070141355" Name="Stock1BG" DurationType="OneShot" DurationMin="59.784" DurationMax="59.784">
+				<Event Id="3070141355" Name="Stock1BG" DurationType="OneShot" DurationMin="98.666664" DurationMax="98.666664">
 					<MediaRefs>
+						<MediaRef Id="250244351"/>
+						<MediaRef Id="537258712"/>
 						<MediaRef Id="622548957"/>
 						<MediaRef Id="693500632"/>
 						<MediaRef Id="739798177"/>
+						<MediaRef Id="829995634"/>
+						<MediaRef Id="836810128"/>
+						<MediaRef Id="867474887"/>
+						<MediaRef Id="935561141"/>
+						<MediaRef Id="988807591"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="4195713867" Name="Stock1BGStop" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
@@ -363,13 +412,21 @@
 					</MediaRefs>
 				</Event>
 				<Event Id="1565151532" Name="Stock2BGStop" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
-				<Event Id="2935626337" Name="Stock3BG" MaxAttenuation="10" DurationType="Infinite">
+				<Event Id="2935626337" Name="Stock3BG" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="83017666"/>
+						<MediaRef Id="250244351"/>
 						<MediaRef Id="536357085"/>
+						<MediaRef Id="537258712"/>
 						<MediaRef Id="664799748"/>
 						<MediaRef Id="806089115"/>
+						<MediaRef Id="829995634"/>
+						<MediaRef Id="836810128"/>
+						<MediaRef Id="867474887"/>
 						<MediaRef Id="927070855"/>
+						<MediaRef Id="935561141"/>
+						<MediaRef Id="988807591"/>
+						<MediaRef Id="996901833"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="1147059385" Name="Stock3BGStop" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
@@ -385,7 +442,10 @@
 					</Switches>
 				</SwitchGroup>
 			</SwitchGroups>
+			<Triggers>
+				<Trigger Id="4163741908" Name="New_Trigger"/>
+			</Triggers>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{A7B3AED5-730F-A234-09C5-CD5EA8E3A522}</FileHash>
+	<FileHash>{6A3FA132-EA50-B684-C902-B182964313FA}</FileHash>
 </SoundBanksInfo>

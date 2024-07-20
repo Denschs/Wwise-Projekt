@@ -945,6 +945,13 @@
 							</ReferenceList>
 							<ChildrenList>
 								<Sound Name="noise7" ID="{14551B08-2D36-4F96-B6C5-264B1AE33E50}" ShortID="213472084">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-7</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2CB5A79F-1F38-419D-A2E6-030C9A5A94AD}"/>
