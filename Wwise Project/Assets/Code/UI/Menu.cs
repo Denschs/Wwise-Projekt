@@ -7,6 +7,7 @@ public class Menu : MonoBehaviour
 {
     public GameObject mainMenu;
     public GameObject creditsConvas;
+    public GameObject tutorialConvas;
 
     [SerializeField]
     private AK.Wwise.Event buttonSFX;
@@ -49,16 +50,30 @@ public class Menu : MonoBehaviour
         mainMenu.SetActive(false);
         creditsConvas.SetActive(true);
     }
-    public void QuitGame()
-    {
-        Debug.Log("Spiel wurde beendet!!");
-        Application.Quit();
-    }
 
     public void hideCredits()
     {
         AkSoundEngine.PostEvent(buttonSFX.Id, this.gameObject);
         mainMenu.SetActive(true);
         creditsConvas.SetActive(false);
+    }
+
+    public void showTutorial()
+    {
+        AkSoundEngine.PostEvent(buttonSFX.Id, this.gameObject);
+        mainMenu.SetActive(false);
+        tutorialConvas.SetActive(true);
+    }
+
+    public void hideTutorial()
+    {
+        AkSoundEngine.PostEvent(buttonSFX.Id, this.gameObject);
+        mainMenu.SetActive(true);
+        tutorialConvas.SetActive(false);
+    }
+    public void QuitGame()
+    {
+        Debug.Log("Spiel wurde beendet!!");
+        Application.Quit();
     }
 }
