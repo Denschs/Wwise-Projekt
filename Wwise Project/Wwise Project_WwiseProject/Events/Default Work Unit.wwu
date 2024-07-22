@@ -127,6 +127,7 @@
 								<Action Name="" ID="{446F7ADA-248C-4CE0-8E0A-77F2F8FA5ACF}" ShortID="127848867">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
@@ -137,6 +138,7 @@
 								<Action Name="" ID="{74887493-7F99-45B0-A566-AEC6E3DA5156}" ShortID="346193539">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
@@ -147,6 +149,7 @@
 								<Action Name="" ID="{44FC81CD-CE33-47E1-9595-67574DAA2561}" ShortID="280210914">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
@@ -277,8 +280,16 @@
 								<Action Name="" ID="{88382A94-9AE4-4A6B-B95A-4D359E28E5B4}" ShortID="89349365">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="3"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
 									</PropertyList>
 									<ReferenceList/>
+								</Action>
+								<Action Name="" ID="{5C68C062-860A-4548-9019-0DB077D533C2}" ShortID="18555101">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Herzklopfen" ID="{853AB560-57D5-4AE7-A225-C89C46F2F684}" WorkUnitID="{EA74F34D-53B6-4955-9B7D-0CA418FBBF05}"/>
+										</Reference>
+									</ReferenceList>
 								</Action>
 							</ChildrenList>
 						</Event>
@@ -287,6 +298,7 @@
 								<Action Name="" ID="{95CF7617-AEEC-4DFC-A757-5758C034629C}" ShortID="219016982">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
@@ -297,6 +309,7 @@
 								<Action Name="" ID="{A776851D-269A-45C3-8579-E347DB204B66}" ShortID="568844977">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
@@ -307,6 +320,7 @@
 								<Action Name="" ID="{7060271C-27B6-4DD9-A7CC-32FB3DEAEE65}" ShortID="224858821">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
@@ -361,6 +375,7 @@
 								<Action Name="" ID="{7F07A9EB-4CF0-4180-8DB8-691AC770FD99}" ShortID="296045219">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
@@ -381,6 +396,12 @@
 						<Event Name="Stock4BG" ID="{24D9FCC3-170A-417F-890C-5F3FA4AB3B13}"/>
 						<Event Name="Flashbang" ID="{D4AB0FB7-03F1-4342-85DE-8E1131DF8645}">
 							<ChildrenList>
+								<Action Name="" ID="{8B681217-678B-49B2-B202-FFCCAE3FA369}" ShortID="898997128">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="3"/>
+									</PropertyList>
+									<ReferenceList/>
+								</Action>
 								<Action Name="" ID="{80DF64F3-869F-4044-B039-0CA338030F14}" ShortID="315749531">
 									<ReferenceList>
 										<Reference Name="Target">
@@ -405,6 +426,13 @@
 											<ObjectRef Name="party-horn-68443" ID="{3BB01035-4BC2-40FF-8552-26BBE07B6BE8}" WorkUnitID="{9111B664-7432-4BD0-9C23-8AA8E921762E}"/>
 										</Reference>
 									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{DE8F035A-6675-42D1-B063-2D9E6DD70798}" ShortID="179494523">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="3"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList/>
 								</Action>
 							</ChildrenList>
 						</Event>

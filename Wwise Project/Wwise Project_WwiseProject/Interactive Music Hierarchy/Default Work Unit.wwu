@@ -14,6 +14,9 @@
 						<Reference Name="PlaylistRoot">
 							<Custom>
 								<MusicPlaylistItem Name="" ID="{3574FF29-635D-4FAE-88AD-69F97E8B1D2C}" ShortID="173966227">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0"/>
+									</PropertyList>
 									<ChildrenList>
 										<MusicPlaylistItem Name="" ID="{965BE158-47F0-4647-BAF3-8617C1D600D4}" ShortID="798487107">
 											<PropertyList>
@@ -28,7 +31,7 @@
 										</MusicPlaylistItem>
 										<MusicPlaylistItem Name="" ID="{D50989F9-26EE-4AC4-A5B1-1B13B4C2E04D}" ShortID="933020317">
 											<PropertyList>
-												<Property Name="LoopCount" Type="int16" Value="5"/>
+												<Property Name="LoopCount" Type="int16" Value="0"/>
 												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
 											</PropertyList>
 											<ReferenceList>
@@ -71,124 +74,6 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<MusicTrack Name="Amb_Deep_impacts" ID="{147F3603-7E3B-4161-A247-DC5A539E7E8A}" ShortID="424730750">
-									<PropertyList>
-										<Property Name="Inclusion" Type="bool">
-											<ValueList>
-												<Value>False</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{978F782A-9C17-4A77-A0F5-307E9C6660FE}"/>
-										</Reference>
-										<Reference Name="TransitionRoot">
-											<Custom>
-												<MusicTransition Name="Root" ID="{703BE53F-B6E8-4C4D-A3CE-70683AF4DB15}">
-													<PropertyList>
-														<Property Name="IsFolder" Type="bool" Value="True"/>
-													</PropertyList>
-													<TransitionInfo/>
-												</MusicTransition>
-											</Custom>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Amb_Deep_impacts" ID="{A8D8CB6C-8828-4AD1-AE5A-3639AC188DF1}">
-											<Language>SFX</Language>
-											<AudioFile>Amb_Deep_impacts.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="582618334"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ObjectLists>
-										<ObjectList Name="Sequences">
-											<Reference>
-												<Local>
-													<MusicTrackSequence Name="" ID="{63F4F579-EDCB-4F35-BD36-A3CA5574876C}">
-														<ObjectLists>
-															<ObjectList Name="Clips">
-																<Reference>
-																	<Local>
-																		<MusicClip Name="Amb_Deep_impacts" ID="{E5E3F21E-3E13-4E7B-BDD8-E6F5234193AD}">
-																			<PropertyList>
-																				<Property Name="EndTrimOffset" Type="Real64" Value="13714.2857142857"/>
-																				<Property Name="FadeInMode" Type="int16" Value="0"/>
-																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																			</PropertyList>
-																			<AudioSourceRef Name="Amb_Deep_impacts" ID="{A8D8CB6C-8828-4AD1-AE5A-3639AC188DF1}"/>
-																		</MusicClip>
-																	</Local>
-																</Reference>
-															</ObjectList>
-														</ObjectLists>
-													</MusicTrackSequence>
-												</Local>
-											</Reference>
-										</ObjectList>
-									</ObjectLists>
-								</MusicTrack>
-								<MusicTrack Name="Amb_Deep_impacts_stress" ID="{44191221-4A96-4E71-85B9-2E687ACA296E}" ShortID="151131088">
-									<PropertyList>
-										<Property Name="Inclusion" Type="bool">
-											<ValueList>
-												<Value>False</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{978F782A-9C17-4A77-A0F5-307E9C6660FE}"/>
-										</Reference>
-										<Reference Name="TransitionRoot">
-											<Custom>
-												<MusicTransition Name="Root" ID="{6C2A61A3-9B9A-48B6-BEE0-2F95A3601940}">
-													<PropertyList>
-														<Property Name="IsFolder" Type="bool" Value="True"/>
-													</PropertyList>
-													<TransitionInfo/>
-												</MusicTransition>
-											</Custom>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Amb_Deep_impacts_stress" ID="{EFB84AF9-A527-4AFE-ADFA-35ED9C88D12D}">
-											<Language>SFX</Language>
-											<AudioFile>Amb_Deep_impacts_stress.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="206055607"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ObjectLists>
-										<ObjectList Name="Sequences">
-											<Reference>
-												<Local>
-													<MusicTrackSequence Name="" ID="{0EF0C6EE-C9C1-42D2-957A-36E3148BA9BF}">
-														<ObjectLists>
-															<ObjectList Name="Clips">
-																<Reference>
-																	<Local>
-																		<MusicClip Name="Amb_Deep_impacts_stress" ID="{44C1FC57-0238-48B0-9E52-F0C90ADAB83C}">
-																			<PropertyList>
-																				<Property Name="EndTrimOffset" Type="Real64" Value="13714.2857142857"/>
-																				<Property Name="FadeInMode" Type="int16" Value="0"/>
-																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																			</PropertyList>
-																			<AudioSourceRef Name="Amb_Deep_impacts_stress" ID="{EFB84AF9-A527-4AFE-ADFA-35ED9C88D12D}"/>
-																		</MusicClip>
-																	</Local>
-																</Reference>
-															</ObjectList>
-														</ObjectLists>
-													</MusicTrackSequence>
-												</Local>
-											</Reference>
-										</ObjectList>
-									</ObjectLists>
-								</MusicTrack>
 								<MusicTrack Name="bell1" ID="{70736574-41A6-4998-827E-C4EF6EE8FA9E}" ShortID="687641791">
 									<ReferenceList>
 										<Reference Name="OutputBus">
@@ -511,6 +396,13 @@
 							</ReferenceList>
 							<ChildrenList>
 								<MusicTrack Name="Horror Theme #9 Normal" ID="{B3F1CEE0-BBEF-47B1-B2C8-213FF5E4CB80}" ShortID="677185663">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{978F782A-9C17-4A77-A0F5-307E9C6660FE}"/>
@@ -927,6 +819,13 @@
 							</ReferenceList>
 							<ChildrenList>
 								<MusicTrack Name="Horror Theme #4 Messer" ID="{88343F12-30D5-40B2-81FC-81F0DB3E849D}" ShortID="602257328">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-7</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{978F782A-9C17-4A77-A0F5-307E9C6660FE}"/>

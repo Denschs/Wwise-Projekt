@@ -49,7 +49,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{1737258B-5134-B26C-3D9E-53620E0EB26F}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{E30A3D36-C600-75B8-CF1E-8C45E5B768BA}">
 			<ShortName>main</ShortName>
 			<Path>main.bnk</Path>
 			<Media>
@@ -221,6 +221,10 @@
 					<ShortName>noise33.wav</ShortName>
 					<CachePath>SFX/noise33_56CEF360.wem</CachePath>
 				</File>
+				<File Id="867474887" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>beat3.wav</ShortName>
+					<CachePath>SFX/beat3_56CEF360.wem</CachePath>
+				</File>
 				<File Id="880822252" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>fluorescent-lamp-flickering-17625.wav</ShortName>
 					<CachePath>SFX/fluorescent-lamp-flickering-17625_56CEF360.wem</CachePath>
@@ -265,7 +269,16 @@
 						<MediaRef Id="786818957"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2565034306" Name="ClockKeyPickup" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="2565034306" Name="ClockKeyPickup" DurationType="OneShot" DurationMin="8.9952545" DurationMax="8.9952545">
+					<MediaRefs>
+						<MediaRef Id="250244351"/>
+						<MediaRef Id="537258712"/>
+						<MediaRef Id="829995634"/>
+						<MediaRef Id="836810128"/>
+						<MediaRef Id="867474887"/>
+						<MediaRef Id="935561141"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="1697683977" Name="DoorClosed" DurationType="OneShot" DurationMin="1.6539896" DurationMax="1.6539896">
 					<MediaRefs>
 						<MediaRef Id="322929756"/>
@@ -430,5 +443,5 @@
 			</Triggers>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{8BA31F4B-8FF9-72B1-D5BE-7FC75F5D2B7A}</FileHash>
+	<FileHash>{A5DC7FDB-94E7-FD7E-88A5-14F34567A17B}</FileHash>
 </SoundBanksInfo>
