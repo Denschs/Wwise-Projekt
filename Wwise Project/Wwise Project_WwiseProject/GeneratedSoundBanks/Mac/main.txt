@@ -14,6 +14,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	2385628198	Footsteps			\Default Work Unit\Allgemein\Footsteps	
 	2565034306	ClockKeyPickup			\Default Work Unit\Stock2\ClockKeyPickup	
 	2720010237	StartGameButton			\Default Work Unit\MainMenu\StartGameButton	
+	2917435538	Stock3BGMusik			\Default Work Unit\Stock3\Stock3BGMusik	
 	2935626337	Stock3BG			\Default Work Unit\Stock3\Stock3BG	
 	3070141355	Stock1BG			\Default Work Unit\Stock1\Stock1BG	
 	3104535170	Stock4BG			\Default Work Unit\Stock4\Stock4BG	
@@ -86,6 +87,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	786818957	click	G:\Game Design\HAW Master\Audio\Wwise-Projekt\Wwise-Projekt\Wwise Project\Wwise Project_WwiseProject\.cache\Mac\SFX\click_8E324C96.wem		\Actor-Mixer Hierarchy\Default Work Unit\Allgemein\click		869
 	788351061	Footsteps_Wood_Walk_06	G:\Game Design\HAW Master\Audio\Wwise-Projekt\Wwise-Projekt\Wwise Project\Wwise Project_WwiseProject\.cache\Mac\SFX\Musikdiewirnutzenwollen\Allgemein\Footsteps_Wood\Footsteps_Wood_Walk_06_8E324C96.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Footsteps_Wood_Knarrend\Footsteps_Wood_Walk_06		5199
 	806089115	noise39	G:\Game Design\HAW Master\Audio\Wwise-Projekt\Wwise-Projekt\Wwise Project\Wwise Project_WwiseProject\.cache\Mac\SFX\Musikdiewirnutzenwollen\3.Stock\Messerschleifen\noise39_8E324C96.wem		\Actor-Mixer Hierarchy\Default Work Unit\3\Messerschleifen\noise39		38322
+	836810128	noise33	G:\Game Design\HAW Master\Audio\Wwise-Projekt\Wwise-Projekt\Wwise Project\Wwise Project_WwiseProject\.cache\Mac\SFX\noise33_56CEF360.wem		\Interactive Music Hierarchy\Default Work Unit\Bg Musik\BG Messer\noise33		47561
 	867474887	beat3	G:\Game Design\HAW Master\Audio\Wwise-Projekt\Wwise-Projekt\Wwise Project\Wwise Project_WwiseProject\.cache\Mac\SFX\beat3_56CEF360.wem		\Interactive Music Hierarchy\Default Work Unit\Bg Musik\Herzklopfen\beat3		19442
 	880822252	fluorescent-lamp-flickering-17625	G:\Game Design\HAW Master\Audio\Wwise-Projekt\Wwise-Projekt\Wwise Project\Wwise Project_WwiseProject\.cache\Mac\SFX\fluorescent-lamp-flickering-17625_56CEF360.wem		\Actor-Mixer Hierarchy\Default Work Unit\0\fluorescent-lamp-flickering-17625		1007664
 	927070855	noise37	G:\Game Design\HAW Master\Audio\Wwise-Projekt\Wwise-Projekt\Wwise Project\Wwise Project_WwiseProject\.cache\Mac\SFX\Musikdiewirnutzenwollen\3.Stock\Messerschleifen\noise37_8E324C96.wem		\Actor-Mixer Hierarchy\Default Work Unit\3\Messerschleifen\noise37		45055
@@ -93,5 +95,6 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	948170472	party-horn-68443	G:\Game Design\HAW Master\Audio\Wwise-Projekt\Wwise-Projekt\Wwise Project\Wwise Project_WwiseProject\.cache\Mac\SFX\party-horn-68443_8E324C96.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dachgeschoss\party-horn-68443		154261
 	959194428	Footsteps_Wood_Walk_05	G:\Game Design\HAW Master\Audio\Wwise-Projekt\Wwise-Projekt\Wwise Project\Wwise Project_WwiseProject\.cache\Mac\SFX\Musikdiewirnutzenwollen\Allgemein\Footsteps_Wood\Footsteps_Wood_Walk_05_8E324C96.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Footsteps_Wood_Knarrend\Footsteps_Wood_Walk_05		4645
 	978743873	Footsteps_Rock_Walk_06	G:\Game Design\HAW Master\Audio\Wwise-Projekt\Wwise-Projekt\Wwise Project\Wwise Project_WwiseProject\.cache\Mac\SFX\Musikdiewirnutzenwollen\0.Erdgeschoss\Footsteps_Rock\Footsteps_Rock_Walk_06_8E324C96.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Footsteps_Rock\Footsteps_Rock_Walk_06		4494
+	996901833	Horror Theme #4 Messer	G:\Game Design\HAW Master\Audio\Wwise-Projekt\Wwise-Projekt\Wwise Project\Wwise Project_WwiseProject\.cache\Mac\SFX\Horror Theme #4_56CEF360.wem		\Interactive Music Hierarchy\Default Work Unit\Bg Musik\BG Messer\Horror Theme #4 Messer		1442777
 	1036100041	audience-applause-with-cheering-100682	G:\Game Design\HAW Master\Audio\Wwise-Projekt\Wwise-Projekt\Wwise Project\Wwise Project_WwiseProject\.cache\Mac\SFX\audience-applause-with-cheering-100682_8E324C96.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dachgeschoss\audience-applause-with-cheering-100682		115992
 

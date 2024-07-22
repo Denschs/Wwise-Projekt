@@ -18,6 +18,7 @@
 						<ObjectRef Name="DoorClosed" ID="{AF787FAC-5181-43B3-A1DA-DECA93E7BA34}" WorkUnitID="{7620E787-99B9-4B14-91C5-0A7A3A7DDE55}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stock2BG" ID="{36627FF4-E025-43BE-B1DE-D5344A3D2E3D}" WorkUnitID="{7620E787-99B9-4B14-91C5-0A7A3A7DDE55}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="MainMenuBG" ID="{15DBF421-40D9-446A-B21D-F766EFA07A2D}" WorkUnitID="{7620E787-99B9-4B14-91C5-0A7A3A7DDE55}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stock3BGMusik" ID="{BD74F25A-D960-44F7-B2AA-09DEF0503DA3}" WorkUnitID="{7620E787-99B9-4B14-91C5-0A7A3A7DDE55}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="StartGameButton" ID="{1E228CBB-B409-4536-B1A5-42201D48CDC2}" WorkUnitID="{7620E787-99B9-4B14-91C5-0A7A3A7DDE55}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="ButtonClick" ID="{2D62D00D-D368-4553-BAFA-C4F028D0C0CE}" WorkUnitID="{7620E787-99B9-4B14-91C5-0A7A3A7DDE55}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Key_Pickup" ID="{E94E9593-82A8-4596-99DA-F975142243EC}" WorkUnitID="{7620E787-99B9-4B14-91C5-0A7A3A7DDE55}" Origin="Manual" Filter="7"/>

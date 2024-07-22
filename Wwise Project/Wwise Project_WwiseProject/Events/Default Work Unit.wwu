@@ -358,6 +358,13 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
+								<Action Name="" ID="{F3DC1584-3587-43C6-9044-DDE933D8A947}" ShortID="370308118">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Herzklopfen" ID="{853AB560-57D5-4AE7-A225-C89C46F2F684}" WorkUnitID="{EA74F34D-53B6-4955-9B7D-0CA418FBBF05}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 							</ChildrenList>
 						</Event>
 						<Event Name="Stock3BGStop" ID="{0AEF1DE6-4613-42AC-A381-9AF95057D8E2}">
@@ -414,6 +421,13 @@
 						</Event>
 						<Event Name="PartyTime" ID="{4695C64E-9E27-41F0-9C4B-1250BD8A43FF}">
 							<ChildrenList>
+								<Action Name="" ID="{DE8F035A-6675-42D1-B063-2D9E6DD70798}" ShortID="179494523">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="3"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList/>
+								</Action>
 								<Action Name="" ID="{25C85D53-F68B-46EE-AECD-A291C77E0BFD}" ShortID="565297527">
 									<ReferenceList>
 										<Reference Name="Target">
@@ -427,13 +441,6 @@
 											<ObjectRef Name="party-horn-68443" ID="{3BB01035-4BC2-40FF-8552-26BBE07B6BE8}" WorkUnitID="{9111B664-7432-4BD0-9C23-8AA8E921762E}"/>
 										</Reference>
 									</ReferenceList>
-								</Action>
-								<Action Name="" ID="{DE8F035A-6675-42D1-B063-2D9E6DD70798}" ShortID="179494523">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="3"/>
-										<Property Name="Scope" Type="int16" Value="1"/>
-									</PropertyList>
-									<ReferenceList/>
 								</Action>
 							</ChildrenList>
 						</Event>

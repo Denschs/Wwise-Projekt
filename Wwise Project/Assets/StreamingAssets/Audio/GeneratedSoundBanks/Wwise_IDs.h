@@ -33,6 +33,7 @@ namespace AK
         static const AkUniqueID STOCK2BG = 3506212420U;
         static const AkUniqueID STOCK2BGSTOP = 1565151532U;
         static const AkUniqueID STOCK3BG = 2935626337U;
+        static const AkUniqueID STOCK3BGMUSIK = 2917435538U;
         static const AkUniqueID STOCK3BGSTOP = 1147059385U;
         static const AkUniqueID STOCK4BG = 3104535170U;
         static const AkUniqueID STOP = 788884573U;
