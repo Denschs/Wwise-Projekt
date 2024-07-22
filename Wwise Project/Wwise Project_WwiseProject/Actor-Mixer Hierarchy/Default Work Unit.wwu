@@ -170,6 +170,11 @@
 						<Sound Name="SR_Strange_room" ID="{2874F3C9-C852-4F00-A051-7EDC727CDD34}" ShortID="4805203">
 							<PropertyList>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-15</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -206,6 +211,11 @@
 								<Property Name="EnableDiffraction" Type="bool" Value="True"/>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="10"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-1</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
@@ -1811,225 +1821,6 @@
 						</GroupingList>
 					</GroupingInfo>
 				</SwitchContainer>
-				<Folder Name="Old Stuff" ID="{C1163591-0D2B-4FE2-BF11-9075467E480F}" ShortID="281956679">
-					<ChildrenList>
-						<Sound Name="KD_Layer_001" ID="{B01D468C-F930-4D2E-A56B-3A4DC5B640A1}" ShortID="165244831">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2CB5A79F-1F38-419D-A2E6-030C9A5A94AD}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{978F782A-9C17-4A77-A0F5-307E9C6660FE}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="KD_Layer_001" ID="{7EE54E2D-DBE9-433B-A0FC-1C1377A70239}">
-									<Language>SFX</Language>
-									<AudioFile>KD_Layer_001.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="1022690065"/>
-									</MediaIDList>
-								</AudioFileSource>
-								<AudioFileSource Name="SatanLaugh1" ID="{A555565B-232B-4E95-836F-0F6804EAA958}">
-									<Language>SFX</Language>
-									<AudioFile>SatanLaugh1.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="635706884"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="SatanLaugh1" ID="{A555565B-232B-4E95-836F-0F6804EAA958}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="SatanLaugh1" ID="{DFF8465C-215A-4FE7-8714-561C42F0D14F}" ShortID="28637356">
-							<PropertyList>
-								<Property Name="3DSpatialization" Type="int16" Value="2"/>
-								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Attenuation">
-									<Custom CreatedFrom="{797C140C-239A-41BE-88D9-18AF12F9BD97}">
-										<Attenuation Name="Attenuation_Dennis (Custom)" ID="{4B3D0E5F-77CB-494A-8074-AF6335BA945C}" ShortID="160733373">
-											<PropertyList>
-												<Property Name="RadiusMax" Type="Real64" Value="50"/>
-											</PropertyList>
-											<CurveUsageInfoList>
-												<VolumeDryUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-														<Curve Name="VolumeDry" ID="{5F4E6D71-32B4-479D-85A5-2CA8623F90F0}">
-															<PropertyList>
-																<Property Name="Flags" Type="int32" Value="3"/>
-															</PropertyList>
-															<PointList>
-																<Point>
-																	<XPos>0</XPos>
-																	<YPos>0</YPos>
-																	<Flags>5</Flags>
-																</Point>
-																<Point>
-																	<XPos>24.418</XPos>
-																	<YPos>-4.43673</YPos>
-																	<Flags>0</Flags>
-																</Point>
-																<Point>
-																	<XPos>50</XPos>
-																	<YPos>-200</YPos>
-																	<Flags>37</Flags>
-																</Point>
-															</PointList>
-														</Curve>
-													</CurveUsageInfo>
-												</VolumeDryUsage>
-												<VolumeWetGameUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
-												</VolumeWetGameUsage>
-												<VolumeWetUserUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
-												</VolumeWetUserUsage>
-												<LowPassFilterUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-														<Curve Name="LowPassFilter" ID="{0ED7E1DC-18A9-4032-B306-70A649CCF12D}">
-															<PropertyList>
-																<Property Name="Flags" Type="int32" Value="65537"/>
-															</PropertyList>
-															<PointList>
-																<Point>
-																	<XPos>0</XPos>
-																	<YPos>0</YPos>
-																	<Flags>5</Flags>
-																</Point>
-																<Point>
-																	<XPos>24.85847</XPos>
-																	<YPos>59</YPos>
-																	<Flags>0</Flags>
-																</Point>
-																<Point>
-																	<XPos>50</XPos>
-																	<YPos>100</YPos>
-																	<Flags>37</Flags>
-																</Point>
-															</PointList>
-														</Curve>
-													</CurveUsageInfo>
-												</LowPassFilterUsage>
-												<HighPassFilterUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
-												</HighPassFilterUsage>
-												<SpreadUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
-												</SpreadUsage>
-												<FocusUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
-												</FocusUsage>
-												<ObstructionVolumeUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
-												</ObstructionVolumeUsage>
-												<ObstructionLPFUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
-												</ObstructionLPFUsage>
-												<ObstructionHPFUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
-												</ObstructionHPFUsage>
-												<OcclusionVolumeUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
-												</OcclusionVolumeUsage>
-												<OcclusionLPFUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
-												</OcclusionLPFUsage>
-												<OcclusionHPFUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
-												</OcclusionHPFUsage>
-												<DiffractionVolumeUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
-												</DiffractionVolumeUsage>
-												<DiffractionLPFUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
-												</DiffractionLPFUsage>
-												<DiffractionHPFUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
-												</DiffractionHPFUsage>
-												<TransmissionVolumeUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
-												</TransmissionVolumeUsage>
-												<TransmissionLPFUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
-												</TransmissionLPFUsage>
-												<TransmissionHPFUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
-												</TransmissionHPFUsage>
-											</CurveUsageInfoList>
-										</Attenuation>
-									</Custom>
-								</Reference>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2CB5A79F-1F38-419D-A2E6-030C9A5A94AD}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{978F782A-9C17-4A77-A0F5-307E9C6660FE}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="SatanLaugh1" ID="{A6699D53-9913-4BDA-B323-96E595C60B6C}">
-									<Language>SFX</Language>
-									<AudioFile>SatanLaugh1.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="88619858"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ObjectLists>
-								<ObjectList Name="Effects">
-									<Reference>
-										<Local>
-											<EffectSlot Name="" ID="{F6D9E820-9E2D-44F5-8251-1295593C28FB}" ShortID="730761760">
-												<ReferenceList>
-													<Reference Name="Effect">
-														<Custom CreatedFrom="{172402A8-22F4-40FC-BE1D-5269594CB633}">
-															<Effect Name="Big_Garage1 (Custom)" ID="{2B85A8A0-6E70-4BDF-A4AA-47F853A1389A}" ShortID="830352891" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
-																<PropertyList>
-																	<Property Name="HFRatio" Type="Real32" Value="3"/>
-																	<Property Name="NumberOfDelays" Type="int32" Value="12"/>
-																	<Property Name="ReverbTime" Type="Real32" Value="2"/>
-																	<Property Name="WetLevel" Type="Real32" Value="-30"/>
-																</PropertyList>
-															</Effect>
-														</Custom>
-													</Reference>
-												</ReferenceList>
-											</EffectSlot>
-										</Local>
-									</Reference>
-								</ObjectList>
-							</ObjectLists>
-							<ActiveSourceList>
-								<ActiveSource Name="SatanLaugh1" ID="{A6699D53-9913-4BDA-B323-96E595C60B6C}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-					</ChildrenList>
-				</Folder>
-				<Sound Name="VEHBike_InsJ_Bike_Bell-Ding-01_Close_Single_01-01" ID="{0E0C5009-F30A-4E6F-9DB7-6C242B89071F}" ShortID="1013101001">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2CB5A79F-1F38-419D-A2E6-030C9A5A94AD}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{978F782A-9C17-4A77-A0F5-307E9C6660FE}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="VEHBike_InsJ_Bike_Bell-Ding-01_Close_Single_01-01" ID="{4B80D39B-ED37-49AE-9149-60B1AF5BC4C8}">
-							<Language>SFX</Language>
-							<AudioFile>Musikdiewirnutzenwollen\VEHBike_InsJ_Bike_Bell-Ding-01_Close_Single_01-01.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="654199198"/>
-							</MediaIDList>
-						</AudioFileSource>
-					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="VEHBike_InsJ_Bike_Bell-Ding-01_Close_Single_01-01" ID="{4B80D39B-ED37-49AE-9149-60B1AF5BC4C8}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

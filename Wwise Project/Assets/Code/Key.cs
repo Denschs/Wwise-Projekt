@@ -7,6 +7,9 @@ public class Key : MonoBehaviour
 	public Transform Player;
 	public bool isCollected = false;
 
+	[SerializeField]
+	private AK.Wwise.Event keyPickupEvent;
+
 	void OnMouseOver()
 	{
 		if (Player)
@@ -17,8 +20,9 @@ public class Key : MonoBehaviour
 				if (Input.GetMouseButtonDown(0))
 				{
 					isCollected = true;
+					AkSoundEngine.PostEvent(keyPickupEvent.Id, this.gameObject);
 					gameObject.SetActive(false); // Deaktiviert den Schlüssel nach dem Einsammeln
-					
+
 				}
 			}
 		}

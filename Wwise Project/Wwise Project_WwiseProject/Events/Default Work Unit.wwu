@@ -183,6 +183,11 @@
 								<Action Name="" ID="{D8EDF00D-347C-45A5-9147-7D8315324C05}" ShortID="840804125">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="41"/>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
@@ -194,6 +199,17 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="BG Lobby" ID="{22DDE312-2F42-4E33-92DA-AA2D9D9BF8CA}" WorkUnitID="{EA74F34D-53B6-4955-9B7D-0CA418FBBF05}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{912E17FF-4272-4CBC-947E-7CB6048A1BF7}" ShortID="410763360">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SR_Strange_room" ID="{2874F3C9-C852-4F00-A051-7EDC727CDD34}" WorkUnitID="{9111B664-7432-4BD0-9C23-8AA8E921762E}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -524,7 +540,20 @@
 					<ChildrenList>
 						<Event Name="BGLobby" ID="{3144040F-969B-4F58-B3F7-120B40038F5C}"/>
 						<Event Name="BGMesser" ID="{8B98C36E-C141-43B8-AF2B-EA3BAB201790}"/>
-						<Event Name="BGNormal" ID="{3B8F06BC-5531-4766-AB61-8BE46AAAC47B}"/>
+						<Event Name="BGHerzklopfen" ID="{3B8F06BC-5531-4766-AB61-8BE46AAAC47B}">
+							<ChildrenList>
+								<Action Name="" ID="{F3C258E2-6F7C-4412-9996-90C2CEB3A76B}" ShortID="509145034">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="4"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="beat3" ID="{6A8DE0ED-268A-4B47-A0B5-F7BF24207203}" WorkUnitID="{EA74F34D-53B6-4955-9B7D-0CA418FBBF05}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>
