@@ -7,6 +7,8 @@ State	ID	Name	State Group			Notes
 	2044049779	Dead	Alive			
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
+	393239870	SFX			\Default Work Unit\Master Audio Bus\SFX	
+	1870080928	BG			\Default Work Unit\Master Audio Bus\BG	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 
 Audio Devices	ID	Name	Type				Notes

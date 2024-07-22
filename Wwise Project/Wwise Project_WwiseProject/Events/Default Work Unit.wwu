@@ -358,16 +358,6 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
-								<Action Name="" ID="{56766B88-7AFC-4FC4-842A-DE8CD325C16D}" ShortID="112037806">
-									<PropertyList>
-										<Property Name="FadeTime" Type="Real64" Value="5"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="BG Messer" ID="{3943F6C2-D56E-4826-88E0-E99495CF2EEA}" WorkUnitID="{EA74F34D-53B6-4955-9B7D-0CA418FBBF05}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
 							</ChildrenList>
 						</Event>
 						<Event Name="Stock3BGStop" ID="{0AEF1DE6-4613-42AC-A381-9AF95057D8E2}">
@@ -380,6 +370,17 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Messerschleifen" ID="{296EF472-08DB-4CC7-B162-C7681C345749}" WorkUnitID="{9111B664-7432-4BD0-9C23-8AA8E921762E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stock3BGMusik" ID="{BD74F25A-D960-44F7-B2AA-09DEF0503DA3}">
+							<ChildrenList>
+								<Action Name="" ID="{14C625E2-134C-4FFE-9139-3257EDDBCAD8}" ShortID="501428135">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="BG Messer" ID="{3943F6C2-D56E-4826-88E0-E99495CF2EEA}" WorkUnitID="{EA74F34D-53B6-4955-9B7D-0CA418FBBF05}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
