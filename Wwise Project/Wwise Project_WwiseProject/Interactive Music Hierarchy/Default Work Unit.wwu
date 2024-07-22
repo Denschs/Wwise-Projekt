@@ -101,7 +101,7 @@
 									<PropertyList>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-15</Value>
+												<Value>-8</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -1980,7 +1980,7 @@
 						</MusicSegment>
 						<MusicSegment Name="Herzklopfen" ID="{853AB560-57D5-4AE7-A225-C89C46F2F684}" ShortID="429345483">
 							<PropertyList>
-								<Property Name="EndPosition" Type="Real64" Value="8995.25535235739"/>
+								<Property Name="EndPosition" Type="Real64" Value="15000"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -2030,7 +2030,7 @@
 																	<Local>
 																		<MusicClip Name="beat3" ID="{6AF54CA4-B11E-4F96-9E21-B8105066B8C0}">
 																			<PropertyList>
-																				<Property Name="EndTrimOffset" Type="Real64" Value="8995.25535235739"/>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="14384.5804988662"/>
 																				<Property Name="FadeInMode" Type="int16" Value="0"/>
 																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																			</PropertyList>
@@ -2048,7 +2048,7 @@
 																								<Flags>5</Flags>
 																							</Point>
 																							<Point>
-																								<XPos>8.99526</XPos>
+																								<XPos>14.38458</XPos>
 																								<YPos>0</YPos>
 																								<Flags>37</Flags>
 																							</Point>
@@ -2067,7 +2067,7 @@
 																								<Flags>5</Flags>
 																							</Point>
 																							<Point>
-																								<XPos>8.99526</XPos>
+																								<XPos>14.38458</XPos>
 																								<YPos>0</YPos>
 																								<Flags>37</Flags>
 																							</Point>
@@ -2086,7 +2086,7 @@
 																								<Flags>5</Flags>
 																							</Point>
 																							<Point>
-																								<XPos>8.99526</XPos>
+																								<XPos>14.38458</XPos>
 																								<YPos>0</YPos>
 																								<Flags>37</Flags>
 																							</Point>
