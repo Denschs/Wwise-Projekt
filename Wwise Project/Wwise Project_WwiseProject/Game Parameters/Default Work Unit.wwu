@@ -3,7 +3,21 @@
 	<GameParameters>
 		<WorkUnit Name="Default Work Unit" ID="{9327A9D2-A546-4516-87FE-6D9C3ECFEF70}" PersistMode="Standalone">
 			<ChildrenList>
-				<GameParameter Name="Speed" ID="{5C49C1C5-AF60-4804-9ADC-F42218DCBF86}"/>
+				<GameParameter Name="MasterVolume" ID="{7C35E0B1-1553-4527-939B-7F4B15C92FF2}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="75"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="BGVolume" ID="{6531D809-736B-4BB6-AA0D-1BFF00CF9ACB}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="75"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="SFXVolume" ID="{AB41B94F-38FC-4CC4-A7E5-EA5867DA90BD}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="75"/>
+					</PropertyList>
+				</GameParameter>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>

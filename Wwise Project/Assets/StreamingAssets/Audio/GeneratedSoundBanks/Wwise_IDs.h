@@ -83,7 +83,9 @@ namespace AK
 
     namespace GAME_PARAMETERS
     {
-        static const AkUniqueID SPEED = 640949982U;
+        static const AkUniqueID BGVOLUME = 746939334U;
+        static const AkUniqueID MASTERVOLUME = 2918011349U;
+        static const AkUniqueID SFXVOLUME = 988953028U;
     } // namespace GAME_PARAMETERS
 
     namespace TRIGGERS

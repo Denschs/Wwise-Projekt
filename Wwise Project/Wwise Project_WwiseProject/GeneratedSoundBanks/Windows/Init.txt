@@ -6,6 +6,11 @@ State	ID	Name	State Group			Notes
 	748895195	None	Alive			
 	2044049779	Dead	Alive			
 
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	746939334	BGVolume			\Default Work Unit\BGVolume	
+	988953028	SFXVolume			\Default Work Unit\SFXVolume	
+	2918011349	MasterVolume			\Default Work Unit\MasterVolume	
+
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	393239870	SFX			\Default Work Unit\Master Audio Bus\SFX	
 	1870080928	BG			\Default Work Unit\Master Audio Bus\BG	

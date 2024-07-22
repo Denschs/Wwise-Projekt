@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{83EABCA1-AC6C-ED95-B11C-903F780D2ABB}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{B50AF55F-964D-532F-3BBB-8180E6B2066E}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -24,7 +24,9 @@
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
 			<GameParameters>
-				<GameParameter Id="640949982" Name="Speed"/>
+				<GameParameter Id="746939334" Name="BGVolume"/>
+				<GameParameter Id="988953028" Name="SFXVolume"/>
+				<GameParameter Id="2918011349" Name="MasterVolume"/>
 			</GameParameters>
 			<StateGroups>
 				<StateGroup Id="655265632" Name="Alive">
@@ -421,5 +423,5 @@
 			</Triggers>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{99195D70-30E3-5700-8E71-0E979DCADA36}</FileHash>
+	<FileHash>{D9E684C2-74D9-74DB-6466-7AF972E5C93E}</FileHash>
 </SoundBanksInfo>
