@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 2a788f97179c774aa0f5307e9c6660fe
     GuidInternal: 
-    m_lastTime: -8584799597760224035
+    m_lastTime: -8584799575763029998
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: bae820f74a0c644399d695337cea4a0e
     GuidInternal: 
-    m_lastTime: -8584801352700622284
+    m_lastTime: -8584801343091549805
     List:
     - name: main
       guid: c4ac3f0f10e00a45a02322646430fd0a
@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 87e72076b999144b91c50a7a3a7dde55
     GuidInternal: 
-    m_lastTime: -8584799601075851877
+    m_lastTime: -8584799575763246621
     List:
     - name: Allgemein
       guid: 5cffa129eb15d3489ac57653f7aec116
@@ -127,6 +127,26 @@ MonoBehaviour:
         ObjectType: 4
         guid: e625cfaac8ff0d4a81625dd44e5a1f1c
       Path: Events\Default Work Unit\BG
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: BGHerzklopfen
+      guid: bc068f3b31556647ab618be46aaac47b
+      id: 162507644
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 87e72076b999144b91c50a7a3a7dde55
+      - ElementName: BG
+        ObjectType: 4
+        guid: e625cfaac8ff0d4a81625dd44e5a1f1c
+      - ElementName: BGHerzklopfen
+        ObjectType: 3
+        guid: bc068f3b31556647ab618be46aaac47b
+      Path: Events\Default Work Unit\BG\BGHerzklopfen
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -167,26 +187,6 @@ MonoBehaviour:
         ObjectType: 3
         guid: 6ec3988b41c1b843af2bea3bab201790
       Path: Events\Default Work Unit\BG\BGMesser
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
-    - name: BGNormal
-      guid: bc068f3b31556647ab618be46aaac47b
-      id: 262363249
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: 87e72076b999144b91c50a7a3a7dde55
-      - ElementName: BG
-        ObjectType: 4
-        guid: e625cfaac8ff0d4a81625dd44e5a1f1c
-      - ElementName: BGNormal
-        ObjectType: 3
-        guid: bc068f3b31556647ab618be46aaac47b
-      Path: Events\Default Work Unit\BG\BGNormal
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -866,7 +866,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: 5bbdfff7b60a394185e9510c8c8e4f80
     GuidInternal: 
-    m_lastTime: -8584808957193498165
+    m_lastTime: -8584805688082186497
     List:
     - name: Footsteps
       guid: bb1fac0efe6ce84ab0efee10435ed085
