@@ -12,14 +12,1060 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff15a993bd1c8fa4db097c02b17e6187, type: 3}
   m_Name: AkWwiseProjectData
   m_EditorClassIdentifier: 
-  AcousticTextureWwu: []
-  AuxBusWwu: []
-  BankWwu: []
-  EventWwu: []
-  RtpcWwu: []
-  StateWwu: []
-  SwitchWwu: []
-  TriggerWwu: []
+  AcousticTextureWwu:
+  - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Virtual Acoustics
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 21c1d6fcebb964448f43b6c97cd16a38
+    ParentPath: Virtual Acoustics\Default Work Unit
+    guid: 21c1d6fcebb964448f43b6c97cd16a38
+    GuidInternal: 
+    m_lastTime: -8584830691764850629
+    List: []
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Master-Mixer Hierarchy
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 2a788f97179c774aa0f5307e9c6660fe
+    ParentPath: Master-Mixer Hierarchy\Default Work Unit
+    guid: 2a788f97179c774aa0f5307e9c6660fe
+    GuidInternal: 
+    m_lastTime: -8584799521916676018
+    List:
+    - name: BG
+      guid: 6b7537a81cabbf4296487756b7fb091b
+      id: 1870080928
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2a788f97179c774aa0f5307e9c6660fe
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: BG
+        ObjectType: 2
+        guid: 6b7537a81cabbf4296487756b7fb091b
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\BG
+    - name: Master Audio Bus
+      guid: d8a41415a61d2a41a17e75ca0c2149f3
+      id: 3803692087
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2a788f97179c774aa0f5307e9c6660fe
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus
+    - name: SFX
+      guid: 2812aa45759a234387e0e55671595156
+      id: 393239870
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2a788f97179c774aa0f5307e9c6660fe
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: SFX
+        ObjectType: 2
+        guid: 2812aa45759a234387e0e55671595156
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX
+  BankWwu:
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: SoundBanks
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: bae820f74a0c644399d695337cea4a0e
+    ParentPath: SoundBanks\Default Work Unit
+    guid: bae820f74a0c644399d695337cea4a0e
+    GuidInternal: 
+    m_lastTime: -8584799518829965306
+    List:
+    - name: main
+      guid: c4ac3f0f10e00a45a02322646430fd0a
+      id: 3161908922
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: bae820f74a0c644399d695337cea4a0e
+      - ElementName: main
+        ObjectType: 7
+        guid: c4ac3f0f10e00a45a02322646430fd0a
+      Path: SoundBanks\Default Work Unit\main
+  EventWwu:
+  - PhysicalPath: Events\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 87e72076b999144b91c50a7a3a7dde55
+    ParentPath: Events\Default Work Unit
+    guid: 87e72076b999144b91c50a7a3a7dde55
+    GuidInternal: 
+    m_lastTime: -8584799518829875226
+    List:
+    - name: Allgemein
+      guid: 5cffa129eb15d3489ac57653f7aec116
+      id: 36754449
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 87e72076b999144b91c50a7a3a7dde55
+      - ElementName: Allgemein
+        ObjectType: 4
+        guid: 5cffa129eb15d3489ac57653f7aec116
+      Path: Events\Default Work Unit\Allgemein
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: BG
+      guid: e625cfaac8ff0d4a81625dd44e5a1f1c
+      id: 1870080928
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 87e72076b999144b91c50a7a3a7dde55
+      - ElementName: BG
+        ObjectType: 4
+        guid: e625cfaac8ff0d4a81625dd44e5a1f1c
+      Path: Events\Default Work Unit\BG
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: BGHerzklopfen
+      guid: bc068f3b31556647ab618be46aaac47b
+      id: 162507644
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 87e72076b999144b91c50a7a3a7dde55
+      - ElementName: BG
+        ObjectType: 4
+        guid: e625cfaac8ff0d4a81625dd44e5a1f1c
+      - ElementName: BGHerzklopfen
+        ObjectType: 3
+        guid: bc068f3b31556647ab618be46aaac47b
+      Path: Events\Default Work Unit\BG\BGHerzklopfen
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: BGLobby
+      guid: 0f0444319b96584fb3f7120b40038f5c
+      id: 1799097544
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 87e72076b999144b91c50a7a3a7dde55
+      - ElementName: BG
+        ObjectType: 4
+        guid: e625cfaac8ff0d4a81625dd44e5a1f1c
+      - ElementName: BGLobby
+        ObjectType: 3
+        guid: 0f0444319b96584fb3f7120b40038f5c
+      Path: Events\Default Work Unit\BG\BGLobby
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: BGMesser
+      guid: 6ec3988b41c1b843af2bea3bab201790
+      id: 3647454241
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 87e72076b999144b91c50a7a3a7dde55
+      - ElementName: BG
+        ObjectType: 4
+        guid: e625cfaac8ff0d4a81625dd44e5a1f1c
+      - ElementName: BGMesser
+        ObjectType: 3
+        guid: 6ec3988b41c1b843af2bea3bab201790
+      Path: Events\Default Work Unit\BG\BGMesser
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: ButtonClick
+      guid: 0dd0622d68d35345bafac4f028d0c0ce
+      id: 4051332235
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 87e72076b999144b91c50a7a3a7dde55
+      - ElementName: MainMenu
+        ObjectType: 4
+        guid: d20eb6be8ac3c64db54816de69581ba3
+      - ElementName: ButtonClick
+        ObjectType: 3
+        guid: 0dd0622d68d35345bafac4f028d0c0ce
+      Path: Events\Default Work Unit\MainMenu\ButtonClick
+      maxAttenuation: 0
+      maxDuration: 0.03818594
+      minDuration: 0.03818594
+    - name: ClockKeyPickup
+      guid: a0895facbaae2f4191ce539947ba9e44
+      id: 2565034306
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 87e72076b999144b91c50a7a3a7dde55
+      - ElementName: Stock2
+        ObjectType: 4
+        guid: 2477495ac836cb43bc9abe0fabb23f49
+      - ElementName: ClockKeyPickup
+        ObjectType: 3
+        guid: a0895facbaae2f4191ce539947ba9e44
+      Path: Events\Default Work Unit\Stock2\ClockKeyPickup
+      maxAttenuation: 0
+      maxDuration: 8.9952545
+      minDuration: 8.9952545
+    - name: DoorClosed
+      guid: ac7f78af8151b343a1dadeca93e7ba34
+      id: 1697683977
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 87e72076b999144b91c50a7a3a7dde55
+      - ElementName: Allgemein
+        ObjectType: 4
+        guid: 5cffa129eb15d3489ac57653f7aec116
+      - ElementName: DoorClosed
+        ObjectType: 3
+        guid: ac7f78af8151b343a1dadeca93e7ba34
+      Path: Events\Default Work Unit\Allgemein\DoorClosed
+      maxAttenuation: 0
+      maxDuration: 1.6539896
+      minDuration: 1.6539896
+    - name: DoorOpen
+      guid: 3f4d9103e0aec84a8233bf1abf79d88f
+      id: 1404805401
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 87e72076b999144b91c50a7a3a7dde55
+      - ElementName: Allgemein
+        ObjectType: 4
+        guid: 5cffa129eb15d3489ac57653f7aec116
+      - ElementName: DoorOpen
+        ObjectType: 3
+        guid: 3f4d9103e0aec84a8233bf1abf79d88f
+      Path: Events\Default Work Unit\Allgemein\DoorOpen
+      maxAttenuation: 0
+      maxDuration: 1.5640926
+      minDuration: 1.5121057
+    - name: FinalDoor
+      guid: ae1de0f67acd5840b9c2a0e4079cd970
+      id: 4137697555
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 87e72076b999144b91c50a7a3a7dde55
+      - ElementName: Stock4
+        ObjectType: 4
+        guid: d2bcc506d79db046b3f36544c4015e69
+      - ElementName: FinalDoor
+        ObjectType: 3
+        guid: ae1de0f67acd5840b9c2a0e4079cd970
+      Path: Events\Default Work Unit\Stock4\FinalDoor
+      maxAttenuation: 0
+      maxDuration: 7.3372793
+      minDuration: 7.3372793
+    - name: Flashbang
+      guid: b70fabd4f103424385de8e1131df8645
+      id: 544300867
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 87e72076b999144b91c50a7a3a7dde55
+      - ElementName: Stock4
+        ObjectType: 4
+        guid: d2bcc506d79db046b3f36544c4015e69
+      - ElementName: Flashbang
+        ObjectType: 3
+        guid: b70fabd4f103424385de8e1131df8645
+      Path: Events\Default Work Unit\Stock4\Flashbang
+      maxAttenuation: 0
+      maxDuration: 4.043199
+      minDuration: 4.043199
+    - name: Footsteps
+      guid: 4c89fa39d5cd44429de86c94c9b8ae50
+      id: 2385628198
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 87e72076b999144b91c50a7a3a7dde55
+      - ElementName: Allgemein
+        ObjectType: 4
+        guid: 5cffa129eb15d3489ac57653f7aec116
+      - ElementName: Footsteps
+        ObjectType: 3
+        guid: 4c89fa39d5cd44429de86c94c9b8ae50
+      Path: Events\Default Work Unit\Allgemein\Footsteps
+      maxAttenuation: 0
+      maxDuration: 0.5927917
+      minDuration: 0.26696876
+    - name: Key_Pickup
+      guid: 93954ee9a882964599daf975142243ec
+      id: 761761105
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 87e72076b999144b91c50a7a3a7dde55
+      - ElementName: Allgemein
+        ObjectType: 4
+        guid: 5cffa129eb15d3489ac57653f7aec116
+      - ElementName: Key_Pickup
+        ObjectType: 3
+        guid: 93954ee9a882964599daf975142243ec
+      Path: Events\Default Work Unit\Allgemein\Key_Pickup
+      maxAttenuation: 0
+      maxDuration: 0.58889586
+      minDuration: 0.58889586
+    - name: Lobby
+      guid: c7530921f98a704fa663085c46a1d001
+      id: 290285391
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 87e72076b999144b91c50a7a3a7dde55
+      - ElementName: Lobby
+        ObjectType: 4
+        guid: c7530921f98a704fa663085c46a1d001
+      Path: Events\Default Work Unit\Lobby
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: LobbyBG
+      guid: 24741e099c20ea42988f5713c68d0d01
+      id: 1721292362
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 87e72076b999144b91c50a7a3a7dde55
+      - ElementName: Lobby
+        ObjectType: 4
+        guid: c7530921f98a704fa663085c46a1d001
+      - ElementName: LobbyBG
+        ObjectType: 3
+        guid: 24741e099c20ea42988f5713c68d0d01
+      Path: Events\Default Work Unit\Lobby\LobbyBG
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: LobbyBGStop
+      guid: 70158571f8e59b4c8fa288f78e95f525
+      id: 2175140498
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 87e72076b999144b91c50a7a3a7dde55
+      - ElementName: Lobby
+        ObjectType: 4
+        guid: c7530921f98a704fa663085c46a1d001
+      - ElementName: LobbyBGStop
+        ObjectType: 3
+        guid: 70158571f8e59b4c8fa288f78e95f525
+      Path: Events\Default Work Unit\Lobby\LobbyBGStop
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: MainBGStop
+      guid: 2e5a37f57fc9cd41bcb249c3ced55983
+      id: 2241370003
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 87e72076b999144b91c50a7a3a7dde55
+      - ElementName: MainMenu
+        ObjectType: 4
+        guid: d20eb6be8ac3c64db54816de69581ba3
+      - ElementName: MainBGStop
+        ObjectType: 3
+        guid: 2e5a37f57fc9cd41bcb249c3ced55983
+      Path: Events\Default Work Unit\MainMenu\MainBGStop
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: MainMenu
+      guid: d20eb6be8ac3c64db54816de69581ba3
+      id: 3604647259
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 87e72076b999144b91c50a7a3a7dde55
+      - ElementName: MainMenu
+        ObjectType: 4
+        guid: d20eb6be8ac3c64db54816de69581ba3
+      Path: Events\Default Work Unit\MainMenu
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: MainMenuBG
+      guid: 21f4db15d9406a44b21df766efa07a2d
+      id: 3317115262
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 87e72076b999144b91c50a7a3a7dde55
+      - ElementName: MainMenu
+        ObjectType: 4
+        guid: d20eb6be8ac3c64db54816de69581ba3
+      - ElementName: MainMenuBG
+        ObjectType: 3
+        guid: 21f4db15d9406a44b21df766efa07a2d
+      Path: Events\Default Work Unit\MainMenu\MainMenuBG
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: PartyTime
+      guid: 4ec69546279ef0419c4b1250bd8a43ff
+      id: 1553366040
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 87e72076b999144b91c50a7a3a7dde55
+      - ElementName: Stock4
+        ObjectType: 4
+        guid: d2bcc506d79db046b3f36544c4015e69
+      - ElementName: PartyTime
+        ObjectType: 3
+        guid: 4ec69546279ef0419c4b1250bd8a43ff
+      Path: Events\Default Work Unit\Stock4\PartyTime
+      maxAttenuation: 0
+      maxDuration: 23.304
+      minDuration: 23.304
+    - name: ResumeBG
+      guid: 86a30626a8a4d84282aa2d397179725e
+      id: 1862445301
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 87e72076b999144b91c50a7a3a7dde55
+      - ElementName: ResumeBG
+        ObjectType: 3
+        guid: 86a30626a8a4d84282aa2d397179725e
+      Path: Events\Default Work Unit\ResumeBG
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: StartGameButton
+      guid: bb8c221e09b43645b1a542201d48cdc2
+      id: 2720010237
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 87e72076b999144b91c50a7a3a7dde55
+      - ElementName: MainMenu
+        ObjectType: 4
+        guid: d20eb6be8ac3c64db54816de69581ba3
+      - ElementName: StartGameButton
+        ObjectType: 3
+        guid: bb8c221e09b43645b1a542201d48cdc2
+      Path: Events\Default Work Unit\MainMenu\StartGameButton
+      maxAttenuation: 0
+      maxDuration: 5.53878
+      minDuration: 5.53878
+    - name: Stock1
+      guid: 58d90b4021a6274483f861dacdf749b7
+      id: 577918786
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 87e72076b999144b91c50a7a3a7dde55
+      - ElementName: Stock1
+        ObjectType: 4
+        guid: 58d90b4021a6274483f861dacdf749b7
+      Path: Events\Default Work Unit\Stock1
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Stock1BG
+      guid: 8032e5477ef5a34ca2e1bcbd8eca9b4e
+      id: 3070141355
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 87e72076b999144b91c50a7a3a7dde55
+      - ElementName: Stock1
+        ObjectType: 4
+        guid: 58d90b4021a6274483f861dacdf749b7
+      - ElementName: Stock1BG
+        ObjectType: 3
+        guid: 8032e5477ef5a34ca2e1bcbd8eca9b4e
+      Path: Events\Default Work Unit\Stock1\Stock1BG
+      maxAttenuation: 0
+      maxDuration: 98.666664
+      minDuration: 98.666664
+    - name: Stock1BGStop
+      guid: 5effa67aa0c63d49b4911367c57c6d3c
+      id: 4195713867
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 87e72076b999144b91c50a7a3a7dde55
+      - ElementName: Stock1
+        ObjectType: 4
+        guid: 58d90b4021a6274483f861dacdf749b7
+      - ElementName: Stock1BGStop
+        ObjectType: 3
+        guid: 5effa67aa0c63d49b4911367c57c6d3c
+      Path: Events\Default Work Unit\Stock1\Stock1BGStop
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Stock2
+      guid: 2477495ac836cb43bc9abe0fabb23f49
+      id: 577918785
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 87e72076b999144b91c50a7a3a7dde55
+      - ElementName: Stock2
+        ObjectType: 4
+        guid: 2477495ac836cb43bc9abe0fabb23f49
+      Path: Events\Default Work Unit\Stock2
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Stock2BG
+      guid: f47f623625e0be43b1ded5344a3d2e3d
+      id: 3506212420
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 87e72076b999144b91c50a7a3a7dde55
+      - ElementName: Stock2
+        ObjectType: 4
+        guid: 2477495ac836cb43bc9abe0fabb23f49
+      - ElementName: Stock2BG
+        ObjectType: 3
+        guid: f47f623625e0be43b1ded5344a3d2e3d
+      Path: Events\Default Work Unit\Stock2\Stock2BG
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Stock2BGStop
+      guid: 18a64f3777678f4ab17736a29d4c72c4
+      id: 1565151532
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 87e72076b999144b91c50a7a3a7dde55
+      - ElementName: Stock2
+        ObjectType: 4
+        guid: 2477495ac836cb43bc9abe0fabb23f49
+      - ElementName: Stock2BGStop
+        ObjectType: 3
+        guid: 18a64f3777678f4ab17736a29d4c72c4
+      Path: Events\Default Work Unit\Stock2\Stock2BGStop
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Stock3
+      guid: 682cae1c8496c643b78a9179cc5d12c8
+      id: 577918784
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 87e72076b999144b91c50a7a3a7dde55
+      - ElementName: Stock3
+        ObjectType: 4
+        guid: 682cae1c8496c643b78a9179cc5d12c8
+      Path: Events\Default Work Unit\Stock3
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Stock3BG
+      guid: 4f3151f07ed21a47abd97ce8114c5799
+      id: 2935626337
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 87e72076b999144b91c50a7a3a7dde55
+      - ElementName: Stock3
+        ObjectType: 4
+        guid: 682cae1c8496c643b78a9179cc5d12c8
+      - ElementName: Stock3BG
+        ObjectType: 3
+        guid: 4f3151f07ed21a47abd97ce8114c5799
+      Path: Events\Default Work Unit\Stock3\Stock3BG
+      maxAttenuation: 10
+      maxDuration: -1
+      minDuration: -1
+    - name: Stock3BGMusik
+      guid: 5af274bd60d9f744b2aa09def0503da3
+      id: 2917435538
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 87e72076b999144b91c50a7a3a7dde55
+      - ElementName: Stock3
+        ObjectType: 4
+        guid: 682cae1c8496c643b78a9179cc5d12c8
+      - ElementName: Stock3BGMusik
+        ObjectType: 3
+        guid: 5af274bd60d9f744b2aa09def0503da3
+      Path: Events\Default Work Unit\Stock3\Stock3BGMusik
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Stock3BGStop
+      guid: e61def0a1346ac42a3819af95057d8e2
+      id: 1147059385
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 87e72076b999144b91c50a7a3a7dde55
+      - ElementName: Stock3
+        ObjectType: 4
+        guid: 682cae1c8496c643b78a9179cc5d12c8
+      - ElementName: Stock3BGStop
+        ObjectType: 3
+        guid: e61def0a1346ac42a3819af95057d8e2
+      Path: Events\Default Work Unit\Stock3\Stock3BGStop
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Stock4
+      guid: d2bcc506d79db046b3f36544c4015e69
+      id: 577918791
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 87e72076b999144b91c50a7a3a7dde55
+      - ElementName: Stock4
+        ObjectType: 4
+        guid: d2bcc506d79db046b3f36544c4015e69
+      Path: Events\Default Work Unit\Stock4
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Stock4BG
+      guid: c3fcd9240a177f41890c5f3fa4ab3b13
+      id: 3104535170
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 87e72076b999144b91c50a7a3a7dde55
+      - ElementName: Stock4
+        ObjectType: 4
+        guid: d2bcc506d79db046b3f36544c4015e69
+      - ElementName: Stock4BG
+        ObjectType: 3
+        guid: c3fcd9240a177f41890c5f3fa4ab3b13
+      Path: Events\Default Work Unit\Stock4\Stock4BG
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Stop
+      guid: cd6f61d5972af94883d2f7fe1d309f91
+      id: 788884573
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 87e72076b999144b91c50a7a3a7dde55
+      - ElementName: Stop
+        ObjectType: 3
+        guid: cd6f61d5972af94883d2f7fe1d309f91
+      Path: Events\Default Work Unit\Stop
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+  RtpcWwu:
+  - PhysicalPath: Game Parameters\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Game Parameters
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: d2a9279346a5164587fe6d9c3ecfef70
+    ParentPath: Game Parameters\Default Work Unit
+    guid: d2a9279346a5164587fe6d9c3ecfef70
+    GuidInternal: 
+    m_lastTime: -8584830691790491501
+    List:
+    - name: Speed
+      guid: c5c1495c60af04489adcf42218dcbf86
+      id: 640949982
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: d2a9279346a5164587fe6d9c3ecfef70
+      - ElementName: Speed
+        ObjectType: 13
+        guid: c5c1495c60af04489adcf42218dcbf86
+      Path: Game Parameters\Default Work Unit\Speed
+  StateWwu:
+  - PhysicalPath: States\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: States
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 3d4b334ca793454cae916c610f9c0a7d
+    ParentPath: States\Default Work Unit
+    guid: 3d4b334ca793454cae916c610f9c0a7d
+    GuidInternal: 
+    m_lastTime: -8584830691764910688
+    List:
+    - name: Alive
+      guid: 93773d1f3953a44fa5f7e64610e295c2
+      id: 655265632
+      PathAndIcons:
+      - ElementName: States
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 3d4b334ca793454cae916c610f9c0a7d
+      - ElementName: Alive
+        ObjectType: 9
+        guid: 93773d1f3953a44fa5f7e64610e295c2
+      Path: States\Default Work Unit\Alive
+      values:
+      - name: Alive
+        guid: c18df82e49c6984eb23cab0e92948b27
+        id: 655265632
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 3d4b334ca793454cae916c610f9c0a7d
+        - ElementName: Alive
+          ObjectType: 9
+          guid: 93773d1f3953a44fa5f7e64610e295c2
+        - ElementName: Alive
+          ObjectType: 8
+          guid: c18df82e49c6984eb23cab0e92948b27
+      - name: Dead
+        guid: df91dcc6efc7ca429bdc95a2c4800add
+        id: 2044049779
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 3d4b334ca793454cae916c610f9c0a7d
+        - ElementName: Alive
+          ObjectType: 9
+          guid: 93773d1f3953a44fa5f7e64610e295c2
+        - ElementName: Dead
+          ObjectType: 8
+          guid: df91dcc6efc7ca429bdc95a2c4800add
+      - name: None
+        guid: 67ce8e7120553f4c9b13020cd8eec0f1
+        id: 748895195
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 3d4b334ca793454cae916c610f9c0a7d
+        - ElementName: Alive
+          ObjectType: 9
+          guid: 93773d1f3953a44fa5f7e64610e295c2
+        - ElementName: None
+          ObjectType: 8
+          guid: 67ce8e7120553f4c9b13020cd8eec0f1
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+  SwitchWwu:
+  - PhysicalPath: Switches\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Switches
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 5bbdfff7b60a394185e9510c8c8e4f80
+    ParentPath: Switches\Default Work Unit
+    guid: 5bbdfff7b60a394185e9510c8c8e4f80
+    GuidInternal: 
+    m_lastTime: -8584808957193498165
+    List:
+    - name: Footsteps
+      guid: bb1fac0efe6ce84ab0efee10435ed085
+      id: 2385628198
+      PathAndIcons:
+      - ElementName: Switches
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 5bbdfff7b60a394185e9510c8c8e4f80
+      - ElementName: Footsteps
+        ObjectType: 11
+        guid: bb1fac0efe6ce84ab0efee10435ed085
+      Path: Switches\Default Work Unit\Footsteps
+      values:
+      - name: Rock
+        guid: 79226c8b4cc9ef4da79297e7a547fc94
+        id: 2144363834
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 5bbdfff7b60a394185e9510c8c8e4f80
+        - ElementName: Footsteps
+          ObjectType: 11
+          guid: bb1fac0efe6ce84ab0efee10435ed085
+        - ElementName: Rock
+          ObjectType: 10
+          guid: 79226c8b4cc9ef4da79297e7a547fc94
+      - name: Wood
+        guid: c0f21c81d2741844a7c689b46d00061c
+        id: 2058049674
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 5bbdfff7b60a394185e9510c8c8e4f80
+        - ElementName: Footsteps
+          ObjectType: 11
+          guid: bb1fac0efe6ce84ab0efee10435ed085
+        - ElementName: Wood
+          ObjectType: 10
+          guid: c0f21c81d2741844a7c689b46d00061c
+      - name: Wood_Knarr
+        guid: 4d6637dde13d184a82b905dffbce4dba
+        id: 299048019
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 5bbdfff7b60a394185e9510c8c8e4f80
+        - ElementName: Footsteps
+          ObjectType: 11
+          guid: bb1fac0efe6ce84ab0efee10435ed085
+        - ElementName: Wood_Knarr
+          ObjectType: 10
+          guid: 4d6637dde13d184a82b905dffbce4dba
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: New_Switch_Group
+      guid: f0e0f3560843144cae5d9ea70f99287e
+      id: 2250165792
+      PathAndIcons:
+      - ElementName: Switches
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 5bbdfff7b60a394185e9510c8c8e4f80
+      - ElementName: New_Switch_Group
+        ObjectType: 11
+        guid: f0e0f3560843144cae5d9ea70f99287e
+      Path: Switches\Default Work Unit\New_Switch_Group
+      values:
+      - name: Alive2
+        guid: 2e51a05c834a7e44b837b1da65f4c88f
+        id: 3689657362
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 5bbdfff7b60a394185e9510c8c8e4f80
+        - ElementName: New_Switch_Group
+          ObjectType: 11
+          guid: f0e0f3560843144cae5d9ea70f99287e
+        - ElementName: Alive2
+          ObjectType: 10
+          guid: 2e51a05c834a7e44b837b1da65f4c88f
+      - name: Dead2
+        guid: bc8764b836fbba48a3b93c94294bc5a6
+        id: 1047719995
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 5bbdfff7b60a394185e9510c8c8e4f80
+        - ElementName: New_Switch_Group
+          ObjectType: 11
+          guid: f0e0f3560843144cae5d9ea70f99287e
+        - ElementName: Dead2
+          ObjectType: 10
+          guid: bc8764b836fbba48a3b93c94294bc5a6
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+  TriggerWwu:
+  - PhysicalPath: Triggers\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Triggers
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: c65208d77652c349863ac04a0f73ea14
+    ParentPath: Triggers\Default Work Unit
+    guid: c65208d77652c349863ac04a0f73ea14
+    GuidInternal: 
+    m_lastTime: -8584830691764870653
+    List:
+    - name: New_Trigger
+      guid: 061f5100066ab341a20dc6911bf32eb7
+      id: 4163741908
+      PathAndIcons:
+      - ElementName: Triggers
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: c65208d77652c349863ac04a0f73ea14
+      - ElementName: New_Trigger
+        ObjectType: 14
+        guid: 061f5100066ab341a20dc6911bf32eb7
+      Path: Triggers\Default Work Unit\New_Trigger
   ExpandedFileSystemItemIds: 
   ExpandedWaapiItemIds: 
   AutoSyncSelection: 0
