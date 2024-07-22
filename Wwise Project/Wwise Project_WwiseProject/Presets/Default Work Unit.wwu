@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{621CE997-E2D3-42BA-91CC-4EF5E7C27E01}" SchemaVersion="119">
+<WwiseDocument Type="WorkUnit" ID="{621CE997-E2D3-42BA-91CC-4EF5E7C27E01}" SchemaVersion="123">
 	<Presets>
 		<WorkUnit Name="Default Work Unit" ID="{621CE997-E2D3-42BA-91CC-4EF5E7C27E01}" PersistMode="Standalone">
 			<ChildrenList>
@@ -16,11 +16,11 @@
 						<ObjectList Name="Effects">
 							<Reference>
 								<Local>
-									<EffectSlot Name="" ID="{E16AB6B9-1C6A-43C3-89A1-C44773EB00C8}" ShortID="157667331">
+									<EffectSlot Name="" ID="{E16AB6B9-1C6A-43C3-89A1-C44773EB00C8}">
 										<ReferenceList>
 											<Reference Name="Effect">
 												<Custom CreatedFrom="{172402A8-22F4-40FC-BE1D-5269594CB633}">
-													<Effect Name="Big_Garage1 (Custom)" ID="{5E5D9712-4B8D-44F5-BF3E-750ECFFDD04F}" ShortID="737820739" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+													<Effect Name="Big_Garage1 (Custom)" ID="{5E5D9712-4B8D-44F5-BF3E-750ECFFDD04F}" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
 														<PropertyList>
 															<Property Name="HFRatio" Type="Real32" Value="3"/>
 															<Property Name="NumberOfDelays" Type="int32" Value="12"/>
