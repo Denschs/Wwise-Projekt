@@ -24,7 +24,7 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics\Default Work Unit
     guid: 21c1d6fcebb964448f43b6c97cd16a38
     GuidInternal: 
-    m_lastTime: -8584830691764850629
+    m_lastTime: -8584799468097165743
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 2a788f97179c774aa0f5307e9c6660fe
     GuidInternal: 
-    m_lastTime: -8584799521916676018
+    m_lastTime: -8584799468229674138
     List:
     - name: BG
       guid: 6b7537a81cabbf4296487756b7fb091b
@@ -100,7 +100,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: bae820f74a0c644399d695337cea4a0e
     GuidInternal: 
-    m_lastTime: -8584799518829965306
+    m_lastTime: -8584799468097215761
     List:
     - name: main
       guid: c4ac3f0f10e00a45a02322646430fd0a
@@ -128,7 +128,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 87e72076b999144b91c50a7a3a7dde55
     GuidInternal: 
-    m_lastTime: -8584799518829875226
+    m_lastTime: -8584799468097275762
     List:
     - name: Allgemein
       guid: 5cffa129eb15d3489ac57653f7aec116
@@ -812,11 +812,11 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: d2a9279346a5164587fe6d9c3ecfef70
     GuidInternal: 
-    m_lastTime: -8584830691790491501
+    m_lastTime: -8584799468229694137
     List:
-    - name: Speed
-      guid: c5c1495c60af04489adcf42218dcbf86
-      id: 640949982
+    - name: BGVolume
+      guid: 09d831656b73b64baa0d1bff00cf9acb
+      id: 746939334
       PathAndIcons:
       - ElementName: Game Parameters
         ObjectType: 5
@@ -824,10 +824,38 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: d2a9279346a5164587fe6d9c3ecfef70
-      - ElementName: Speed
+      - ElementName: BGVolume
         ObjectType: 13
-        guid: c5c1495c60af04489adcf42218dcbf86
-      Path: Game Parameters\Default Work Unit\Speed
+        guid: 09d831656b73b64baa0d1bff00cf9acb
+      Path: Game Parameters\Default Work Unit\BGVolume
+    - name: MasterVolume
+      guid: b1e0357c53152745939b7f4b15c92ff2
+      id: 2918011349
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: d2a9279346a5164587fe6d9c3ecfef70
+      - ElementName: MasterVolume
+        ObjectType: 13
+        guid: b1e0357c53152745939b7f4b15c92ff2
+      Path: Game Parameters\Default Work Unit\MasterVolume
+    - name: SFXVolume
+      guid: 4fb941abfc38c44ca7e5ea5867da90bd
+      id: 988953028
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: d2a9279346a5164587fe6d9c3ecfef70
+      - ElementName: SFXVolume
+        ObjectType: 13
+        guid: 4fb941abfc38c44ca7e5ea5867da90bd
+      Path: Game Parameters\Default Work Unit\SFXVolume
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
     PathAndIcons:
@@ -840,7 +868,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: 3d4b334ca793454cae916c610f9c0a7d
     GuidInternal: 
-    m_lastTime: -8584830691764910688
+    m_lastTime: -8584799468097195746
     List:
     - name: Alive
       guid: 93773d1f3953a44fa5f7e64610e295c2
@@ -920,7 +948,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: 5bbdfff7b60a394185e9510c8c8e4f80
     GuidInternal: 
-    m_lastTime: -8584808957193498165
+    m_lastTime: -8584799468097185757
     List:
     - name: Footsteps
       guid: bb1fac0efe6ce84ab0efee10435ed085
@@ -1050,7 +1078,7 @@ MonoBehaviour:
     ParentPath: Triggers\Default Work Unit
     guid: c65208d77652c349863ac04a0f73ea14
     GuidInternal: 
-    m_lastTime: -8584830691764870653
+    m_lastTime: -8584799468097175754
     List:
     - name: New_Trigger
       guid: 061f5100066ab341a20dc6911bf32eb7
