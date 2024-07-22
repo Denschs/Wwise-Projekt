@@ -51,7 +51,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{EA659313-8E73-0785-CDE3-B143F4DCA9F3}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{C870E553-7318-73D0-DC15-3FECA376F2A6}">
 			<ShortName>main</ShortName>
 			<Path>main.bnk</Path>
 			<Media>
@@ -215,10 +215,6 @@
 					<ShortName>Musikdiewirnutzenwollen\3.Stock\Messerschleifen\noise39.wav</ShortName>
 					<CachePath>SFX/Musikdiewirnutzenwollen/3.Stock/Messerschleifen/noise39_8E324C96.wem</CachePath>
 				</File>
-				<File Id="829995634" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>bell1.wav</ShortName>
-					<CachePath>SFX/bell1_56CEF360.wem</CachePath>
-				</File>
 				<File Id="867474887" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>beat3.wav</ShortName>
 					<CachePath>SFX/beat3_56CEF360.wem</CachePath>
@@ -267,7 +263,6 @@
 					<MediaRefs>
 						<MediaRef Id="250244351"/>
 						<MediaRef Id="537258712"/>
-						<MediaRef Id="829995634"/>
 						<MediaRef Id="867474887"/>
 						<MediaRef Id="935561141"/>
 					</MediaRefs>
@@ -357,7 +352,6 @@
 						<MediaRef Id="250244351"/>
 						<MediaRef Id="257494614"/>
 						<MediaRef Id="537258712"/>
-						<MediaRef Id="829995634"/>
 						<MediaRef Id="880822252"/>
 						<MediaRef Id="935561141"/>
 					</MediaRefs>
@@ -388,7 +382,6 @@
 						<MediaRef Id="622548957"/>
 						<MediaRef Id="693500632"/>
 						<MediaRef Id="739798177"/>
-						<MediaRef Id="829995634"/>
 						<MediaRef Id="935561141"/>
 					</MediaRefs>
 				</Event>
@@ -428,5 +421,5 @@
 			</Triggers>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{C89495F2-604B-60E6-7709-9FBAF4521EFC}</FileHash>
+	<FileHash>{99195D70-30E3-5700-8E71-0E979DCADA36}</FileHash>
 </SoundBanksInfo>

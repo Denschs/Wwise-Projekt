@@ -3,7 +3,7 @@
 	<AudioObjects>
 		<WorkUnit Name="Default Work Unit" ID="{9111B664-7432-4BD0-9C23-8AA8E921762E}" PersistMode="Standalone">
 			<ChildrenList>
-				<Folder Name="BG" ID="{E90CDAD7-A43F-429A-BA93-771435C8133B}" ShortID="938425982">
+				<Folder Name="Ambient Stinger" ID="{E90CDAD7-A43F-429A-BA93-771435C8133B}" ShortID="938425982">
 					<PropertyList>
 						<Property Name="Color" Type="int16" Value="10"/>
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
@@ -80,6 +80,9 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="beat3" ID="{1BB10231-AE66-4A61-9C28-24B2228D13DB}" ShortID="59831339">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2CB5A79F-1F38-419D-A2E6-030C9A5A94AD}"/>
