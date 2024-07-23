@@ -15,7 +15,11 @@ public class Menu : MonoBehaviour
     [SerializeField]
     private AK.Wwise.Event startGame;
 
-
+    private void Start()
+    {
+        Cursor.visible = true;
+        Cursor.lockState = CursorLockMode.Confined;
+    }
 
     public void playGame()
     {
